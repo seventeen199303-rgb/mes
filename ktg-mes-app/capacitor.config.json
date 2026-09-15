@@ -1,0 +1,8 @@
+{
+  "appId": "com.wangyouyong.mes",
+  "appName": "王有用MES",
+  "webDir": "dist",
+  "android": {
+    "allowMixedContent": true
+  }
+}

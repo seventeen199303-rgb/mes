@@ -1,0 +1,4 @@
+# 本机开发环境外置配置（Spring Boot 自动加载 ./config/application.yml，优先级高于 jar 内配置）
+# macOS 根目录只读，无法创建 /data，文件上传路径改为用户目录下
+ktg-mes:
+  profile: /Users/chuzu/ktg-mes-data/upload

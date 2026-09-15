@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ktg.mes.pro.mapper.ProTransConsumeMapper">
+
+    <resultMap type="ProTransConsume" id="ProTransConsumeResult">
+        <result property="recordId" column="record_id"/>
+        <result property="transOrderId" column="trans_order_id"/>
+        <result property="transOrderCode" column="trans_order_code"/>
+        <result property="taskId" column="task_id"/>
+        <result property="workstationId" column="workstation_id"/>
+        <result property="processId" column="process_id"/>
+        <result property="workorderId" column="workorder_id"/>
+        <result property="batchCode" column="batch_code"/>
+        <result property="sourceDocId" column="source_doc_id"/>
+        <result property="sourceDocCode" column="source_doc_code"/>
+        <result property="sourceDocType" column="source_doc_type"/>
+        <result property="sourceLineId" column="source_line_id"/>
+        <result property="sourceBatchCode" column="source_batch_code"/>
+        <result property="itemId" column="item_id"/>
+        <result property="itemCode" column="item_code"/>
+        <result property="itemName" column="item_name"/>
+        <result property="specification" column="specification"/>
+        <result property="unitOfMeasure" column="unit_of_measure"/>
+        <result property="quantityConsumed" column="quantity_consumed"/>
+        <result property="consumeDate" column="consume_date"/>
+        <result property="remark" column="remark"/>
+        <result property="attr1" column="attr1"/>
+        <result property="attr2" column="attr2"/>
+        <result property="attr3" column="attr3"/>
+        <result property="attr4" column="attr4"/>
+        <result property="createBy" column="create_by"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateBy" column="update_by"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+    <sql id="selectProTransConsumeVo">
+        select record_id, trans_order_id, trans_order_code, task_id, workstation_id, process_id,
+               workorder_id, batch_code, source_doc_id, source_doc_code, source_doc_type,
+               source_line_id, source_batch_code, item_id, item_code, item_name, specification,
+               unit_of_measure, quantity_consumed, consume_date, remark, attr1, attr2, attr3,
+               attr4, create_by, create_time, update_by, update_time
+        from pro_trans_consume
+    </sql>
+
+    <select id="selectProTransConsumeList" parameterType="ProTransConsume" resultMap="ProTransConsumeResult">
+        <include refid="selectProTransConsumeVo"/>
+        <where>
+            <if test="transOrderId != null">and trans_order_id = #{transOrderId}</if>
+            <if test="transOrderCode != null and transOrderCode != ''">and trans_order_code = #{transOrderCode}</if>
+            <if test="taskId != null">and task_id = #{taskId}</if>
+            <if test="workstationId != null">and workstation_id = #{workstationId}</if>
+            <if test="processId != null">and process_id = #{processId}</if>
+            <if test="workorderId != null">and workorder_id = #{workorderId}</if>
+            <if test="batchCode != null and batchCode != ''">and batch_code = #{batchCode}</if>
+            <if test="sourceDocId != null">and source_doc_id = #{sourceDocId}</if>
+            <if test="sourceDocCode != null and sourceDocCode != ''">and source_doc_code = #{sourceDocCode}</if>
+            <if test="sourceDocType != null and sourceDocType != ''">and source_doc_type = #{sourceDocType}</if>
+            <if test="sourceLineId != null">and source_line_id = #{sourceLineId}</if>
+            <if test="sourceBatchCode != null and sourceBatchCode != ''">and source_batch_code = #{sourceBatchCode}</if>
+            <if test="itemId != null">and item_id = #{itemId}</if>
+            <if test="itemCode != null and itemCode != ''">and item_code = #{itemCode}</if>
+            <if test="itemName != null and itemName != ''">and item_name like concat('%', #{itemName}, '%')</if>
+            <if test="specification != null and specification != ''">and specification = #{specification}</if>
+            <if test="unitOfMeasure != null and unitOfMeasure != ''">and unit_of_measure = #{unitOfMeasure}</if>
+            <if test="quantityConsumed != null">and quantity_consumed = #{quantityConsumed}</if>
+            <if test="consumeDate != null">and consume_date = #{consumeDate}</if>
+            <if test="attr1 != null and attr1 != ''">and attr1 = #{attr1}</if>
+            <if test="attr2 != null and attr2 != ''">and attr2 = #{attr2}</if>
+        </where>
+        order by consume_date desc, record_id desc
+    </select>
+
+    <select id="selectProTransConsumeByRecordId" parameterType="Long" resultMap="ProTransConsumeResult">
+        <include refid="selectProTransConsumeVo"/>
+        where record_id = #{recordId}
+    </select>
+
+    <insert id="insertProTransConsume" parameterType="ProTransConsume" useGeneratedKeys="true" keyProperty="recordId">
+        insert into pro_trans_consume
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="transOrderId != null">trans_order_id,</if>
+            <if test="transOrderCode != null">trans_order_code,</if>
+            <if test="taskId != null">task_id,</if>
+            <if test="workstationId != null">workstation_id,</if>
+            <if test="processId != null">process_id,</if>
+            <if test="workorderId != null">workorder_id,</if>
+            <if test="batchCode != null">batch_code,</if>
+            <if test="sourceDocId != null">source_doc_id,</if>
+            <if test="sourceDocCode != null">source_doc_code,</if>
+            <if test="sourceDocType != null">source_doc_type,</if>
+            <if test="sourceLineId != null">source_line_id,</if>
+            <if test="sourceBatchCode != null">source_batch_code,</if>
+            <if test="itemId != null">item_id,</if>
+            <if test="itemCode != null and itemCode != ''">item_code,</if>
+            <if test="itemName != null and itemName != ''">item_name,</if>
+            <if test="specification != null">specification,</if>
+            <if test="unitOfMeasure != null and unitOfMeasure != ''">unit_of_measure,</if>
+            <if test="quantityConsumed != null">quantity_consumed,</if>
+            <if test="consumeDate != null">consume_date,</if>
+            <if test="remark != null">remark,</if>
+            <if test="attr1 != null">attr1,</if>
+            <if test="attr2 != null">attr2,</if>
+            <if test="attr3 != null">attr3,</if>
+            <if test="attr4 != null">attr4,</if>
+            <if test="createBy != null">create_by,</if>
+            <if test="createTime != null">create_time,</if>
+            <if test="updateBy != null">update_by,</if>
+            <if test="updateTime != null">update_time,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="transOrderId != null">#{transOrderId},</if>
+            <if test="transOrderCode != null">#{transOrderCode},</if>
+            <if test="taskId != null">#{taskId},</if>
+            <if test="workstationId != null">#{workstationId},</if>
+            <if test="processId != null">#{processId},</if>
+            <if test="workorderId != null">#{workorderId},</if>
+            <if test="batchCode != null">#{batchCode},</if>
+            <if test="sourceDocId != null">#{sourceDocId},</if>
+            <if test="sourceDocCode != null">#{sourceDocCode},</if>
+            <if test="sourceDocType != null">#{sourceDocType},</if>
+            <if test="sourceLineId != null">#{sourceLineId},</if>
+            <if test="sourceBatchCode != null">#{sourceBatchCode},</if>
+            <if test="itemId != null">#{itemId},</if>
+            <if test="itemCode != null and itemCode != ''">#{itemCode},</if>
+            <if test="itemName != null and itemName != ''">#{itemName},</if>
+            <if test="specification != null">#{specification},</if>
+            <if test="unitOfMeasure != null and unitOfMeasure != ''">#{unitOfMeasure},</if>
+            <if test="quantityConsumed != null">#{quantityConsumed},</if>
+            <if test="consumeDate != null">#{consumeDate},</if>
+            <if test="remark != null">#{remark},</if>
+            <if test="attr1 != null">#{attr1},</if>
+            <if test="attr2 != null">#{attr2},</if>
+            <if test="attr3 != null">#{attr3},</if>
+            <if test="attr4 != null">#{attr4},</if>
+            <if test="createBy != null">#{createBy},</if>
+            <if test="createTime != null">#{createTime},</if>
+            <if test="updateBy != null">#{updateBy},</if>
+            <if test="updateTime != null">#{updateTime},</if>
+        </trim>
+    </insert>
+
+    <update id="updateProTransConsume" parameterType="ProTransConsume">
+        update pro_trans_consume
+        <trim prefix="set" suffixOverrides=",">
+            <if test="transOrderId != null">trans_order_id = #{transOrderId},</if>
+            <if test="transOrderCode != null">trans_order_code = #{transOrderCode},</if>
+            <if test="taskId != null">task_id = #{taskId},</if>
+            <if test="workstationId != null">workstation_id = #{workstationId},</if>
+            <if test="processId != null">process_id = #{processId},</if>
+            <if test="workorderId != null">workorder_id = #{workorderId},</if>
+            <if test="batchCode != null">batch_code = #{batchCode},</if>
+            <if test="sourceDocId != null">source_doc_id = #{sourceDocId},</if>
+            <if test="sourceDocCode != null">source_doc_code = #{sourceDocCode},</if>
+            <if test="sourceDocType != null">source_doc_type = #{sourceDocType},</if>
+            <if test="sourceLineId != null">source_line_id = #{sourceLineId},</if>
+            <if test="sourceBatchCode != null">source_batch_code = #{sourceBatchCode},</if>
+            <if test="itemId != null">item_id = #{itemId},</if>
+            <if test="itemCode != null and itemCode != ''">item_code = #{itemCode},</if>
+            <if test="itemName != null and itemName != ''">item_name = #{itemName},</if>
+            <if test="specification != null">specification = #{specification},</if>
+            <if test="unitOfMeasure != null and unitOfMeasure != ''">unit_of_measure = #{unitOfMeasure},</if>
+            <if test="quantityConsumed != null">quantity_consumed = #{quantityConsumed},</if>
+            <if test="consumeDate != null">consume_date = #{consumeDate},</if>
+            <if test="remark != null">remark = #{remark},</if>
+            <if test="attr1 != null">attr1 = #{attr1},</if>
+            <if test="attr2 != null">attr2 = #{attr2},</if>
+            <if test="attr3 != null">attr3 = #{attr3},</if>
+            <if test="attr4 != null">attr4 = #{attr4},</if>
+            <if test="updateBy != null">update_by = #{updateBy},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+        </trim>
+        where record_id = #{recordId}
+    </update>
+
+    <delete id="deleteProTransConsumeByRecordId" parameterType="Long">
+        delete from pro_trans_consume where record_id = #{recordId}
+    </delete>
+
+    <delete id="deleteProTransConsumeByRecordIds" parameterType="String">
+        delete from pro_trans_consume where record_id in
+        <foreach item="recordId" collection="array" open="(" separator="," close=")">
+            #{recordId}
+        </foreach>
+    </delete>
+</mapper>

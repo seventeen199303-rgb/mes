@@ -1,0 +1,56 @@
+/* ============================================================
+   MES 工业风全局 Loading 覆盖
+   将 Element UI 默认的圆圈转圈统一替换为橙色齿轮动画，
+   覆盖所有 v-loading 指令与 Loading.service() 场景。
+   ============================================================ */
+
+.el-loading-mask {
+  background-color: rgba(13, 20, 32, 0.78) !important;
+}
+
+.el-loading-spinner {
+  margin-top: -26px !important;
+}
+
+/* 隐藏默认转圈（SVG 圆环 与 el-icon-loading 图标两种形态） */
+.el-loading-spinner .circular,
+.el-loading-spinner .el-icon-loading {
+  display: none !important;
+}
+
+/* 齿轮 */
+.el-loading-spinner::before {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 10px;
+  background: url("../images/loading-gear.svg") center / contain no-repeat;
+  animation: mes-loading-spin 2.2s linear infinite;
+}
+
+.el-loading-spinner .el-loading-text {
+  color: #cdd6e0 !important;
+}
+
+/* 全屏 loading 齿轮稍大 */
+.el-loading-mask.is-fullscreen .el-loading-spinner::before {
+  width: 56px;
+  height: 56px;
+}
+
+/* 下拉选择框内的 loading 齿轮稍小 */
+.el-select-dropdown .el-loading-spinner::before {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 6px;
+}
+
+@keyframes mes-loading-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

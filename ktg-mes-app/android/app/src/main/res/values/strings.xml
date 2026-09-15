@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">王有用MES</string>
+    <string name="title_activity_main">王有用MES</string>
+    <string name="package_name">com.wangyouyong.mes</string>
+    <string name="custom_url_scheme">com.wangyouyong.mes</string>
+</resources>
