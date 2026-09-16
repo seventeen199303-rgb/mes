@@ -1,12 +1,12 @@
-package com.ktg.generator.util;
+package com.wyy.generator.util;
 
 import java.util.Arrays;
 import org.apache.commons.lang3.RegExUtils;
-import com.ktg.common.constant.GenConstants;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.generator.config.GenConfig;
-import com.ktg.generator.domain.GenTable;
-import com.ktg.generator.domain.GenTableColumn;
+import com.wyy.common.constant.GenConstants;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.generator.config.GenConfig;
+import com.wyy.generator.domain.GenTable;
+import com.wyy.generator.domain.GenTableColumn;
 
 /**
  * 代码生成器 工具类

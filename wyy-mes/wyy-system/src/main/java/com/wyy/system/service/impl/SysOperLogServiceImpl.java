@@ -1,11 +1,11 @@
-package com.ktg.system.service.impl;
+package com.wyy.system.service.impl;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.system.domain.SysOperLog;
-import com.ktg.system.mapper.SysOperLogMapper;
-import com.ktg.system.service.ISysOperLogService;
+import com.wyy.system.domain.SysOperLog;
+import com.wyy.system.mapper.SysOperLogMapper;
+import com.wyy.system.service.ISysOperLogService;
 
 /**
  * 操作日志 服务层处理

@@ -1,4 +1,4 @@
-package com.ktg.framework.aspectj;
+package com.wyy.framework.aspectj;
 
 import java.util.Objects;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -11,9 +11,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
-import com.ktg.common.annotation.DataSource;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.framework.datasource.DynamicDataSourceContextHolder;
+import com.wyy.common.annotation.DataSource;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.framework.datasource.DynamicDataSourceContextHolder;
 
 /**
  * 多数据源处理
@@ -27,8 +27,8 @@ public class DataSourceAspect
 {
     protected Logger logger = LoggerFactory.getLogger(getClass());
 
-    @Pointcut("@annotation(com.ktg.common.annotation.DataSource)"
-            + "|| @within(com.ktg.common.annotation.DataSource)")
+    @Pointcut("@annotation(com.wyy.common.annotation.DataSource)"
+            + "|| @within(com.wyy.common.annotation.DataSource)")
     public void dsPointCut()
     {
 

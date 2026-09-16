@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>ktg</artifactId>
-        <groupId>com.ktg</groupId>
+        <artifactId>wyy</artifactId>
+        <groupId>com.wyy</groupId>
         <version>3.8.2</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>ktg-admin</artifactId>
+    <artifactId>wyy-admin</artifactId>
 
     <description>
         web服务入口
@@ -45,26 +45,26 @@
 
         <!-- 核心模块-->
         <dependency>
-            <groupId>com.ktg</groupId>
-            <artifactId>ktg-framework</artifactId>
+            <groupId>com.wyy</groupId>
+            <artifactId>wyy-framework</artifactId>
         </dependency>
 
         <!-- 定时任务-->
         <dependency>
-            <groupId>com.ktg</groupId>
-            <artifactId>ktg-quartz</artifactId>
+            <groupId>com.wyy</groupId>
+            <artifactId>wyy-quartz</artifactId>
         </dependency>
 
         <!-- 代码生成-->
         <dependency>
-            <groupId>com.ktg</groupId>
-            <artifactId>ktg-generator</artifactId>
+            <groupId>com.wyy</groupId>
+            <artifactId>wyy-generator</artifactId>
         </dependency>
 
         <!-- MES业务模块-->
         <dependency>
-            <groupId>com.ktg</groupId>
-            <artifactId>ktg-mes</artifactId>
+            <groupId>com.wyy</groupId>
+            <artifactId>wyy-mes</artifactId>
         </dependency>
 
     </dependencies>

@@ -1,12 +1,12 @@
-package com.ktg.mes.wm.service.impl;
+package com.wyy.mes.wm.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.wm.mapper.WmIssueLineMapper;
-import com.ktg.mes.wm.domain.WmIssueLine;
-import com.ktg.mes.wm.service.IWmIssueLineService;
+import com.wyy.mes.wm.mapper.WmIssueLineMapper;
+import com.wyy.mes.wm.domain.WmIssueLine;
+import com.wyy.mes.wm.service.IWmIssueLineService;
 
 /**
  * 生产领料单行Service业务层处理

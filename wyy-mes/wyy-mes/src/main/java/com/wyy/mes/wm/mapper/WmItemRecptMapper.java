@@ -1,8 +1,8 @@
-package com.ktg.mes.wm.mapper;
+package com.wyy.mes.wm.mapper;
 
 import java.util.List;
-import com.ktg.mes.wm.domain.WmItemRecpt;
-import com.ktg.mes.wm.domain.tx.ItemRecptTxBean;
+import com.wyy.mes.wm.domain.WmItemRecpt;
+import com.wyy.mes.wm.domain.tx.ItemRecptTxBean;
 
 /**
  * 物料入库单Mapper接口

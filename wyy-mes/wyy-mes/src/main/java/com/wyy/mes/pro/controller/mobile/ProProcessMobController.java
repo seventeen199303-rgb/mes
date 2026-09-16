@@ -1,11 +1,11 @@
-package com.ktg.mes.pro.controller.mobile;
+package com.wyy.mes.pro.controller.mobile;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.mes.pro.domain.ProProcess;
-import com.ktg.mes.pro.service.IProProcessService;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.mes.pro.domain.ProProcess;
+import com.wyy.mes.pro.service.IProProcessService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;

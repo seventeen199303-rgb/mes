@@ -1,11 +1,11 @@
-package com.ktg.common.utils;
+package com.wyy.common.utils;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import com.ktg.common.constant.HttpStatus;
-import com.ktg.common.core.domain.model.LoginUser;
-import com.ktg.common.exception.ServiceException;
+import com.wyy.common.constant.HttpStatus;
+import com.wyy.common.core.domain.model.LoginUser;
+import com.wyy.common.exception.ServiceException;
 
 /**
  * 安全服务工具类

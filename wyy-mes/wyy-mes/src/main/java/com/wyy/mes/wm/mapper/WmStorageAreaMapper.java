@@ -1,7 +1,7 @@
-package com.ktg.mes.wm.mapper;
+package com.wyy.mes.wm.mapper;
 
 import java.util.List;
-import com.ktg.mes.wm.domain.WmStorageArea;
+import com.wyy.mes.wm.domain.WmStorageArea;
 
 /**
  * 库位设置Mapper接口

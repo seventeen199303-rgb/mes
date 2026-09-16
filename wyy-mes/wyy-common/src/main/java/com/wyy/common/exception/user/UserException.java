@@ -1,6 +1,6 @@
-package com.ktg.common.exception.user;
+package com.wyy.common.exception.user;
 
-import com.ktg.common.exception.base.BaseException;
+import com.wyy.common.exception.base.BaseException;
 
 /**
  * 用户信息异常类

@@ -1,13 +1,13 @@
-package com.ktg.mes.md.service.impl;
+package com.wyy.mes.md.service.impl;
 
 import java.util.List;
 
-import com.ktg.mes.md.service.IMdUnitMeasureService;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.mes.md.service.IMdUnitMeasureService;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.md.mapper.MdUnitMeasureMapper;
-import com.ktg.mes.md.domain.MdUnitMeasure;
+import com.wyy.mes.md.mapper.MdUnitMeasureMapper;
+import com.wyy.mes.md.domain.MdUnitMeasure;
 
 /**
  * 单位Service业务层处理

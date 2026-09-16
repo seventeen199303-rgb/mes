@@ -1,4 +1,4 @@
-package com.ktg.common.xss;
+package com.wyy.common.xss;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

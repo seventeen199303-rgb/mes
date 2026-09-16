@@ -1,4 +1,4 @@
-package com.ktg.mes.pro.domain;
+package com.wyy.mes.pro.domain;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 

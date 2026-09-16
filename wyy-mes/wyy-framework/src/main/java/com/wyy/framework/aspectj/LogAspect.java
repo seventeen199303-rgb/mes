@@ -1,4 +1,4 @@
-package com.ktg.framework.aspectj;
+package com.wyy.framework.aspectj;
 
 import java.util.Collection;
 import java.util.Map;
@@ -15,17 +15,17 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.HandlerMapping;
 import com.alibaba.fastjson.JSON;
-import com.ktg.common.annotation.Log;
-import com.ktg.common.core.domain.model.LoginUser;
-import com.ktg.common.enums.BusinessStatus;
-import com.ktg.common.enums.HttpMethod;
-import com.ktg.common.utils.ServletUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.ip.IpUtils;
-import com.ktg.common.utils.SecurityUtils;
-import com.ktg.framework.manager.AsyncManager;
-import com.ktg.framework.manager.factory.AsyncFactory;
-import com.ktg.system.domain.SysOperLog;
+import com.wyy.common.annotation.Log;
+import com.wyy.common.core.domain.model.LoginUser;
+import com.wyy.common.enums.BusinessStatus;
+import com.wyy.common.enums.HttpMethod;
+import com.wyy.common.utils.ServletUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.ip.IpUtils;
+import com.wyy.common.utils.SecurityUtils;
+import com.wyy.framework.manager.AsyncManager;
+import com.wyy.framework.manager.factory.AsyncFactory;
+import com.wyy.system.domain.SysOperLog;
 
 /**
  * 操作日志记录处理

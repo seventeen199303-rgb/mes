@@ -1,8 +1,8 @@
-package com.ktg.mes.wm.controller.mobile;
+package com.wyy.mes.wm.controller.mobile;
 
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.mes.wm.service.IWmWarehouseService;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.mes.wm.service.IWmWarehouseService;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

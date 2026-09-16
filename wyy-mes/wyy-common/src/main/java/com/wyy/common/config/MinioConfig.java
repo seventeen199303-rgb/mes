@@ -1,4 +1,4 @@
-package com.ktg.common.config;
+package com.wyy.common.config;
 
 import io.minio.MinioClient;
 import org.springframework.boot.context.properties.ConfigurationProperties;

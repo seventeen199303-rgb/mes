@@ -1,4 +1,4 @@
-package com.ktg.framework.websocket;
+package com.wyy.framework.websocket;
 
 import java.util.concurrent.Semaphore;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package com.ktg.mes.cal.domain;
+package com.wyy.mes.cal.domain;
 
 public enum  CalQueryType {
 

@@ -1,7 +1,7 @@
-package com.ktg.quartz.util;
+package com.wyy.quartz.util;
 
 import org.quartz.JobExecutionContext;
-import com.ktg.quartz.domain.SysJob;
+import com.wyy.quartz.domain.SysJob;
 
 /**
  * 定时任务处理（允许并发执行）

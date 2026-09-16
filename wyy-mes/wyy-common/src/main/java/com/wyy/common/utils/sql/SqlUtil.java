@@ -1,7 +1,7 @@
-package com.ktg.common.utils.sql;
+package com.wyy.common.utils.sql;
 
-import com.ktg.common.exception.UtilException;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.exception.UtilException;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * sql操作工具类

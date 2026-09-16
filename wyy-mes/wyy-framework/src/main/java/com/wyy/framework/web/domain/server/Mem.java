@@ -1,6 +1,6 @@
-package com.ktg.framework.web.domain.server;
+package com.wyy.framework.web.domain.server;
 
-import com.ktg.common.utils.Arith;
+import com.wyy.common.utils.Arith;
 
 /**
  * 內存相关信息

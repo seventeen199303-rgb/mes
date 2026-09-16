@@ -1,7 +1,7 @@
-package com.ktg.mes.qc.service;
+package com.wyy.mes.qc.service;
 
 import java.util.List;
-import com.ktg.mes.qc.domain.QcTemplateProduct;
+import com.wyy.mes.qc.domain.QcTemplateProduct;
 
 /**
  * 检测模板-产品Service接口

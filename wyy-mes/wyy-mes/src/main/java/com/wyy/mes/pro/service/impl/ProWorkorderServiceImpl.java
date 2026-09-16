@@ -1,4 +1,4 @@
-package com.ktg.mes.pro.service.impl;
+package com.wyy.mes.pro.service.impl;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -7,25 +7,25 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.mes.dv.domain.DvMachineryType;
-import com.ktg.mes.pro.controller.vo.ProRouteHomeVO;
-import com.ktg.mes.pro.controller.vo.ProWorkorderHomeVO;
-import com.ktg.mes.pro.domain.ProFeedback;
-import com.ktg.mes.pro.domain.ProRouteProcess;
-import com.ktg.mes.pro.domain.ProRouteProduct;
-import com.ktg.mes.pro.service.IProFeedbackService;
-import com.ktg.mes.pro.service.IProRouteProcessService;
-import com.ktg.mes.pro.service.IProRouteProductService;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.mes.dv.domain.DvMachineryType;
+import com.wyy.mes.pro.controller.vo.ProRouteHomeVO;
+import com.wyy.mes.pro.controller.vo.ProWorkorderHomeVO;
+import com.wyy.mes.pro.domain.ProFeedback;
+import com.wyy.mes.pro.domain.ProRouteProcess;
+import com.wyy.mes.pro.domain.ProRouteProduct;
+import com.wyy.mes.pro.service.IProFeedbackService;
+import com.wyy.mes.pro.service.IProRouteProcessService;
+import com.wyy.mes.pro.service.IProRouteProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.pro.mapper.ProWorkorderMapper;
-import com.ktg.mes.pro.domain.ProWorkorder;
-import com.ktg.mes.pro.service.IProWorkorderService;
+import com.wyy.mes.pro.mapper.ProWorkorderMapper;
+import com.wyy.mes.pro.domain.ProWorkorder;
+import com.wyy.mes.pro.service.IProWorkorderService;
 
 /**
  * 生产工单Service业务层处理

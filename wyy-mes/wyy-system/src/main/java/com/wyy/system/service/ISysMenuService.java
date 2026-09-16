@@ -1,10 +1,10 @@
-package com.ktg.system.service;
+package com.wyy.system.service;
 
 import java.util.List;
 import java.util.Set;
-import com.ktg.common.core.domain.TreeSelect;
-import com.ktg.common.core.domain.entity.SysMenu;
-import com.ktg.system.domain.vo.RouterVo;
+import com.wyy.common.core.domain.TreeSelect;
+import com.wyy.common.core.domain.entity.SysMenu;
+import com.wyy.system.domain.vo.RouterVo;
 
 /**
  * 菜单 业务层

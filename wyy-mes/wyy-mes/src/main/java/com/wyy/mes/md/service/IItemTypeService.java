@@ -1,7 +1,7 @@
-package com.ktg.mes.md.service;
+package com.wyy.mes.md.service;
 
-import com.ktg.common.core.domain.TreeSelect;
-import com.ktg.common.core.domain.entity.ItemType;
+import com.wyy.common.core.domain.TreeSelect;
+import com.wyy.common.core.domain.entity.ItemType;
 
 import java.util.List;
 

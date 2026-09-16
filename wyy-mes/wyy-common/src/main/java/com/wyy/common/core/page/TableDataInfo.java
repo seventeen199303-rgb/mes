@@ -1,4 +1,4 @@
-package com.ktg.common.core.page;
+package com.wyy.common.core.page;
 
 import java.io.Serializable;
 import java.util.List;

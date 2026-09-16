@@ -1,4 +1,4 @@
-package com.ktg.common.constant;
+package com.wyy.common.constant;
 
 import io.jsonwebtoken.Claims;
 

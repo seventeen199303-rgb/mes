@@ -1,7 +1,7 @@
-package com.ktg.system.mapper;
+package com.wyy.system.mapper;
 
 import java.util.List;
-import com.ktg.system.domain.SysAttachment;
+import com.wyy.system.domain.SysAttachment;
 
 /**
  * 附件Mapper接口

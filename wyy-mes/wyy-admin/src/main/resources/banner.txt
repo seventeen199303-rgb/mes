@@ -1,4 +1,4 @@
-Application Version: ${ktg.version}
+Application Version: ${wyy.version}
 Spring Boot Version: ${spring-boot.version}
 ////////////////////////////////////////////////////////////////////
 //                          _ooOoo_                               //

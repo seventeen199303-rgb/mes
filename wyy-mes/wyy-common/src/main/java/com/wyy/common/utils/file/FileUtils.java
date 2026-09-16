@@ -1,4 +1,4 @@
-package com.ktg.common.utils.file;
+package com.wyy.common.utils.file;
 
 import java.io.*;
 import java.net.URLEncoder;
@@ -10,10 +10,10 @@ import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.ArrayUtils;
-import com.ktg.common.config.RuoYiConfig;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.uuid.IdUtils;
+import com.wyy.common.config.RuoYiConfig;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.uuid.IdUtils;
 import org.springframework.http.MediaType;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;

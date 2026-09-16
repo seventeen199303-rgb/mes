@@ -1,4 +1,4 @@
-package com.ktg.mes.wm.utils;
+package com.wyy.mes.wm.utils;
 
 public class WmStockUtil {
 

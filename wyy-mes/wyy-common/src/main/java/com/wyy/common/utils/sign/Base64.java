@@ -1,4 +1,4 @@
-package com.ktg.common.utils.sign;
+package com.wyy.common.utils.sign;
 
 /**
  * Base64工具类

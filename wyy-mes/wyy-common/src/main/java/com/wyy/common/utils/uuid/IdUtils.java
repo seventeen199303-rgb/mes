@@ -1,4 +1,4 @@
-package com.ktg.common.utils.uuid;
+package com.wyy.common.utils.uuid;
 
 /**
  * ID生成器工具类

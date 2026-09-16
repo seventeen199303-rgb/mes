@@ -1,4 +1,4 @@
-package com.ktg.quartz.domain;
+package com.wyy.quartz.domain;
 
 import java.util.Date;
 import javax.validation.constraints.NotBlank;
@@ -6,12 +6,12 @@ import javax.validation.constraints.Size;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.ktg.common.annotation.Excel;
-import com.ktg.common.annotation.Excel.ColumnType;
-import com.ktg.common.constant.ScheduleConstants;
-import com.ktg.common.core.domain.BaseEntity;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.quartz.util.CronUtils;
+import com.wyy.common.annotation.Excel;
+import com.wyy.common.annotation.Excel.ColumnType;
+import com.wyy.common.constant.ScheduleConstants;
+import com.wyy.common.core.domain.BaseEntity;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.quartz.util.CronUtils;
 
 /**
  * 定时任务调度表 sys_job

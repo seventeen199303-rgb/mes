@@ -1,4 +1,4 @@
-package com.ktg.web.controller.common;
+package com.wyy.web.controller.common;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
@@ -7,18 +7,18 @@ import javax.annotation.Resource;
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletResponse;
 
-import com.ktg.common.config.RuoYiConfig;
+import com.wyy.common.config.RuoYiConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.FastByteArrayOutputStream;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.google.code.kaptcha.Producer;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.core.redis.RedisCache;
-import com.ktg.common.utils.sign.Base64;
-import com.ktg.common.utils.uuid.IdUtils;
-import com.ktg.system.service.ISysConfigService;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.core.redis.RedisCache;
+import com.wyy.common.utils.sign.Base64;
+import com.wyy.common.utils.uuid.IdUtils;
+import com.wyy.system.service.ISysConfigService;
 
 /**
  * 验证码操作处理

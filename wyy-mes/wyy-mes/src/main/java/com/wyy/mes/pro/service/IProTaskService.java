@@ -1,7 +1,7 @@
-package com.ktg.mes.pro.service;
+package com.wyy.mes.pro.service;
 
 import java.util.List;
-import com.ktg.mes.pro.domain.ProTask;
+import com.wyy.mes.pro.domain.ProTask;
 
 /**
  * 生产任务Service接口

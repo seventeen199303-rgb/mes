@@ -1,4 +1,4 @@
-package com.ktg.framework.config;
+package com.wyy.framework.config;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -19,10 +19,10 @@ import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceBuilder;
 import com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties;
 import com.alibaba.druid.util.Utils;
-import com.ktg.common.enums.DataSourceType;
-import com.ktg.common.utils.spring.SpringUtils;
-import com.ktg.framework.config.properties.DruidProperties;
-import com.ktg.framework.datasource.DynamicDataSource;
+import com.wyy.common.enums.DataSourceType;
+import com.wyy.common.utils.spring.SpringUtils;
+import com.wyy.framework.config.properties.DruidProperties;
+import com.wyy.framework.datasource.DynamicDataSource;
 
 /**
  * druid 配置多数据源

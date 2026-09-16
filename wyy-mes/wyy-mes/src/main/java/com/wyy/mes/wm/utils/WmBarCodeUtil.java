@@ -1,10 +1,10 @@
-package com.ktg.mes.wm.utils;
+package com.wyy.mes.wm.utils;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.mes.wm.domain.WmBarcode;
-import com.ktg.mes.wm.domain.WmBarcodeConfig;
-import com.ktg.mes.wm.service.IWmBarcodeConfigService;
-import com.ktg.mes.wm.service.IWmBarcodeService;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.mes.wm.domain.WmBarcode;
+import com.wyy.mes.wm.domain.WmBarcodeConfig;
+import com.wyy.mes.wm.service.IWmBarcodeConfigService;
+import com.wyy.mes.wm.service.IWmBarcodeService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

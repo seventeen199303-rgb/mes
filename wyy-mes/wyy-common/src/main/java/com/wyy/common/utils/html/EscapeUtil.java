@@ -1,6 +1,6 @@
-package com.ktg.common.utils.html;
+package com.wyy.common.utils.html;
 
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * 转义和反转义工具类

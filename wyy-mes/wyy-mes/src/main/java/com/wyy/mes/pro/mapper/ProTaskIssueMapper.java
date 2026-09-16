@@ -1,7 +1,7 @@
-package com.ktg.mes.pro.mapper;
+package com.wyy.mes.pro.mapper;
 
 import java.util.List;
-import com.ktg.mes.pro.domain.ProTaskIssue;
+import com.wyy.mes.pro.domain.ProTaskIssue;
 
 /**
  * 生产任务投料Mapper接口

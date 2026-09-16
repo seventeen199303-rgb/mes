@@ -1,17 +1,17 @@
-package com.ktg.system.service.impl;
+package com.wyy.system.service.impl;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.common.core.domain.entity.SysDictData;
-import com.ktg.common.utils.DictUtils;
-import com.ktg.system.mapper.SysDictDataMapper;
-import com.ktg.system.service.ISysDictDataService;
+import com.wyy.common.core.domain.entity.SysDictData;
+import com.wyy.common.utils.DictUtils;
+import com.wyy.system.mapper.SysDictDataMapper;
+import com.wyy.system.service.ISysDictDataService;
 
 /**
  * 字典 业务层处理
  * 
- * @author ktg
+ * @author wyy
  */
 @Service
 public class SysDictDataServiceImpl implements ISysDictDataService

@@ -1,12 +1,12 @@
-package com.ktg.quartz.util;
+package com.wyy.quartz.util;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.LinkedList;
 import java.util.List;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.spring.SpringUtils;
-import com.ktg.quartz.domain.SysJob;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.spring.SpringUtils;
+import com.wyy.quartz.domain.SysJob;
 
 /**
  * 任务执行工具

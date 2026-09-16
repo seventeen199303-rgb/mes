@@ -1,19 +1,19 @@
-package com.ktg.framework.manager.factory;
+package com.wyy.framework.manager.factory;
 
 import java.util.TimerTask;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.utils.LogUtils;
-import com.ktg.common.utils.ServletUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.ip.AddressUtils;
-import com.ktg.common.utils.ip.IpUtils;
-import com.ktg.common.utils.spring.SpringUtils;
-import com.ktg.system.domain.SysLogininfor;
-import com.ktg.system.domain.SysOperLog;
-import com.ktg.system.service.ISysLogininforService;
-import com.ktg.system.service.ISysOperLogService;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.utils.LogUtils;
+import com.wyy.common.utils.ServletUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.ip.AddressUtils;
+import com.wyy.common.utils.ip.IpUtils;
+import com.wyy.common.utils.spring.SpringUtils;
+import com.wyy.system.domain.SysLogininfor;
+import com.wyy.system.domain.SysOperLog;
+import com.wyy.system.service.ISysLogininforService;
+import com.wyy.system.service.ISysOperLogService;
 import eu.bitwalker.useragentutils.UserAgent;
 
 /**

@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ktg.mes.wm.mapper.WmRtSalseLineMapper">
+<mapper namespace="com.wyy.mes.wm.mapper.WmRtSalseLineMapper">
     
     <resultMap type="WmRtSalseLine" id="WmRtSalseLineResult">
         <result property="lineId"    column="line_id"    />

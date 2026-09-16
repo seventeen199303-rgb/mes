@@ -1,8 +1,8 @@
-package com.ktg.framework.config;
+package com.wyy.framework.config;
 
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Component;
-import com.ktg.common.utils.ServletUtils;
+import com.wyy.common.utils.ServletUtils;
 
 /**
  * 服务相关配置

@@ -1,4 +1,4 @@
-package com.ktg.framework.config;
+package com.wyy.framework.config;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -22,7 +22,7 @@ import org.springframework.core.type.classreading.CachingMetadataReaderFactory;
 import org.springframework.core.type.classreading.MetadataReader;
 import org.springframework.core.type.classreading.MetadataReaderFactory;
 import org.springframework.util.ClassUtils;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * Mybatis支持*匹配扫描包

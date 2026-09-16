@@ -1,8 +1,8 @@
-package com.ktg.mes.wm.service;
+package com.wyy.mes.wm.service;
 
 import java.util.List;
-import com.ktg.mes.wm.domain.WmRtVendor;
-import com.ktg.mes.wm.domain.tx.RtVendorTxBean;
+import com.wyy.mes.wm.domain.WmRtVendor;
+import com.wyy.mes.wm.domain.tx.RtVendorTxBean;
 
 /**
  * 供应商退货Service接口

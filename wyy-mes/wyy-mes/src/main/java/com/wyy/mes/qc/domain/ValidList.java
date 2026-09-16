@@ -1,4 +1,4 @@
-package com.ktg.mes.qc.domain;
+package com.wyy.mes.qc.domain;
 
 import javax.validation.Valid;
 import java.util.*;

@@ -1,11 +1,11 @@
-package com.ktg.web.controller.system;
+package com.wyy.web.controller.system;
 
 
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.core.domain.model.LoginUser;
-import com.ktg.framework.web.service.MobileLoginService;
-import com.ktg.framework.web.service.TokenService;
-import com.ktg.system.domain.LoginParams;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.core.domain.model.LoginUser;
+import com.wyy.framework.web.service.MobileLoginService;
+import com.wyy.framework.web.service.TokenService;
+import com.wyy.system.domain.LoginParams;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

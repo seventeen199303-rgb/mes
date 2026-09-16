@@ -1,5 +1,5 @@
 # 项目相关配置
-ktg-mes:
+wyy-mes:
   # 名称
   name: 王有用MES管理平台
   # 版本
@@ -8,7 +8,7 @@ ktg-mes:
   copyrightYear: 2022
   # 实例演示开关
   demoEnabled: true
-  # 文件路径 示例（ Windows配置D:/ktg/uploadPath，Linux配置 /home/ktg/uploadPath）
+  # 文件路径 示例（ Windows配置D:/wyy/uploadPath，Linux配置 /home/wyy/uploadPath）
   profile: ${FILE_PATH:/data}/upload
   #profile: /home/www/uploadPath
   # 获取ip地址开关
@@ -37,7 +37,7 @@ server:
 # 日志配置
 logging:
   level:
-    com.ktg: debug
+    com.wyy: debug
     org.springframework: warn
 
 # Spring配置
@@ -95,7 +95,7 @@ token:
 # MyBatis配置
 mybatis:
     # 搜索指定包别名
-    typeAliasesPackage: com.ktg.**.domain
+    typeAliasesPackage: com.wyy.**.domain
     # 配置mapper的扫描，找到所有的mapper.xml映射文件
     mapperLocations: classpath*:mapper/**/*Mapper.xml
     # 加载全局的配置文件

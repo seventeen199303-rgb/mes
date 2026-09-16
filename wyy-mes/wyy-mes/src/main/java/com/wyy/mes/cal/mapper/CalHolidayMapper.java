@@ -1,7 +1,7 @@
-package com.ktg.mes.cal.mapper;
+package com.wyy.mes.cal.mapper;
 
 import java.util.List;
-import com.ktg.mes.cal.domain.CalHoliday;
+import com.wyy.mes.cal.domain.CalHoliday;
 
 /**
  * 节假日设置Mapper接口

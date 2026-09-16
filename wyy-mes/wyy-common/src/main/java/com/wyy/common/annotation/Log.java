@@ -1,12 +1,12 @@
-package com.ktg.common.annotation;
+package com.wyy.common.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-import com.ktg.common.enums.BusinessType;
-import com.ktg.common.enums.OperatorType;
+import com.wyy.common.enums.BusinessType;
+import com.wyy.common.enums.OperatorType;
 
 /**
  * 自定义操作日志记录注解

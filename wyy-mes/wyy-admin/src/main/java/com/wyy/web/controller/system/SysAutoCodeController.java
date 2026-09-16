@@ -1,6 +1,6 @@
-package com.ktg.web.controller.system;
+package com.wyy.web.controller.system;
 
-import com.ktg.system.strategy.AutoCodeUtil;
+import com.wyy.system.strategy.AutoCodeUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;

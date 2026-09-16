@@ -1,8 +1,8 @@
-package com.ktg.system.service;
+package com.wyy.system.service;
 
 import java.util.List;
-import com.ktg.common.core.domain.TreeSelect;
-import com.ktg.common.core.domain.entity.SysDept;
+import com.wyy.common.core.domain.TreeSelect;
+import com.wyy.common.core.domain.entity.SysDept;
 
 /**
  * 部门管理 服务层

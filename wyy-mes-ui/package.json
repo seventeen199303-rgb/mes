@@ -1,7 +1,7 @@
 {
-  "name": "ktg-mes-ui",
+  "name": "wyy-mes-ui",
   "version": "3.8.2",
-  "description": "苦糖果MES",
+  "description": "王有用MES",
   "author": "YinJinLu",
   "license": "MIT",
   "scripts": {
@@ -33,7 +33,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/kutangguo/ktg-mes-ui.git"
+    "url": "https://github.com/seventeen199303-rgb/wyy-di-mes.git"
   },
   "dependencies": {
     "@dhtmlx/trial-vue-gantt": "1.1.0",

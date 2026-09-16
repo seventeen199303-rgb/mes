@@ -1,4 +1,4 @@
-package com.ktg.web.controller.system;
+package com.wyy.web.controller.system;
 
 import java.io.IOException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,19 +10,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import com.ktg.common.annotation.Log;
-import com.ktg.common.config.RuoYiConfig;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.core.domain.entity.SysUser;
-import com.ktg.common.core.domain.model.LoginUser;
-import com.ktg.common.enums.BusinessType;
-import com.ktg.common.utils.SecurityUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.file.FileUploadUtils;
-import com.ktg.framework.web.service.TokenService;
-import com.ktg.system.service.ISysUserService;
+import com.wyy.common.annotation.Log;
+import com.wyy.common.config.RuoYiConfig;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.core.domain.entity.SysUser;
+import com.wyy.common.core.domain.model.LoginUser;
+import com.wyy.common.enums.BusinessType;
+import com.wyy.common.utils.SecurityUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.file.FileUploadUtils;
+import com.wyy.framework.web.service.TokenService;
+import com.wyy.system.service.ISysUserService;
 
 /**
  * 个人信息 业务处理

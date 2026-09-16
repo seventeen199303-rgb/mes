@@ -1,10 +1,10 @@
-package com.ktg.system.service.impl;
+package com.wyy.system.service.impl;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.domain.entity.SysAutoCodePart;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.system.mapper.SysAutoCodePartMapper;
-import com.ktg.system.service.IAutoCodePartService;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.domain.entity.SysAutoCodePart;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.system.mapper.SysAutoCodePartMapper;
+import com.wyy.system.service.IAutoCodePartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

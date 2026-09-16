@@ -1,4 +1,4 @@
-package com.ktg.common.utils.http;
+package com.wyy.common.utils.http;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -19,8 +19,8 @@ import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * 通用http发送方法

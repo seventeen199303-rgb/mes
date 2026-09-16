@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ktg.mes.pro.mapper.ProTransOrderMapper">
+<mapper namespace="com.wyy.mes.pro.mapper.ProTransOrderMapper">
     
     <resultMap type="ProTransOrder" id="ProTransOrderResult">
         <result property="transOrderId"    column="trans_order_id"    />

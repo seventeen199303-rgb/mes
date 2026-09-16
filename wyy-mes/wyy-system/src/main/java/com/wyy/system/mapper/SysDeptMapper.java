@@ -1,8 +1,8 @@
-package com.ktg.system.mapper;
+package com.wyy.system.mapper;
 
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
-import com.ktg.common.core.domain.entity.SysDept;
+import com.wyy.common.core.domain.entity.SysDept;
 
 /**
  * 部门管理 数据层

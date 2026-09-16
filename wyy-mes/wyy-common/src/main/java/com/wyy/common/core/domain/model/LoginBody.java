@@ -1,4 +1,4 @@
-package com.ktg.common.core.domain.model;
+package com.wyy.common.core.domain.model;
 
 /**
  * 用户登录对象

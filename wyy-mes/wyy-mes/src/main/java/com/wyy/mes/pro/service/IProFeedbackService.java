@@ -1,7 +1,7 @@
-package com.ktg.mes.pro.service;
+package com.wyy.mes.pro.service;
 
 import java.util.List;
-import com.ktg.mes.pro.domain.ProFeedback;
+import com.wyy.mes.pro.domain.ProFeedback;
 
 /**
  * 生产报工记录Service接口

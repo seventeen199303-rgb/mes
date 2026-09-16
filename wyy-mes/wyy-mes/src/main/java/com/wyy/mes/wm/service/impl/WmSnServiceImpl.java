@@ -1,12 +1,12 @@
-package com.ktg.mes.wm.service.impl;
+package com.wyy.mes.wm.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.wm.mapper.WmSnMapper;
-import com.ktg.mes.wm.domain.WmSn;
-import com.ktg.mes.wm.service.IWmSnService;
+import com.wyy.mes.wm.mapper.WmSnMapper;
+import com.wyy.mes.wm.domain.WmSn;
+import com.wyy.mes.wm.service.IWmSnService;
 
 /**
  * SN码Service业务层处理

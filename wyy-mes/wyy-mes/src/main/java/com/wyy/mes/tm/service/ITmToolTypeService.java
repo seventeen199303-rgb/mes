@@ -1,7 +1,7 @@
-package com.ktg.mes.tm.service;
+package com.wyy.mes.tm.service;
 
 import java.util.List;
-import com.ktg.mes.tm.domain.TmToolType;
+import com.wyy.mes.tm.domain.TmToolType;
 
 /**
  * 工装夹具类型Service接口

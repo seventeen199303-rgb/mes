@@ -1,4 +1,4 @@
-package com.ktg.common.config;
+package com.wyy.common.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * @author ruoyi
  */
 @Component
-@ConfigurationProperties(prefix = "ktg-mes")
+@ConfigurationProperties(prefix = "wyy-mes")
 public class RuoYiConfig
 {
     /** 项目名称 */

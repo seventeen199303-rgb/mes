@@ -1,4 +1,4 @@
-package com.ktg.framework.web.service;
+package com.wyy.framework.web.service;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,14 +7,14 @@ import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.core.domain.model.LoginUser;
-import com.ktg.common.core.redis.RedisCache;
-import com.ktg.common.utils.ServletUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.ip.AddressUtils;
-import com.ktg.common.utils.ip.IpUtils;
-import com.ktg.common.utils.uuid.IdUtils;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.core.domain.model.LoginUser;
+import com.wyy.common.core.redis.RedisCache;
+import com.wyy.common.utils.ServletUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.ip.AddressUtils;
+import com.wyy.common.utils.ip.IpUtils;
+import com.wyy.common.utils.uuid.IdUtils;
 import eu.bitwalker.useragentutils.UserAgent;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

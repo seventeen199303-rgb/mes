@@ -1,4 +1,4 @@
-package com.ktg.common.utils.http;
+package com.wyy.common.utils.http;
 
 import java.io.BufferedReader;
 import java.io.IOException;

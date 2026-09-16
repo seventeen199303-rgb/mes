@@ -1,7 +1,7 @@
-package com.ktg.mes.pro.service;
+package com.wyy.mes.pro.service;
 
 import java.util.List;
-import com.ktg.mes.pro.domain.ProRouteProduct;
+import com.wyy.mes.pro.domain.ProRouteProduct;
 
 /**
  * 产品制程Service接口

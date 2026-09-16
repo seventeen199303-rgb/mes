@@ -1,4 +1,4 @@
-package com.ktg.common.utils.file;
+package com.wyy.common.utils.file;
 
 import java.io.ByteArrayInputStream;
 import java.io.FileInputStream;
@@ -9,9 +9,9 @@ import java.util.Arrays;
 import org.apache.poi.util.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.ktg.common.config.RuoYiConfig;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.config.RuoYiConfig;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * 图片处理工具类

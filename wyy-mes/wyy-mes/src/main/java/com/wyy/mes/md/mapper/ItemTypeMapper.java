@@ -1,6 +1,6 @@
-package com.ktg.mes.md.mapper;
+package com.wyy.mes.md.mapper;
 
-import com.ktg.common.core.domain.entity.ItemType;
+import com.wyy.common.core.domain.entity.ItemType;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

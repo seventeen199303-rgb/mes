@@ -1,7 +1,7 @@
-package com.ktg.mes.pro.service;
+package com.wyy.mes.pro.service;
 
 import java.util.List;
-import com.ktg.mes.pro.domain.ProWorkrecord;
+import com.wyy.mes.pro.domain.ProWorkrecord;
 
 /**
  * 上下工记录Service接口

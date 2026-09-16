@@ -1,12 +1,12 @@
-package com.ktg.common.exception.base;
+package com.wyy.common.exception.base;
 
-import com.ktg.common.utils.MessageUtils;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.utils.MessageUtils;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * 基础异常
  * 
- * @author ktg
+ * @author wyy
  */
 public class BaseException extends RuntimeException
 {

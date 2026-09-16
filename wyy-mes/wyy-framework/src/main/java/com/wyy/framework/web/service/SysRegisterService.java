@@ -1,21 +1,21 @@
-package com.ktg.framework.web.service;
+package com.wyy.framework.web.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.domain.entity.SysUser;
-import com.ktg.common.core.domain.model.RegisterBody;
-import com.ktg.common.core.redis.RedisCache;
-import com.ktg.common.exception.user.CaptchaException;
-import com.ktg.common.exception.user.CaptchaExpireException;
-import com.ktg.common.utils.MessageUtils;
-import com.ktg.common.utils.SecurityUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.framework.manager.AsyncManager;
-import com.ktg.framework.manager.factory.AsyncFactory;
-import com.ktg.system.service.ISysConfigService;
-import com.ktg.system.service.ISysUserService;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.domain.entity.SysUser;
+import com.wyy.common.core.domain.model.RegisterBody;
+import com.wyy.common.core.redis.RedisCache;
+import com.wyy.common.exception.user.CaptchaException;
+import com.wyy.common.exception.user.CaptchaExpireException;
+import com.wyy.common.utils.MessageUtils;
+import com.wyy.common.utils.SecurityUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.framework.manager.AsyncManager;
+import com.wyy.framework.manager.factory.AsyncFactory;
+import com.wyy.system.service.ISysConfigService;
+import com.wyy.system.service.ISysUserService;
 
 /**
  * 注册校验方法

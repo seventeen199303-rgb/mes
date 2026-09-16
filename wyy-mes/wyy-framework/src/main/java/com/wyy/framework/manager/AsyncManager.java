@@ -1,10 +1,10 @@
-package com.ktg.framework.manager;
+package com.wyy.framework.manager;
 
 import java.util.TimerTask;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
-import com.ktg.common.utils.Threads;
-import com.ktg.common.utils.spring.SpringUtils;
+import com.wyy.common.utils.Threads;
+import com.wyy.common.utils.spring.SpringUtils;
 
 /**
  * 异步任务管理器

@@ -22,11 +22,11 @@
           >
           <br />
           阿里云服务器折扣区
-          <el-link href="https://gitee.com/fisherit/ktg-mes" type="primary" target="_blank"
+          <el-link href="https://gitee.com/fisherit/wyy-mes" type="primary" target="_blank"
             >>☛☛点我进入☚☚</el-link
           >
           &nbsp;&nbsp;&nbsp; 腾讯云服务器秒杀区
-          <el-link href="https://gitee.com/kutangguo/ktg-mes-ui" type="primary" target="_blank"
+          <el-link href="https://github.com/seventeen199303-rgb/wyy-di-mes" type="primary" target="_blank"
             >>☛☛点我进入☚☚</el-link
           ><br />
           <h4 class="text-danger">
@@ -55,14 +55,14 @@
             size="mini"
             icon="el-icon-cloudy"
             plain
-            @click="goTarget('https://gitee.com/fisherit/ktg-mes')"
+            @click="goTarget('https://gitee.com/fisherit/wyy-mes')"
             >访问码云</el-button
           >
           <el-button
             size="mini"
             icon="el-icon-s-home"
             plain
-            @click="goTarget('https://gitee.com/kutangguo/ktg-mes-ui')"
+            @click="goTarget('https://github.com/seventeen199303-rgb/wyy-di-mes')"
             >访问主页</el-button
           >
         </p>
@@ -112,7 +112,7 @@
           <div class="body">
             <p>
               <i class="el-icon-s-promotion"></i> 官网：<el-link
-                href="https://gitee.com/fisherit/ktg-mes"
+                href="https://gitee.com/fisherit/wyy-mes"
                 target="_blank"
                 >王有用MES管理平台</el-link
               >

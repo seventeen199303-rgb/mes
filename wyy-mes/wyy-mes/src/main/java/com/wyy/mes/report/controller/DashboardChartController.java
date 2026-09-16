@@ -1,8 +1,8 @@
-package com.ktg.mes.report.controller;
+package com.wyy.mes.report.controller;
 
 import java.util.Collections;
 
-import com.ktg.common.core.domain.AjaxResult;
+import com.wyy.common.core.domain.AjaxResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,14 +1,14 @@
-package com.ktg.mes.wm.controller;
+package com.wyy.mes.wm.controller;
 
-import com.ktg.common.annotation.Log;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.core.page.TableDataInfo;
-import com.ktg.common.enums.BusinessType;
-import com.ktg.common.utils.poi.ExcelUtil;
-import com.ktg.mes.wm.domain.WmBarcode;
-import com.ktg.mes.wm.service.IWmBarcodeService;
+import com.wyy.common.annotation.Log;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.core.page.TableDataInfo;
+import com.wyy.common.enums.BusinessType;
+import com.wyy.common.utils.poi.ExcelUtil;
+import com.wyy.mes.wm.domain.WmBarcode;
+import com.wyy.mes.wm.service.IWmBarcodeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

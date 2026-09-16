@@ -1,4 +1,4 @@
-package com.ktg.system.domain;
+package com.wyy.system.domain;
 
 /**
  * 当前在线会话

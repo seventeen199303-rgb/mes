@@ -1,4 +1,4 @@
-package com.ktg.common.exception.job;
+package com.wyy.common.exception.job;
 
 /**
  * 计划策略异常

@@ -1,17 +1,17 @@
-package com.ktg.mes.wm.service.impl;
+package com.wyy.mes.wm.service.impl;
 
 import java.util.List;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.mes.wm.domain.tx.ProductSalseTxBean;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.mes.wm.domain.tx.ProductSalseTxBean;
 import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.wm.mapper.WmProductSalseMapper;
-import com.ktg.mes.wm.domain.WmProductSalse;
-import com.ktg.mes.wm.service.IWmProductSalseService;
+import com.wyy.mes.wm.mapper.WmProductSalseMapper;
+import com.wyy.mes.wm.domain.WmProductSalse;
+import com.wyy.mes.wm.service.IWmProductSalseService;
 
 /**
  * 销售出库单Service业务层处理

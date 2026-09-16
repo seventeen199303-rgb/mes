@@ -1,11 +1,11 @@
-package com.ktg.system.service.impl;
+package com.wyy.system.service.impl;
 
 import cn.hutool.core.collection.CollectionUtil;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.domain.entity.SysAutoCodeRule;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.system.mapper.SysAutoCodeRuleMapper;
-import com.ktg.system.service.IAutoCodeRuleService;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.domain.entity.SysAutoCodeRule;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.system.mapper.SysAutoCodeRuleMapper;
+import com.wyy.system.service.IAutoCodeRuleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,14 +1,14 @@
-package com.ktg.mes.wm.service.impl;
+package com.wyy.mes.wm.service.impl;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.barcode.BarcodeUtil;
-import com.ktg.common.utils.file.FileUploadUtils;
-import com.ktg.common.utils.file.FileUtils;
-import com.ktg.mes.wm.domain.WmBarcode;
-import com.ktg.mes.wm.mapper.WmBarcodeMapper;
-import com.ktg.mes.wm.service.IWmBarcodeService;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.barcode.BarcodeUtil;
+import com.wyy.common.utils.file.FileUploadUtils;
+import com.wyy.common.utils.file.FileUtils;
+import com.wyy.mes.wm.domain.WmBarcode;
+import com.wyy.mes.wm.mapper.WmBarcodeMapper;
+import com.wyy.mes.wm.service.IWmBarcodeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;

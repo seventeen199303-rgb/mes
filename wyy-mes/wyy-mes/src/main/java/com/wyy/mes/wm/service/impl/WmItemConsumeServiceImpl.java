@@ -1,26 +1,26 @@
-package com.ktg.mes.wm.service.impl;
+package com.wyy.mes.wm.service.impl;
 
 import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
 
 import cn.hutool.core.collection.CollectionUtil;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.mes.md.domain.MdWorkstation;
-import com.ktg.mes.md.mapper.MdWorkstationMapper;
-import com.ktg.mes.pro.domain.*;
-import com.ktg.mes.pro.mapper.*;
-import com.ktg.mes.wm.domain.WmItemConsumeLine;
-import com.ktg.mes.wm.domain.WmMaterialStock;
-import com.ktg.mes.wm.domain.tx.ItemConsumeTxBean;
-import com.ktg.mes.wm.mapper.WmItemConsumeLineMapper;
-import com.ktg.mes.wm.mapper.WmMaterialStockMapper;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.mes.md.domain.MdWorkstation;
+import com.wyy.mes.md.mapper.MdWorkstationMapper;
+import com.wyy.mes.pro.domain.*;
+import com.wyy.mes.pro.mapper.*;
+import com.wyy.mes.wm.domain.WmItemConsumeLine;
+import com.wyy.mes.wm.domain.WmMaterialStock;
+import com.wyy.mes.wm.domain.tx.ItemConsumeTxBean;
+import com.wyy.mes.wm.mapper.WmItemConsumeLineMapper;
+import com.wyy.mes.wm.mapper.WmMaterialStockMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.wm.mapper.WmItemConsumeMapper;
-import com.ktg.mes.wm.domain.WmItemConsume;
-import com.ktg.mes.wm.service.IWmItemConsumeService;
+import com.wyy.mes.wm.mapper.WmItemConsumeMapper;
+import com.wyy.mes.wm.domain.WmItemConsume;
+import com.wyy.mes.wm.service.IWmItemConsumeService;
 
 /**
  * 物料消耗记录Service业务层处理

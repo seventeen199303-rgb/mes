@@ -1,12 +1,12 @@
-package com.ktg.framework.web.service;
+package com.wyy.framework.web.service;
 
 import java.util.Set;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
-import com.ktg.common.core.domain.entity.SysRole;
-import com.ktg.common.core.domain.model.LoginUser;
-import com.ktg.common.utils.SecurityUtils;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.core.domain.entity.SysRole;
+import com.wyy.common.core.domain.model.LoginUser;
+import com.wyy.common.utils.SecurityUtils;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * RuoYi首创 自定义权限实现，ss取自SpringSecurity首字母

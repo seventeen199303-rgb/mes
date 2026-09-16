@@ -1,6 +1,6 @@
-package com.ktg.mes.report.mapper;
+package com.wyy.mes.report.mapper;
 
-import com.ktg.mes.report.domain.UreportFileEntity;
+import com.wyy.mes.report.domain.UreportFileEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>ktg</artifactId>
-        <groupId>com.ktg</groupId>
+        <artifactId>wyy</artifactId>
+        <groupId>com.wyy</groupId>
         <version>3.8.2</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ktg-generator</artifactId>
+    <artifactId>wyy-generator</artifactId>
 
     <description>
         generator代码生成
@@ -31,8 +31,8 @@
 
         <!-- 通用工具-->
         <dependency>
-            <groupId>com.ktg</groupId>
-            <artifactId>ktg-common</artifactId>
+            <groupId>com.wyy</groupId>
+            <artifactId>wyy-common</artifactId>
         </dependency>
 
     </dependencies>

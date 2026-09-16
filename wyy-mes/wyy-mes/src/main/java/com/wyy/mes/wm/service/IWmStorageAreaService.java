@@ -1,7 +1,7 @@
-package com.ktg.mes.wm.service;
+package com.wyy.mes.wm.service;
 
 import java.util.List;
-import com.ktg.mes.wm.domain.WmStorageArea;
+import com.wyy.mes.wm.domain.WmStorageArea;
 
 /**
  * 库位设置Service接口

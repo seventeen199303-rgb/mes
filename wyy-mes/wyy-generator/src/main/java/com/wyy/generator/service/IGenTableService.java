@@ -1,8 +1,8 @@
-package com.ktg.generator.service;
+package com.wyy.generator.service;
 
 import java.util.List;
 import java.util.Map;
-import com.ktg.generator.domain.GenTable;
+import com.wyy.generator.domain.GenTable;
 
 /**
  * 业务 服务层

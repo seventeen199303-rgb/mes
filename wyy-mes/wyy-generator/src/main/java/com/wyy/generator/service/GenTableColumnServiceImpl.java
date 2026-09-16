@@ -1,11 +1,11 @@
-package com.ktg.generator.service;
+package com.wyy.generator.service;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.common.core.text.Convert;
-import com.ktg.generator.domain.GenTableColumn;
-import com.ktg.generator.mapper.GenTableColumnMapper;
+import com.wyy.common.core.text.Convert;
+import com.wyy.generator.domain.GenTableColumn;
+import com.wyy.generator.mapper.GenTableColumnMapper;
 
 /**
  * 业务字段 服务层实现

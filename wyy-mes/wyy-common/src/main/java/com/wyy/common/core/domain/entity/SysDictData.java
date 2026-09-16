@@ -1,13 +1,13 @@
-package com.ktg.common.core.domain.entity;
+package com.wyy.common.core.domain.entity;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import com.ktg.common.annotation.Excel;
-import com.ktg.common.annotation.Excel.ColumnType;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.domain.BaseEntity;
+import com.wyy.common.annotation.Excel;
+import com.wyy.common.annotation.Excel.ColumnType;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.domain.BaseEntity;
 
 /**
  * 字典数据表 sys_dict_data

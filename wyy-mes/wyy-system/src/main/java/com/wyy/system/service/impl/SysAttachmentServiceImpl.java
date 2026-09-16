@@ -1,12 +1,12 @@
-package com.ktg.system.service.impl;
+package com.wyy.system.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.system.mapper.SysAttachmentMapper;
-import com.ktg.system.domain.SysAttachment;
-import com.ktg.system.service.ISysAttachmentService;
+import com.wyy.system.mapper.SysAttachmentMapper;
+import com.wyy.system.domain.SysAttachment;
+import com.wyy.system.service.ISysAttachmentService;
 
 /**
  * 附件Service业务层处理

@@ -1,6 +1,6 @@
-package com.ktg.system.strategy;
+package com.wyy.system.strategy;
 
-import com.ktg.common.core.domain.entity.SysAutoCodePart;
+import com.wyy.common.core.domain.entity.SysAutoCodePart;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;

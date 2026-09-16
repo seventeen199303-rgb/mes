@@ -1,10 +1,10 @@
-package com.ktg.system.service.impl;
+package com.wyy.system.service.impl;
 
 import org.springframework.stereotype.Service;
-import com.ktg.common.core.domain.model.LoginUser;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.system.domain.SysUserOnline;
-import com.ktg.system.service.ISysUserOnlineService;
+import com.wyy.common.core.domain.model.LoginUser;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.system.domain.SysUserOnline;
+import com.wyy.system.service.ISysUserOnlineService;
 
 /**
  * 在线用户 服务层处理

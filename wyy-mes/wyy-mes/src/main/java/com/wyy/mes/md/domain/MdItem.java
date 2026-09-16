@@ -1,6 +1,6 @@
-package com.ktg.mes.md.domain;
+package com.wyy.mes.md.domain;
 
-import com.ktg.common.core.domain.BaseEntity;
+import com.wyy.common.core.domain.BaseEntity;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;

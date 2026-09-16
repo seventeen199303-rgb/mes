@@ -1,27 +1,27 @@
-package com.ktg.mes.wm.service.impl;
+package com.wyy.mes.wm.service.impl;
 
 import java.util.Date;
 import java.util.List;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.mes.md.domain.MdWorkstation;
-import com.ktg.mes.md.mapper.MdWorkstationMapper;
-import com.ktg.mes.pro.domain.ProFeedback;
-import com.ktg.mes.pro.domain.ProProcess;
-import com.ktg.mes.pro.domain.ProTask;
-import com.ktg.mes.pro.domain.ProWorkorder;
-import com.ktg.mes.pro.mapper.ProProcessMapper;
-import com.ktg.mes.pro.mapper.ProTaskMapper;
-import com.ktg.mes.pro.mapper.ProWorkorderMapper;
-import com.ktg.mes.wm.domain.WmProductProduceLine;
-import com.ktg.mes.wm.domain.tx.ProductProductTxBean;
-import com.ktg.mes.wm.mapper.WmProductProduceLineMapper;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.mes.md.domain.MdWorkstation;
+import com.wyy.mes.md.mapper.MdWorkstationMapper;
+import com.wyy.mes.pro.domain.ProFeedback;
+import com.wyy.mes.pro.domain.ProProcess;
+import com.wyy.mes.pro.domain.ProTask;
+import com.wyy.mes.pro.domain.ProWorkorder;
+import com.wyy.mes.pro.mapper.ProProcessMapper;
+import com.wyy.mes.pro.mapper.ProTaskMapper;
+import com.wyy.mes.pro.mapper.ProWorkorderMapper;
+import com.wyy.mes.wm.domain.WmProductProduceLine;
+import com.wyy.mes.wm.domain.tx.ProductProductTxBean;
+import com.wyy.mes.wm.mapper.WmProductProduceLineMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.wm.mapper.WmProductProduceMapper;
-import com.ktg.mes.wm.domain.WmProductProduce;
-import com.ktg.mes.wm.service.IWmProductProduceService;
+import com.wyy.mes.wm.mapper.WmProductProduceMapper;
+import com.wyy.mes.wm.domain.WmProductProduce;
+import com.wyy.mes.wm.service.IWmProductProduceService;
 
 /**
  * 产品产出记录Service业务层处理

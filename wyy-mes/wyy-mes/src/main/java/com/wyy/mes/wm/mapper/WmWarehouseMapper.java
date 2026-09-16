@@ -1,7 +1,7 @@
-package com.ktg.mes.wm.mapper;
+package com.wyy.mes.wm.mapper;
 
 import java.util.List;
-import com.ktg.mes.wm.domain.WmWarehouse;
+import com.wyy.mes.wm.domain.WmWarehouse;
 
 /**
  * 仓库设置Mapper接口

@@ -1,12 +1,12 @@
-package com.ktg.common.utils.ip;
+package com.wyy.common.utils.ip;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.alibaba.fastjson.JSONObject;
-import com.ktg.common.config.RuoYiConfig;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.http.HttpUtils;
+import com.wyy.common.config.RuoYiConfig;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.http.HttpUtils;
 
 /**
  * 获取地址类

@@ -1,6 +1,6 @@
-package com.ktg.framework.web.service;
+package com.wyy.framework.web.service;
 
-import com.ktg.system.strategy.PhoneUtils;
+import com.wyy.system.strategy.PhoneUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,12 +8,12 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import com.ktg.common.core.domain.entity.SysUser;
-import com.ktg.common.core.domain.model.LoginUser;
-import com.ktg.common.enums.UserStatus;
-import com.ktg.common.exception.ServiceException;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.system.service.ISysUserService;
+import com.wyy.common.core.domain.entity.SysUser;
+import com.wyy.common.core.domain.model.LoginUser;
+import com.wyy.common.enums.UserStatus;
+import com.wyy.common.exception.ServiceException;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.system.service.ISysUserService;
 
 /**
  * 用户验证处理

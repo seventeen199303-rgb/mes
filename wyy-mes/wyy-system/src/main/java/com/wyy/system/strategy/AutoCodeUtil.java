@@ -1,17 +1,17 @@
-package com.ktg.system.strategy;
+package com.wyy.system.strategy;
 
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.lang.Assert;
-import com.ktg.common.annotation.Log;
-import com.ktg.common.core.domain.entity.SysAutoCodePart;
-import com.ktg.common.core.domain.entity.SysAutoCodeResult;
-import com.ktg.common.core.domain.entity.SysAutoCodeRule;
-import com.ktg.common.enums.BusinessType;
-import com.ktg.common.enums.PartTypeEnum;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.system.service.IAutoCodePartService;
-import com.ktg.system.service.IAutoCodeResultService;
-import com.ktg.system.service.IAutoCodeRuleService;
+import com.wyy.common.annotation.Log;
+import com.wyy.common.core.domain.entity.SysAutoCodePart;
+import com.wyy.common.core.domain.entity.SysAutoCodeResult;
+import com.wyy.common.core.domain.entity.SysAutoCodeRule;
+import com.wyy.common.enums.BusinessType;
+import com.wyy.common.enums.PartTypeEnum;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.system.service.IAutoCodePartService;
+import com.wyy.system.service.IAutoCodeResultService;
+import com.wyy.system.service.IAutoCodeRuleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

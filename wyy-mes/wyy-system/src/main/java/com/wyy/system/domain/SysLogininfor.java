@@ -1,10 +1,10 @@
-package com.ktg.system.domain;
+package com.wyy.system.domain;
 
 import java.util.Date;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.ktg.common.annotation.Excel;
-import com.ktg.common.annotation.Excel.ColumnType;
-import com.ktg.common.core.domain.BaseEntity;
+import com.wyy.common.annotation.Excel;
+import com.wyy.common.annotation.Excel.ColumnType;
+import com.wyy.common.core.domain.BaseEntity;
 
 /**
  * 系统访问记录表 sys_logininfor

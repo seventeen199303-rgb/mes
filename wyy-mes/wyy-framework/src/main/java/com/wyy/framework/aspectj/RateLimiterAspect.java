@@ -1,4 +1,4 @@
-package com.ktg.framework.aspectj;
+package com.wyy.framework.aspectj;
 
 import java.lang.reflect.Method;
 import java.util.Collections;
@@ -13,12 +13,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.script.RedisScript;
 import org.springframework.stereotype.Component;
-import com.ktg.common.annotation.RateLimiter;
-import com.ktg.common.enums.LimitType;
-import com.ktg.common.exception.ServiceException;
-import com.ktg.common.utils.ServletUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.ip.IpUtils;
+import com.wyy.common.annotation.RateLimiter;
+import com.wyy.common.enums.LimitType;
+import com.wyy.common.exception.ServiceException;
+import com.wyy.common.utils.ServletUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.ip.IpUtils;
 
 /**
  * 限流处理

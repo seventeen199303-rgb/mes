@@ -1,4 +1,4 @@
-package com.ktg.web.controller.tool;
+package com.wyy.web.controller.tool;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.utils.StringUtils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;

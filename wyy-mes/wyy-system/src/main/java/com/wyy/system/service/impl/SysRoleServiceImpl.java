@@ -1,4 +1,4 @@
-package com.ktg.system.service.impl;
+package com.wyy.system.service.impl;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,22 +8,22 @@ import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import com.ktg.common.annotation.DataScope;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.domain.entity.SysRole;
-import com.ktg.common.core.domain.entity.SysUser;
-import com.ktg.common.exception.ServiceException;
-import com.ktg.common.utils.SecurityUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.spring.SpringUtils;
-import com.ktg.system.domain.SysRoleDept;
-import com.ktg.system.domain.SysRoleMenu;
-import com.ktg.system.domain.SysUserRole;
-import com.ktg.system.mapper.SysRoleDeptMapper;
-import com.ktg.system.mapper.SysRoleMapper;
-import com.ktg.system.mapper.SysRoleMenuMapper;
-import com.ktg.system.mapper.SysUserRoleMapper;
-import com.ktg.system.service.ISysRoleService;
+import com.wyy.common.annotation.DataScope;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.domain.entity.SysRole;
+import com.wyy.common.core.domain.entity.SysUser;
+import com.wyy.common.exception.ServiceException;
+import com.wyy.common.utils.SecurityUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.spring.SpringUtils;
+import com.wyy.system.domain.SysRoleDept;
+import com.wyy.system.domain.SysRoleMenu;
+import com.wyy.system.domain.SysUserRole;
+import com.wyy.system.mapper.SysRoleDeptMapper;
+import com.wyy.system.mapper.SysRoleMapper;
+import com.wyy.system.mapper.SysRoleMenuMapper;
+import com.wyy.system.mapper.SysUserRoleMapper;
+import com.wyy.system.service.ISysRoleService;
 
 /**
  * 角色 业务层处理

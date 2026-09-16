@@ -1,6 +1,6 @@
-package com.ktg.common.core.domain.entity;
+package com.wyy.common.core.domain.entity;
 
-import com.ktg.common.core.domain.BaseEntity;
+import com.wyy.common.core.domain.BaseEntity;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;

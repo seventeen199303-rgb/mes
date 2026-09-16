@@ -1,6 +1,6 @@
-package com.ktg.system.mapper;
+package com.wyy.system.mapper;
 
-import com.ktg.system.domain.UserTask;
+import com.wyy.system.domain.UserTask;
 
 import java.util.List;
 

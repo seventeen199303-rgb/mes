@@ -1,7 +1,7 @@
-package com.ktg.mes.dv.mapper;
+package com.wyy.mes.dv.mapper;
 
 import java.util.List;
-import com.ktg.mes.dv.domain.DvMachinery;
+import com.wyy.mes.dv.domain.DvMachinery;
 
 /**
  * 设备Mapper接口

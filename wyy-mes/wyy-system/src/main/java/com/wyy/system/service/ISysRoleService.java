@@ -1,9 +1,9 @@
-package com.ktg.system.service;
+package com.wyy.system.service;
 
 import java.util.List;
 import java.util.Set;
-import com.ktg.common.core.domain.entity.SysRole;
-import com.ktg.system.domain.SysUserRole;
+import com.wyy.common.core.domain.entity.SysRole;
+import com.wyy.system.domain.SysUserRole;
 
 /**
  * 角色业务层

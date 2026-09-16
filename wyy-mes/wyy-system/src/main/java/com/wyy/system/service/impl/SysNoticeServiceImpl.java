@@ -1,11 +1,11 @@
-package com.ktg.system.service.impl;
+package com.wyy.system.service.impl;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.system.domain.SysNotice;
-import com.ktg.system.mapper.SysNoticeMapper;
-import com.ktg.system.service.ISysNoticeService;
+import com.wyy.system.domain.SysNotice;
+import com.wyy.system.mapper.SysNoticeMapper;
+import com.wyy.system.service.ISysNoticeService;
 
 /**
  * 公告 服务层实现

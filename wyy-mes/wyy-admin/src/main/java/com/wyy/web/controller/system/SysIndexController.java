@@ -1,10 +1,10 @@
-package com.ktg.web.controller.system;
+package com.wyy.web.controller.system;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ktg.common.config.RuoYiConfig;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.config.RuoYiConfig;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * 首页

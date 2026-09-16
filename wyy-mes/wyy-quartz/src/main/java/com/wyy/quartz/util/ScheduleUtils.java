@@ -1,4 +1,4 @@
-package com.ktg.quartz.util;
+package com.wyy.quartz.util;
 
 import org.quartz.CronScheduleBuilder;
 import org.quartz.CronTrigger;
@@ -10,12 +10,12 @@ import org.quartz.Scheduler;
 import org.quartz.SchedulerException;
 import org.quartz.TriggerBuilder;
 import org.quartz.TriggerKey;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.constant.ScheduleConstants;
-import com.ktg.common.exception.job.TaskException;
-import com.ktg.common.exception.job.TaskException.Code;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.quartz.domain.SysJob;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.constant.ScheduleConstants;
+import com.wyy.common.exception.job.TaskException;
+import com.wyy.common.exception.job.TaskException.Code;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.quartz.domain.SysJob;
 
 /**
  * 定时任务工具类

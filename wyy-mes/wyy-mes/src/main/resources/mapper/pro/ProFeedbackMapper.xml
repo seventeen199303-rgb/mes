@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ktg.mes.pro.mapper.ProFeedbackMapper">
+<mapper namespace="com.wyy.mes.pro.mapper.ProFeedbackMapper">
     
     <resultMap type="ProFeedback" id="ProFeedbackResult">
         <result property="recordId"    column="record_id"    />

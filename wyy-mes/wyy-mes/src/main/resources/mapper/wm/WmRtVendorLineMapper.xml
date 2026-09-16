@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ktg.mes.wm.mapper.WmRtVendorLineMapper">
+<mapper namespace="com.wyy.mes.wm.mapper.WmRtVendorLineMapper">
     
     <resultMap type="WmRtVendorLine" id="WmRtVendorLineResult">
         <result property="lineId"    column="line_id"    />

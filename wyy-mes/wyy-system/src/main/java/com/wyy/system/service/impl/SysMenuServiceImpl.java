@@ -1,4 +1,4 @@
-package com.ktg.system.service.impl;
+package com.wyy.system.service.impl;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,20 +10,20 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.domain.TreeSelect;
-import com.ktg.common.core.domain.entity.SysMenu;
-import com.ktg.common.core.domain.entity.SysRole;
-import com.ktg.common.core.domain.entity.SysUser;
-import com.ktg.common.utils.SecurityUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.system.domain.vo.MetaVo;
-import com.ktg.system.domain.vo.RouterVo;
-import com.ktg.system.mapper.SysMenuMapper;
-import com.ktg.system.mapper.SysRoleMapper;
-import com.ktg.system.mapper.SysRoleMenuMapper;
-import com.ktg.system.service.ISysMenuService;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.domain.TreeSelect;
+import com.wyy.common.core.domain.entity.SysMenu;
+import com.wyy.common.core.domain.entity.SysRole;
+import com.wyy.common.core.domain.entity.SysUser;
+import com.wyy.common.utils.SecurityUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.system.domain.vo.MetaVo;
+import com.wyy.system.domain.vo.RouterVo;
+import com.wyy.system.mapper.SysMenuMapper;
+import com.wyy.system.mapper.SysRoleMapper;
+import com.wyy.system.mapper.SysRoleMenuMapper;
+import com.wyy.system.service.ISysMenuService;
 
 /**
  * 菜单 业务层处理

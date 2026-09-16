@@ -1,7 +1,7 @@
-package com.ktg.mes.pro.mapper;
+package com.wyy.mes.pro.mapper;
 
 import java.util.List;
-import com.ktg.mes.pro.domain.ProTransConsume;
+import com.wyy.mes.pro.domain.ProTransConsume;
 
 /**
  * 物料消耗记录Mapper接口

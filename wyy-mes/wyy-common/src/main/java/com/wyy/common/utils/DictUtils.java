@@ -1,11 +1,11 @@
-package com.ktg.common.utils;
+package com.wyy.common.utils;
 
 import java.util.Collection;
 import java.util.List;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.core.domain.entity.SysDictData;
-import com.ktg.common.core.redis.RedisCache;
-import com.ktg.common.utils.spring.SpringUtils;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.core.domain.entity.SysDictData;
+import com.wyy.common.core.redis.RedisCache;
+import com.wyy.common.utils.spring.SpringUtils;
 
 /**
  * 字典工具类

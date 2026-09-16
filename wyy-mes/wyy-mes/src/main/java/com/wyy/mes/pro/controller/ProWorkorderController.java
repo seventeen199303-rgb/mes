@@ -1,4 +1,4 @@
-package com.ktg.mes.pro.controller;
+package com.wyy.mes.pro.controller;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -6,14 +6,14 @@ import java.util.List;
 import javax.servlet.http.HttpServletResponse;
 
 import cn.hutool.core.collection.CollUtil;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.page.TableDataInfo;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.mes.md.domain.MdItem;
-import com.ktg.mes.md.domain.MdProductBom;
-import com.ktg.mes.md.service.IMdProductBomService;
-import com.ktg.mes.pro.domain.ProWorkorderBom;
-import com.ktg.mes.pro.service.IProWorkorderBomService;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.page.TableDataInfo;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.mes.md.domain.MdItem;
+import com.wyy.mes.md.domain.MdProductBom;
+import com.wyy.mes.md.service.IMdProductBomService;
+import com.wyy.mes.pro.domain.ProWorkorderBom;
+import com.wyy.mes.pro.service.IProWorkorderBomService;
 import io.minio.messages.Item;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,13 +26,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ktg.common.annotation.Log;
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.enums.BusinessType;
-import com.ktg.mes.pro.domain.ProWorkorder;
-import com.ktg.mes.pro.service.IProWorkorderService;
-import com.ktg.common.utils.poi.ExcelUtil;
+import com.wyy.common.annotation.Log;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.enums.BusinessType;
+import com.wyy.mes.pro.domain.ProWorkorder;
+import com.wyy.mes.pro.service.IProWorkorderService;
+import com.wyy.common.utils.poi.ExcelUtil;
 
 /**
  * 生产工单Controller

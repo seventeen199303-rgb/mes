@@ -1,12 +1,12 @@
-package com.ktg.mes.pro.service.impl;
+package com.wyy.mes.pro.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.pro.mapper.ProFeedbackMapper;
-import com.ktg.mes.pro.domain.ProFeedback;
-import com.ktg.mes.pro.service.IProFeedbackService;
+import com.wyy.mes.pro.mapper.ProFeedbackMapper;
+import com.wyy.mes.pro.domain.ProFeedback;
+import com.wyy.mes.pro.service.IProFeedbackService;
 
 /**
  * 生产报工记录Service业务层处理

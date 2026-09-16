@@ -1,4 +1,4 @@
-package com.ktg.framework.security.handle;
+package com.wyy.framework.security.handle;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -9,15 +9,15 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
 import com.alibaba.fastjson.JSON;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.constant.HttpStatus;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.core.domain.model.LoginUser;
-import com.ktg.common.utils.ServletUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.framework.manager.AsyncManager;
-import com.ktg.framework.manager.factory.AsyncFactory;
-import com.ktg.framework.web.service.TokenService;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.constant.HttpStatus;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.core.domain.model.LoginUser;
+import com.wyy.common.utils.ServletUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.framework.manager.AsyncManager;
+import com.wyy.framework.manager.factory.AsyncFactory;
+import com.wyy.framework.web.service.TokenService;
 
 /**
  * 自定义退出处理类 返回成功

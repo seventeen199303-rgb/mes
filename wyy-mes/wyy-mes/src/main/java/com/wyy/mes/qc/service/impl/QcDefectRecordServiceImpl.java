@@ -1,12 +1,12 @@
-package com.ktg.mes.qc.service.impl;
+package com.wyy.mes.qc.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.qc.mapper.QcDefectRecordMapper;
-import com.ktg.mes.qc.domain.QcDefectRecord;
-import com.ktg.mes.qc.service.IQcDefectRecordService;
+import com.wyy.mes.qc.mapper.QcDefectRecordMapper;
+import com.wyy.mes.qc.domain.QcDefectRecord;
+import com.wyy.mes.qc.service.IQcDefectRecordService;
 
 /**
  * 检验单缺陷记录Service业务层处理

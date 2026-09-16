@@ -1,4 +1,4 @@
-package com.ktg;
+package com.wyy;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

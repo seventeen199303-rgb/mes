@@ -1,12 +1,12 @@
-package com.ktg.generator.domain;
+package com.wyy.generator.domain;
 
 import java.util.List;
 import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import org.apache.commons.lang3.ArrayUtils;
-import com.ktg.common.constant.GenConstants;
-import com.ktg.common.core.domain.BaseEntity;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.constant.GenConstants;
+import com.wyy.common.core.domain.BaseEntity;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * 业务表 gen_table

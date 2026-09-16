@@ -1,9 +1,9 @@
-package com.ktg.mes.pro.service;
+package com.wyy.mes.pro.service;
 
 import java.util.List;
 
-import com.ktg.mes.pro.domain.ProFeedback;
-import com.ktg.mes.pro.domain.ProRouteProcess;
+import com.wyy.mes.pro.domain.ProFeedback;
+import com.wyy.mes.pro.domain.ProRouteProcess;
 
 /**
  * 工艺组成Service接口

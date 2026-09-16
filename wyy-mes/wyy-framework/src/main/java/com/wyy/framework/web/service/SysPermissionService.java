@@ -1,12 +1,12 @@
-package com.ktg.framework.web.service;
+package com.wyy.framework.web.service;
 
 import java.util.HashSet;
 import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import com.ktg.common.core.domain.entity.SysUser;
-import com.ktg.system.service.ISysMenuService;
-import com.ktg.system.service.ISysRoleService;
+import com.wyy.common.core.domain.entity.SysUser;
+import com.wyy.system.service.ISysMenuService;
+import com.wyy.system.service.ISysRoleService;
 
 /**
  * 用户权限处理

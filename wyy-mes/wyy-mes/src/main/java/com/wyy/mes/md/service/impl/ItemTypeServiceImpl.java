@@ -1,11 +1,11 @@
-package com.ktg.mes.md.service.impl;
+package com.wyy.mes.md.service.impl;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.domain.TreeSelect;
-import com.ktg.common.core.domain.entity.ItemType;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.mes.md.mapper.ItemTypeMapper;
-import com.ktg.mes.md.service.IItemTypeService;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.domain.TreeSelect;
+import com.wyy.common.core.domain.entity.ItemType;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.mes.md.mapper.ItemTypeMapper;
+import com.wyy.mes.md.service.IItemTypeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

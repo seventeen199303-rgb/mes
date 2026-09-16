@@ -1,15 +1,15 @@
-package com.ktg.mes.md.service.impl;
+package com.wyy.mes.md.service.impl;
 
 import java.util.List;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.md.mapper.MdWorkstationToolMapper;
-import com.ktg.mes.md.domain.MdWorkstationTool;
-import com.ktg.mes.md.service.IMdWorkstationToolService;
+import com.wyy.mes.md.mapper.MdWorkstationToolMapper;
+import com.wyy.mes.md.domain.MdWorkstationTool;
+import com.wyy.mes.md.service.IMdWorkstationToolService;
 
 /**
  * 工装夹具资源Service业务层处理

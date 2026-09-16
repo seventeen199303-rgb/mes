@@ -1,7 +1,7 @@
-package com.ktg.quartz.task;
+package com.wyy.quartz.task;
 
 import org.springframework.stereotype.Component;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * 定时任务调度测试

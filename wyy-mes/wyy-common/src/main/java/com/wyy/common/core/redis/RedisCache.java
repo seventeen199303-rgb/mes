@@ -1,4 +1,4 @@
-package com.ktg.common.core.redis;
+package com.wyy.common.core.redis;
 
 import java.util.Collection;
 import java.util.Iterator;

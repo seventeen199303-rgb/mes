@@ -1,4 +1,4 @@
-package com.ktg.quartz.service.impl;
+package com.wyy.quartz.service.impl;
 
 import java.util.List;
 import javax.annotation.PostConstruct;
@@ -9,13 +9,13 @@ import org.quartz.SchedulerException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import com.ktg.common.constant.ScheduleConstants;
-import com.ktg.common.exception.job.TaskException;
-import com.ktg.quartz.domain.SysJob;
-import com.ktg.quartz.mapper.SysJobMapper;
-import com.ktg.quartz.service.ISysJobService;
-import com.ktg.quartz.util.CronUtils;
-import com.ktg.quartz.util.ScheduleUtils;
+import com.wyy.common.constant.ScheduleConstants;
+import com.wyy.common.exception.job.TaskException;
+import com.wyy.quartz.domain.SysJob;
+import com.wyy.quartz.mapper.SysJobMapper;
+import com.wyy.quartz.service.ISysJobService;
+import com.wyy.quartz.util.CronUtils;
+import com.wyy.quartz.util.ScheduleUtils;
 
 /**
  * 定时任务调度信息 服务层

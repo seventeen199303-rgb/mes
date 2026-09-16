@@ -1,6 +1,6 @@
-package com.ktg.mes.wm.mapper;
+package com.wyy.mes.wm.mapper;
 
-import com.ktg.mes.wm.domain.WmMaterialStock;
+import com.wyy.mes.wm.domain.WmMaterialStock;
 
 import java.util.List;
 

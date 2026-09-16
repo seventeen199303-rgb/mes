@@ -1,16 +1,16 @@
-package com.ktg.mes.tm.service.impl;
+package com.wyy.mes.tm.service.impl;
 
 import java.util.List;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.StringUtils;
 import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.tm.mapper.TmToolTypeMapper;
-import com.ktg.mes.tm.domain.TmToolType;
-import com.ktg.mes.tm.service.ITmToolTypeService;
+import com.wyy.mes.tm.mapper.TmToolTypeMapper;
+import com.wyy.mes.tm.domain.TmToolType;
+import com.wyy.mes.tm.service.ITmToolTypeService;
 
 /**
  * 工装夹具类型Service业务层处理

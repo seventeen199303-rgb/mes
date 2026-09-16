@@ -1,7 +1,7 @@
-package com.ktg.mes.wm.mapper;
+package com.wyy.mes.wm.mapper;
 
 import java.util.List;
-import com.ktg.mes.wm.domain.WmTransferLine;
+import com.wyy.mes.wm.domain.WmTransferLine;
 
 /**
  * 转移单行Mapper接口

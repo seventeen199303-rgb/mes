@@ -1,4 +1,4 @@
-package com.ktg.framework.datasource;
+package com.wyy.framework.datasource;
 
 import java.util.Map;
 import javax.sql.DataSource;

@@ -1,4 +1,4 @@
-package com.ktg.framework.interceptor.impl;
+package com.wyy.framework.interceptor.impl;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,13 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import com.alibaba.fastjson.JSONObject;
-import com.ktg.common.annotation.RepeatSubmit;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.core.redis.RedisCache;
-import com.ktg.common.filter.RepeatedlyRequestWrapper;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.http.HttpHelper;
-import com.ktg.framework.interceptor.RepeatSubmitInterceptor;
+import com.wyy.common.annotation.RepeatSubmit;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.core.redis.RedisCache;
+import com.wyy.common.filter.RepeatedlyRequestWrapper;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.http.HttpHelper;
+import com.wyy.framework.interceptor.RepeatSubmitInterceptor;
 
 /**
  * 判断请求url和数据是否和上一次相同，

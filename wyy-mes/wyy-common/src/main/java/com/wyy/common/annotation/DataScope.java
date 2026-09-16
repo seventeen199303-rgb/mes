@@ -1,4 +1,4 @@
-package com.ktg.common.annotation;
+package com.wyy.common.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

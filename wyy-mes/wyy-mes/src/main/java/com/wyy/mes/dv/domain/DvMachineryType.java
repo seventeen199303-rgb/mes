@@ -1,9 +1,9 @@
-package com.ktg.mes.dv.domain;
+package com.wyy.mes.dv.domain;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import com.ktg.common.annotation.Excel;
-import com.ktg.common.core.domain.TreeEntity;
+import com.wyy.common.annotation.Excel;
+import com.wyy.common.core.domain.TreeEntity;
 
 /**
  * 设备类型对象 dv_machinery_type

@@ -1,7 +1,7 @@
-package com.ktg.quartz.mapper;
+package com.wyy.quartz.mapper;
 
 import java.util.List;
-import com.ktg.quartz.domain.SysJobLog;
+import com.wyy.quartz.domain.SysJobLog;
 
 /**
  * 调度任务日志信息 数据层

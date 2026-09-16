@@ -1,4 +1,4 @@
-package com.ktg;
+package com.wyy;
 
 import com.bstek.ureport.console.UReportServlet;
 import org.springframework.boot.SpringApplication;

@@ -1,4 +1,4 @@
-package com.ktg.common.core.controller;
+package com.wyy.common.core.controller;
 
 import java.beans.PropertyEditorSupport;
 import java.util.Date;
@@ -9,17 +9,17 @@ import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.ktg.common.constant.HttpStatus;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.core.domain.model.LoginUser;
-import com.ktg.common.core.page.PageDomain;
-import com.ktg.common.core.page.TableDataInfo;
-import com.ktg.common.core.page.TableSupport;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.PageUtils;
-import com.ktg.common.utils.SecurityUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.sql.SqlUtil;
+import com.wyy.common.constant.HttpStatus;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.core.domain.model.LoginUser;
+import com.wyy.common.core.page.PageDomain;
+import com.wyy.common.core.page.TableDataInfo;
+import com.wyy.common.core.page.TableSupport;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.PageUtils;
+import com.wyy.common.utils.SecurityUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.sql.SqlUtil;
 
 /**
  * web层通用数据处理

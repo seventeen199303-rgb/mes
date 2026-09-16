@@ -1,8 +1,8 @@
-package com.ktg.mes.pro.service;
+package com.wyy.mes.pro.service;
 
 import java.util.List;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.mes.pro.domain.ProWorkorder;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.mes.pro.domain.ProWorkorder;
 
 /**
  * 生产工单Service接口

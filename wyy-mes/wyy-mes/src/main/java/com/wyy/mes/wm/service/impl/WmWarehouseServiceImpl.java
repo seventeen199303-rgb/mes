@@ -1,21 +1,21 @@
-package com.ktg.mes.wm.service.impl;
+package com.wyy.mes.wm.service.impl;
 
 import java.util.List;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.mes.wm.domain.WmStorageArea;
-import com.ktg.mes.wm.domain.WmStorageLocation;
-import com.ktg.mes.wm.mapper.WmStorageAreaMapper;
-import com.ktg.mes.wm.mapper.WmStorageLocationMapper;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.mes.wm.domain.WmStorageArea;
+import com.wyy.mes.wm.domain.WmStorageLocation;
+import com.wyy.mes.wm.mapper.WmStorageAreaMapper;
+import com.wyy.mes.wm.mapper.WmStorageLocationMapper;
 import org.apache.catalina.User;
 import org.checkerframework.checker.units.qual.A;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.wm.mapper.WmWarehouseMapper;
-import com.ktg.mes.wm.domain.WmWarehouse;
-import com.ktg.mes.wm.service.IWmWarehouseService;
+import com.wyy.mes.wm.mapper.WmWarehouseMapper;
+import com.wyy.mes.wm.domain.WmWarehouse;
+import com.wyy.mes.wm.service.IWmWarehouseService;
 
 /**
  * 仓库设置Service业务层处理

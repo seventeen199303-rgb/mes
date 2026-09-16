@@ -1,4 +1,4 @@
-package com.ktg.common.utils;
+package com.wyy.common.utils;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

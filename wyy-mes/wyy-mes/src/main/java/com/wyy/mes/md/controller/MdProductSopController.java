@@ -1,4 +1,4 @@
-package com.ktg.mes.md.controller;
+package com.wyy.mes.md.controller;
 
 import java.util.List;
 import javax.servlet.http.HttpServletResponse;
@@ -12,14 +12,14 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ktg.common.annotation.Log;
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.enums.BusinessType;
-import com.ktg.mes.md.domain.MdProductSop;
-import com.ktg.mes.md.service.IMdProductSopService;
-import com.ktg.common.utils.poi.ExcelUtil;
-import com.ktg.common.core.page.TableDataInfo;
+import com.wyy.common.annotation.Log;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.enums.BusinessType;
+import com.wyy.mes.md.domain.MdProductSop;
+import com.wyy.mes.md.service.IMdProductSopService;
+import com.wyy.common.utils.poi.ExcelUtil;
+import com.wyy.common.core.page.TableDataInfo;
 
 /**
  * 产品SOPController

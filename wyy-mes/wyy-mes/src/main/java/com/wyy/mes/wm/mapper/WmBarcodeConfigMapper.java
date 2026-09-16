@@ -1,7 +1,7 @@
-package com.ktg.mes.wm.mapper;
+package com.wyy.mes.wm.mapper;
 
 import java.util.List;
-import com.ktg.mes.wm.domain.WmBarcodeConfig;
+import com.wyy.mes.wm.domain.WmBarcodeConfig;
 
 /**
  * 条码配置Mapper接口

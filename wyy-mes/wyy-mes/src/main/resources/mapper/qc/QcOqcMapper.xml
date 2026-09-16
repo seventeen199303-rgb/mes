@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ktg.mes.qc.mapper.QcOqcMapper">
+<mapper namespace="com.wyy.mes.qc.mapper.QcOqcMapper">
     
     <resultMap type="QcOqc" id="QcOqcResult">
         <result property="oqcId"    column="oqc_id"    />

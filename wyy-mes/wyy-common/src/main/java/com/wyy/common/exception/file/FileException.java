@@ -1,6 +1,6 @@
-package com.ktg.common.exception.file;
+package com.wyy.common.exception.file;
 
-import com.ktg.common.exception.base.BaseException;
+import com.wyy.common.exception.base.BaseException;
 
 /**
  * 文件信息异常类

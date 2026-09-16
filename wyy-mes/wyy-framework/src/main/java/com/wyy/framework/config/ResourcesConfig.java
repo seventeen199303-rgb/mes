@@ -1,4 +1,4 @@
-package com.ktg.framework.config;
+package com.wyy.framework.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -9,9 +9,9 @@ import org.springframework.web.filter.CorsFilter;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import com.ktg.common.config.RuoYiConfig;
-import com.ktg.common.constant.Constants;
-import com.ktg.framework.interceptor.RepeatSubmitInterceptor;
+import com.wyy.common.config.RuoYiConfig;
+import com.wyy.common.constant.Constants;
+import com.wyy.framework.interceptor.RepeatSubmitInterceptor;
 
 /**
  * 通用配置

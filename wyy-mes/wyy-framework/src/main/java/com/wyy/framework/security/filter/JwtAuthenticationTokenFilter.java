@@ -1,4 +1,4 @@
-package com.ktg.framework.security.filter;
+package com.wyy.framework.security.filter;
 
 import java.io.IOException;
 import javax.servlet.FilterChain;
@@ -11,10 +11,10 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
-import com.ktg.common.core.domain.model.LoginUser;
-import com.ktg.common.utils.SecurityUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.framework.web.service.TokenService;
+import com.wyy.common.core.domain.model.LoginUser;
+import com.wyy.common.utils.SecurityUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.framework.web.service.TokenService;
 
 /**
  * token过滤器 验证token有效性

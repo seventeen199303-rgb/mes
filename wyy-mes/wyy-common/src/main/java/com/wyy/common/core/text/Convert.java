@@ -1,4 +1,4 @@
-package com.ktg.common.core.text;
+package com.wyy.common.core.text;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -6,7 +6,7 @@ import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
 import java.text.NumberFormat;
 import java.util.Set;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.utils.StringUtils;
 import org.apache.commons.lang3.ArrayUtils;
 
 /**

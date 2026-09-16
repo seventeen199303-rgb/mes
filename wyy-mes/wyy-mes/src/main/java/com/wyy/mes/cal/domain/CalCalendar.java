@@ -1,6 +1,6 @@
-package com.ktg.mes.cal.domain;
+package com.wyy.mes.cal.domain;
 
-import com.ktg.common.core.domain.BaseEntity;
+import com.wyy.common.core.domain.BaseEntity;
 
 import java.util.Date;
 import java.util.List;

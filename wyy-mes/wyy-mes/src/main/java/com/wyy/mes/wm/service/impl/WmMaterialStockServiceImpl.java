@@ -1,10 +1,10 @@
-package com.ktg.mes.wm.service.impl;
+package com.wyy.mes.wm.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.mes.wm.domain.WmMaterialStock;
-import com.ktg.mes.wm.mapper.WmMaterialStockMapper;
-import com.ktg.mes.wm.service.IWmMaterialStockService;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.mes.wm.domain.WmMaterialStock;
+import com.wyy.mes.wm.mapper.WmMaterialStockMapper;
+import com.wyy.mes.wm.service.IWmMaterialStockService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

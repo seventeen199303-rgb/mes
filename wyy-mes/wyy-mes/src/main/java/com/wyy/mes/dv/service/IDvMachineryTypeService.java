@@ -1,7 +1,7 @@
-package com.ktg.mes.dv.service;
+package com.wyy.mes.dv.service;
 
 import java.util.List;
-import com.ktg.mes.dv.domain.DvMachineryType;
+import com.wyy.mes.dv.domain.DvMachineryType;
 
 /**
  * 设备类型Service接口

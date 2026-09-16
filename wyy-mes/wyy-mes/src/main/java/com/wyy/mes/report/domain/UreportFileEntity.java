@@ -1,6 +1,6 @@
-package com.ktg.mes.report.domain;
+package com.wyy.mes.report.domain;
 
-import com.ktg.common.core.domain.BaseEntity;
+import com.wyy.common.core.domain.BaseEntity;
 
 import java.util.Arrays;
 import java.util.Date;

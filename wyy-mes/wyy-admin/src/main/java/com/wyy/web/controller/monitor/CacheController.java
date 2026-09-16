@@ -1,4 +1,4 @@
-package com.ktg.web.controller.monitor;
+package com.wyy.web.controller.monitor;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,8 +12,8 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * 缓存监控

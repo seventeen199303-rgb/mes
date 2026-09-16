@@ -1,7 +1,7 @@
-package com.ktg.mes.wm.service;
+package com.wyy.mes.wm.service;
 
-import com.ktg.mes.wm.domain.WmItemRecptLine;
-import com.ktg.mes.wm.domain.tx.*;
+import com.wyy.mes.wm.domain.WmItemRecptLine;
+import com.wyy.mes.wm.domain.tx.*;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,7 +1,7 @@
-package com.ktg.mes.wm.domain.tx;
+package com.wyy.mes.wm.domain.tx;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.ktg.common.core.domain.BaseEntity;
+import com.wyy.common.core.domain.BaseEntity;
 
 import java.math.BigDecimal;
 import java.util.Date;

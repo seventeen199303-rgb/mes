@@ -1,11 +1,11 @@
-package com.ktg.system.service.impl;
+package com.wyy.system.service.impl;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.system.domain.SysLogininfor;
-import com.ktg.system.mapper.SysLogininforMapper;
-import com.ktg.system.service.ISysLogininforService;
+import com.wyy.system.domain.SysLogininfor;
+import com.wyy.system.mapper.SysLogininforMapper;
+import com.wyy.system.service.ISysLogininforService;
 
 /**
  * 系统访问日志情况信息 服务层处理

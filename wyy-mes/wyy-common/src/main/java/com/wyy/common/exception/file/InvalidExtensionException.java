@@ -1,4 +1,4 @@
-package com.ktg.common.exception.file;
+package com.wyy.common.exception.file;
 
 import java.util.Arrays;
 import org.apache.commons.fileupload.FileUploadException;
@@ -6,7 +6,7 @@ import org.apache.commons.fileupload.FileUploadException;
 /**
  * 文件上传 误异常类
  * 
- * @author ktg
+ * @author wyy
  */
 public class InvalidExtensionException extends FileUploadException
 {

@@ -1,7 +1,7 @@
-package com.ktg.quartz.service;
+package com.wyy.quartz.service;
 
 import java.util.List;
-import com.ktg.quartz.domain.SysJobLog;
+import com.wyy.quartz.domain.SysJobLog;
 
 /**
  * 定时任务调度日志信息信息 服务层

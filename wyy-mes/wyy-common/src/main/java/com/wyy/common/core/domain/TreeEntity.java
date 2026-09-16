@@ -1,4 +1,4 @@
-package com.ktg.common.core.domain;
+package com.wyy.common.core.domain;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,13 +1,13 @@
-package com.ktg.generator.util;
+package com.wyy.generator.util;
 
 import java.util.Properties;
 import org.apache.velocity.app.Velocity;
-import com.ktg.common.constant.Constants;
+import com.wyy.common.constant.Constants;
 
 /**
  * VelocityEngine工厂
  * 
- * @author ktg
+ * @author wyy
  */
 public class VelocityInitializer
 {

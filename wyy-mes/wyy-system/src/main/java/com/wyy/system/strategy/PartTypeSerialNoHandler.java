@@ -1,10 +1,10 @@
-package com.ktg.system.strategy;
+package com.wyy.system.strategy;
 
 import cn.hutool.core.collection.CollectionUtil;
-import com.ktg.common.core.domain.entity.SysAutoCodePart;
-import com.ktg.common.core.domain.entity.SysAutoCodeResult;
-import com.ktg.common.enums.CycleMethodMnum;
-import com.ktg.system.service.IAutoCodeResultService;
+import com.wyy.common.core.domain.entity.SysAutoCodePart;
+import com.wyy.common.core.domain.entity.SysAutoCodeResult;
+import com.wyy.common.enums.CycleMethodMnum;
+import com.wyy.system.service.IAutoCodeResultService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;

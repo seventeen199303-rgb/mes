@@ -1,11 +1,11 @@
-package com.ktg.system.domain;
+package com.wyy.system.domain;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import com.ktg.common.core.domain.BaseEntity;
-import com.ktg.common.xss.Xss;
+import com.wyy.common.core.domain.BaseEntity;
+import com.wyy.common.xss.Xss;
 
 /**
  * 通知公告表 sys_notice

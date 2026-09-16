@@ -1,6 +1,6 @@
-package com.ktg.system.mapper;
+package com.wyy.system.mapper;
 
-import com.ktg.system.domain.SysPost;
+import com.wyy.system.domain.SysPost;
 
 import java.util.List;
 

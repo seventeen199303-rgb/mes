@@ -1,7 +1,7 @@
-package com.ktg.mes.wm.service;
+package com.wyy.mes.wm.service;
 
 import java.util.List;
-import com.ktg.mes.wm.domain.WmSn;
+import com.wyy.mes.wm.domain.WmSn;
 
 /**
  * SN码Service接口

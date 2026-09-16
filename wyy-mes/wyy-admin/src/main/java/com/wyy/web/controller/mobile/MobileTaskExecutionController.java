@@ -1,10 +1,10 @@
-package com.ktg.web.controller.mobile;
+package com.wyy.web.controller.mobile;
 
-import com.ktg.common.annotation.Log;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.enums.BusinessType;
-import com.ktg.common.utils.SecurityUtils;
-import com.ktg.web.service.ProductionExecutionService;
+import com.wyy.common.annotation.Log;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.enums.BusinessType;
+import com.wyy.common.utils.SecurityUtils;
+import com.wyy.web.service.ProductionExecutionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

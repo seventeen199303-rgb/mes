@@ -1,10 +1,10 @@
-package com.ktg.mes.md.controller;
+package com.wyy.mes.md.controller;
 
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.core.page.TableDataInfo;
-import com.ktg.mes.md.domain.MdProductSop;
-import com.ktg.mes.md.service.IMdProductSopService;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.core.page.TableDataInfo;
+import com.wyy.mes.md.domain.MdProductSop;
+import com.wyy.mes.md.service.IMdProductSopService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;

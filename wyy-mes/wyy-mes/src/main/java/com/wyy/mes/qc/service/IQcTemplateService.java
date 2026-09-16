@@ -1,9 +1,9 @@
-package com.ktg.mes.qc.service;
+package com.wyy.mes.qc.service;
 
 import java.util.List;
 
-import com.ktg.mes.qc.domain.QcMobParam;
-import com.ktg.mes.qc.domain.QcTemplate;
+import com.wyy.mes.qc.domain.QcMobParam;
+import com.wyy.mes.qc.domain.QcTemplate;
 
 /**
  * 检测模板Service接口

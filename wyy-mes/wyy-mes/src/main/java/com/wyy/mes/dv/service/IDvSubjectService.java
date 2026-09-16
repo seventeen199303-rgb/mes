@@ -1,7 +1,7 @@
-package com.ktg.mes.dv.service;
+package com.wyy.mes.dv.service;
 
 import java.util.List;
-import com.ktg.mes.dv.domain.DvSubject;
+import com.wyy.mes.dv.domain.DvSubject;
 
 /**
  * 设备点检保养项目Service接口

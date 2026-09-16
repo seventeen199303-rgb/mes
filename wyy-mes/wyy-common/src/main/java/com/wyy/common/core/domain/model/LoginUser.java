@@ -1,11 +1,11 @@
-package com.ktg.common.core.domain.model;
+package com.wyy.common.core.domain.model;
 
 import java.util.Collection;
 import java.util.Set;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import com.alibaba.fastjson.annotation.JSONField;
-import com.ktg.common.core.domain.entity.SysUser;
+import com.wyy.common.core.domain.entity.SysUser;
 
 /**
  * 登录用户身份权限

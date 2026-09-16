@@ -1,8 +1,8 @@
-package com.ktg.common.utils.uuid;
+package com.wyy.common.utils.uuid;
 
 import java.util.concurrent.atomic.AtomicInteger;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * @author ruoyi 序列生成类

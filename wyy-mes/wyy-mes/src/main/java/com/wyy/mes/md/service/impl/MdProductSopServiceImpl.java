@@ -1,12 +1,12 @@
-package com.ktg.mes.md.service.impl;
+package com.wyy.mes.md.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.md.mapper.MdProductSopMapper;
-import com.ktg.mes.md.domain.MdProductSop;
-import com.ktg.mes.md.service.IMdProductSopService;
+import com.wyy.mes.md.mapper.MdProductSopMapper;
+import com.wyy.mes.md.domain.MdProductSop;
+import com.wyy.mes.md.service.IMdProductSopService;
 
 /**
  * 产品SOPService业务层处理

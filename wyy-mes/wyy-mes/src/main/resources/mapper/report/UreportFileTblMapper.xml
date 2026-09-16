@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ktg.mes.report.mapper.UreportFileTblMapper">
+<mapper namespace="com.wyy.mes.report.mapper.UreportFileTblMapper">
     
     <resultMap type="UreportFileTbl" id="UreportFileTblResult">
         <result property="id"    column="id_"    />

@@ -1,7 +1,7 @@
-package com.ktg.mes.md.mapper;
+package com.wyy.mes.md.mapper;
 
 import java.util.List;
-import com.ktg.mes.md.domain.MdWorkstationTool;
+import com.wyy.mes.md.domain.MdWorkstationTool;
 
 /**
  * 工装夹具资源Mapper接口

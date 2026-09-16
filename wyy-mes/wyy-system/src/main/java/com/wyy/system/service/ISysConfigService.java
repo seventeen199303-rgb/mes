@@ -1,7 +1,7 @@
-package com.ktg.system.service;
+package com.wyy.system.service;
 
 import java.util.List;
-import com.ktg.system.domain.SysConfig;
+import com.wyy.system.domain.SysConfig;
 
 /**
  * 参数配置 服务层

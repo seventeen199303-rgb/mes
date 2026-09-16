@@ -1,6 +1,6 @@
-package com.ktg.common.xss;
+package com.wyy.common.xss;
 
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.utils.StringUtils;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 import java.util.regex.Matcher;

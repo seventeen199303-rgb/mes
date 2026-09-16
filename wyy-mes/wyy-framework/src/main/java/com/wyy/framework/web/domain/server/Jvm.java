@@ -1,8 +1,8 @@
-package com.ktg.framework.web.domain.server;
+package com.wyy.framework.web.domain.server;
 
 import java.lang.management.ManagementFactory;
-import com.ktg.common.utils.Arith;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.Arith;
+import com.wyy.common.utils.DateUtils;
 
 /**
  * JVM相关信息

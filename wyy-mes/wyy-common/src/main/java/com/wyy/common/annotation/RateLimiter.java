@@ -1,12 +1,12 @@
-package com.ktg.common.annotation;
+package com.wyy.common.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.enums.LimitType;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.enums.LimitType;
 
 /**
  * 限流注解

@@ -1,4 +1,4 @@
-package com.ktg.framework.web.exception;
+package com.wyy.framework.web.exception;
 
 import javax.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
@@ -9,11 +9,11 @@ import org.springframework.web.HttpRequestMethodNotSupportedException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import com.ktg.common.constant.HttpStatus;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.exception.DemoModeException;
-import com.ktg.common.exception.ServiceException;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.constant.HttpStatus;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.exception.DemoModeException;
+import com.wyy.common.exception.ServiceException;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * 全局异常处理器

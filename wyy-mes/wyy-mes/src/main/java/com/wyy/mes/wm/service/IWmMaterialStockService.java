@@ -1,6 +1,6 @@
-package com.ktg.mes.wm.service;
+package com.wyy.mes.wm.service;
 
-import com.ktg.mes.wm.domain.WmMaterialStock;
+import com.wyy.mes.wm.domain.WmMaterialStock;
 
 import java.util.List;
 

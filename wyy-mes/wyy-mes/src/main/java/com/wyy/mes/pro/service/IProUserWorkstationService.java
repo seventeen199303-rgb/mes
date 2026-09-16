@@ -1,7 +1,7 @@
-package com.ktg.mes.pro.service;
+package com.wyy.mes.pro.service;
 
 import java.util.List;
-import com.ktg.mes.pro.domain.ProUserWorkstation;
+import com.wyy.mes.pro.domain.ProUserWorkstation;
 
 /**
  * 用户工作站绑定关系Service接口

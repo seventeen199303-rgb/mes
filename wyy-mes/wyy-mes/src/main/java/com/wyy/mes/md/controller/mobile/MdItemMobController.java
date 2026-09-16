@@ -1,9 +1,9 @@
-package com.ktg.mes.md.controller.mobile;
+package com.wyy.mes.md.controller.mobile;
 
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.page.TableDataInfo;
-import com.ktg.mes.md.domain.MdItem;
-import com.ktg.mes.md.service.IMdItemService;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.page.TableDataInfo;
+import com.wyy.mes.md.domain.MdItem;
+import com.wyy.mes.md.service.IMdItemService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

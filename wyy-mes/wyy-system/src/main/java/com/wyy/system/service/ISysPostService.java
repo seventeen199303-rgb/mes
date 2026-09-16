@@ -1,7 +1,7 @@
-package com.ktg.system.service;
+package com.wyy.system.service;
 
 import java.util.List;
-import com.ktg.system.domain.SysPost;
+import com.wyy.system.domain.SysPost;
 
 /**
  * 岗位信息 服务层

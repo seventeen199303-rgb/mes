@@ -1,8 +1,8 @@
-package com.ktg.system.mapper;
+package com.wyy.system.mapper;
 
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
-import com.ktg.system.domain.SysUserRole;
+import com.wyy.system.domain.SysUserRole;
 
 /**
  * 用户与角色关联表 数据层

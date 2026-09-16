@@ -1,7 +1,7 @@
-package com.ktg.mes.qc.mapper;
+package com.wyy.mes.qc.mapper;
 
 import java.util.List;
-import com.ktg.mes.qc.domain.QcDefectRecord;
+import com.wyy.mes.qc.domain.QcDefectRecord;
 
 /**
  * 检验单缺陷记录Mapper接口

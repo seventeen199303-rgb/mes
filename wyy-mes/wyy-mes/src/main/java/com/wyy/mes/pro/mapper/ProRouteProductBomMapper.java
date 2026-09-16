@@ -1,7 +1,7 @@
-package com.ktg.mes.pro.mapper;
+package com.wyy.mes.pro.mapper;
 
 import java.util.List;
-import com.ktg.mes.pro.domain.ProRouteProductBom;
+import com.wyy.mes.pro.domain.ProRouteProductBom;
 
 /**
  * 产品制程物料BOMMapper接口

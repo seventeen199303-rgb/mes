@@ -1,6 +1,6 @@
-package com.ktg.system.service;
+package com.wyy.system.service;
 
-import com.ktg.system.domain.UserTask;
+import com.wyy.system.domain.UserTask;
 
 import java.util.List;
 

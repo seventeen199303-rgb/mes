@@ -1,4 +1,4 @@
-package com.ktg.common.utils.file;
+package com.wyy.common.utils.file;
 
 import java.io.File;
 import org.apache.commons.lang3.StringUtils;

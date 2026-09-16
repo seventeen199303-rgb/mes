@@ -1,7 +1,7 @@
-package com.ktg.mes.qc.service;
+package com.wyy.mes.qc.service;
 
 import java.util.List;
-import com.ktg.mes.qc.domain.QcDefectRecord;
+import com.wyy.mes.qc.domain.QcDefectRecord;
 
 /**
  * 检验单缺陷记录Service接口

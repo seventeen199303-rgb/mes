@@ -1,16 +1,16 @@
-package com.ktg.framework.web.domain;
+package com.wyy.framework.web.domain;
 
 import java.net.UnknownHostException;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Properties;
-import com.ktg.common.utils.Arith;
-import com.ktg.common.utils.ip.IpUtils;
-import com.ktg.framework.web.domain.server.Cpu;
-import com.ktg.framework.web.domain.server.Jvm;
-import com.ktg.framework.web.domain.server.Mem;
-import com.ktg.framework.web.domain.server.Sys;
-import com.ktg.framework.web.domain.server.SysFile;
+import com.wyy.common.utils.Arith;
+import com.wyy.common.utils.ip.IpUtils;
+import com.wyy.framework.web.domain.server.Cpu;
+import com.wyy.framework.web.domain.server.Jvm;
+import com.wyy.framework.web.domain.server.Mem;
+import com.wyy.framework.web.domain.server.Sys;
+import com.wyy.framework.web.domain.server.SysFile;
 import oshi.SystemInfo;
 import oshi.hardware.CentralProcessor;
 import oshi.hardware.CentralProcessor.TickType;

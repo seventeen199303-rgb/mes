@@ -1,4 +1,4 @@
-package com.ktg.web.core.config;
+package com.wyy.web.core.config;
 
 import com.bstek.ureport.definition.datasource.BuildinDatasource;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

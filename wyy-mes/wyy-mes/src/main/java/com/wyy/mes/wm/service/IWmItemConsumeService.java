@@ -1,10 +1,10 @@
-package com.ktg.mes.wm.service;
+package com.wyy.mes.wm.service;
 
 import java.util.List;
 
-import com.ktg.mes.pro.domain.ProFeedback;
-import com.ktg.mes.wm.domain.WmItemConsume;
-import com.ktg.mes.wm.domain.tx.ItemConsumeTxBean;
+import com.wyy.mes.pro.domain.ProFeedback;
+import com.wyy.mes.wm.domain.WmItemConsume;
+import com.wyy.mes.wm.domain.tx.ItemConsumeTxBean;
 
 /**
  * 物料消耗记录Service接口

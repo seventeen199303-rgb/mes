@@ -1,16 +1,16 @@
-package com.ktg.mes.dv.service.impl;
+package com.wyy.mes.dv.service.impl;
 
 import java.util.List;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.StringUtils;
 import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.dv.mapper.DvCheckSubjectMapper;
-import com.ktg.mes.dv.domain.DvCheckSubject;
-import com.ktg.mes.dv.service.IDvCheckSubjectService;
+import com.wyy.mes.dv.mapper.DvCheckSubjectMapper;
+import com.wyy.mes.dv.domain.DvCheckSubject;
+import com.wyy.mes.dv.service.IDvCheckSubjectService;
 
 /**
  * 点检项目Service业务层处理

@@ -1,4 +1,4 @@
-package com.ktg.generator.util;
+package com.wyy.generator.util;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -6,11 +6,11 @@ import java.util.List;
 import java.util.Set;
 import org.apache.velocity.VelocityContext;
 import com.alibaba.fastjson.JSONObject;
-import com.ktg.common.constant.GenConstants;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.generator.domain.GenTable;
-import com.ktg.generator.domain.GenTableColumn;
+import com.wyy.common.constant.GenConstants;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.generator.domain.GenTable;
+import com.wyy.generator.domain.GenTableColumn;
 
 /**
  * 模板处理工具类

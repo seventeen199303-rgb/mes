@@ -9,7 +9,7 @@ export default {
   name: 'RuoYiDoc',
   data() {
     return {
-      url: 'https://gitee.com/kutangguo/ktg-mes-ui'
+      url: 'https://github.com/seventeen199303-rgb/wyy-di-mes'
     }
   },
   methods: {

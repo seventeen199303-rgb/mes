@@ -1,8 +1,8 @@
-package com.ktg.system.service.impl;
+package com.wyy.system.service.impl;
 
-import com.ktg.system.domain.UserTask;
-import com.ktg.system.mapper.UserTaskMapper;
-import com.ktg.system.service.IUserTaskService;
+import com.wyy.system.domain.UserTask;
+import com.wyy.system.mapper.UserTaskMapper;
+import com.wyy.system.service.IUserTaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

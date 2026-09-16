@@ -1,22 +1,22 @@
-package com.ktg.mes.wm.service.impl;
+package com.wyy.mes.wm.service.impl;
 
 import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
 
-import com.ktg.common.exception.BussinessException;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.mes.md.domain.MdItem;
-import com.ktg.mes.md.mapper.MdItemMapper;
-import com.ktg.mes.wm.domain.WmMaterialStock;
-import com.ktg.mes.wm.mapper.WmMaterialStockMapper;
+import com.wyy.common.exception.BussinessException;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.mes.md.domain.MdItem;
+import com.wyy.mes.md.mapper.MdItemMapper;
+import com.wyy.mes.wm.domain.WmMaterialStock;
+import com.wyy.mes.wm.mapper.WmMaterialStockMapper;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.wm.mapper.WmTransactionMapper;
-import com.ktg.mes.wm.domain.WmTransaction;
-import com.ktg.mes.wm.service.IWmTransactionService;
+import com.wyy.mes.wm.mapper.WmTransactionMapper;
+import com.wyy.mes.wm.domain.WmTransaction;
+import com.wyy.mes.wm.service.IWmTransactionService;
 
 /**
  * 库存事务Service业务层处理

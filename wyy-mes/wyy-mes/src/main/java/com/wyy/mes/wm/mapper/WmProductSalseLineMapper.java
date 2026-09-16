@@ -1,7 +1,7 @@
-package com.ktg.mes.wm.mapper;
+package com.wyy.mes.wm.mapper;
 
 import java.util.List;
-import com.ktg.mes.wm.domain.WmProductSalseLine;
+import com.wyy.mes.wm.domain.WmProductSalseLine;
 
 /**
  * 产品销售出库行Mapper接口

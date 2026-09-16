@@ -1,7 +1,7 @@
-package com.ktg.mes.qc.mapper;
+package com.wyy.mes.qc.mapper;
 
 import java.util.List;
-import com.ktg.mes.qc.domain.QcOqc;
+import com.wyy.mes.qc.domain.QcOqc;
 
 /**
  * 出货检验单Mapper接口

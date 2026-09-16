@@ -1,4 +1,4 @@
-package com.ktg.system.service.impl;
+package com.wyy.system.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,25 +10,25 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
-import com.ktg.common.annotation.DataScope;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.domain.entity.SysRole;
-import com.ktg.common.core.domain.entity.SysUser;
-import com.ktg.common.exception.ServiceException;
-import com.ktg.common.utils.SecurityUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.bean.BeanValidators;
-import com.ktg.common.utils.spring.SpringUtils;
-import com.ktg.system.domain.SysPost;
-import com.ktg.system.domain.SysUserPost;
-import com.ktg.system.domain.SysUserRole;
-import com.ktg.system.mapper.SysPostMapper;
-import com.ktg.system.mapper.SysRoleMapper;
-import com.ktg.system.mapper.SysUserMapper;
-import com.ktg.system.mapper.SysUserPostMapper;
-import com.ktg.system.mapper.SysUserRoleMapper;
-import com.ktg.system.service.ISysConfigService;
-import com.ktg.system.service.ISysUserService;
+import com.wyy.common.annotation.DataScope;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.domain.entity.SysRole;
+import com.wyy.common.core.domain.entity.SysUser;
+import com.wyy.common.exception.ServiceException;
+import com.wyy.common.utils.SecurityUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.bean.BeanValidators;
+import com.wyy.common.utils.spring.SpringUtils;
+import com.wyy.system.domain.SysPost;
+import com.wyy.system.domain.SysUserPost;
+import com.wyy.system.domain.SysUserRole;
+import com.wyy.system.mapper.SysPostMapper;
+import com.wyy.system.mapper.SysRoleMapper;
+import com.wyy.system.mapper.SysUserMapper;
+import com.wyy.system.mapper.SysUserPostMapper;
+import com.wyy.system.mapper.SysUserRoleMapper;
+import com.wyy.system.service.ISysConfigService;
+import com.wyy.system.service.ISysUserService;
 
 /**
  * 用户 业务层处理

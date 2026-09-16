@@ -1,11 +1,11 @@
-package com.ktg.quartz.service.impl;
+package com.wyy.quartz.service.impl;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.quartz.domain.SysJobLog;
-import com.ktg.quartz.mapper.SysJobLogMapper;
-import com.ktg.quartz.service.ISysJobLogService;
+import com.wyy.quartz.domain.SysJobLog;
+import com.wyy.quartz.mapper.SysJobLogMapper;
+import com.wyy.quartz.service.ISysJobLogService;
 
 /**
  * 定时任务调度日志信息 服务层

@@ -1,14 +1,14 @@
-package com.ktg.mes.cal.service.impl;
+package com.wyy.mes.cal.service.impl;
 
 import java.util.List;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.cal.mapper.CalShiftMapper;
-import com.ktg.mes.cal.domain.CalShift;
-import com.ktg.mes.cal.service.ICalShiftService;
+import com.wyy.mes.cal.mapper.CalShiftMapper;
+import com.wyy.mes.cal.domain.CalShift;
+import com.wyy.mes.cal.service.ICalShiftService;
 
 /**
  * 计划班次Service业务层处理

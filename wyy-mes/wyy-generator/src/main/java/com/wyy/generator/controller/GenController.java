@@ -1,4 +1,4 @@
-package com.ktg.generator.controller;
+package com.wyy.generator.controller;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -17,16 +17,16 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ktg.common.annotation.Log;
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.core.page.TableDataInfo;
-import com.ktg.common.core.text.Convert;
-import com.ktg.common.enums.BusinessType;
-import com.ktg.generator.domain.GenTable;
-import com.ktg.generator.domain.GenTableColumn;
-import com.ktg.generator.service.IGenTableColumnService;
-import com.ktg.generator.service.IGenTableService;
+import com.wyy.common.annotation.Log;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.core.page.TableDataInfo;
+import com.wyy.common.core.text.Convert;
+import com.wyy.common.enums.BusinessType;
+import com.wyy.generator.domain.GenTable;
+import com.wyy.generator.domain.GenTableColumn;
+import com.wyy.generator.service.IGenTableColumnService;
+import com.wyy.generator.service.IGenTableService;
 
 /**
  * 代码生成 操作处理
@@ -206,7 +206,7 @@ public class GenController extends BaseController
         response.reset();
         response.addHeader("Access-Control-Allow-Origin", "*");
         response.addHeader("Access-Control-Expose-Headers", "Content-Disposition");
-        response.setHeader("Content-Disposition", "attachment; filename=\"ktg.zip\"");
+        response.setHeader("Content-Disposition", "attachment; filename=\"wyy.zip\"");
         response.addHeader("Content-Length", "" + data.length);
         response.setContentType("application/octet-stream; charset=UTF-8");
         IOUtils.write(data, response.getOutputStream());

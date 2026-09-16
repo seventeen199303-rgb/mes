@@ -1,8 +1,8 @@
-package com.ktg.mes.wm.mapper;
+package com.wyy.mes.wm.mapper;
 
 import java.util.List;
-import com.ktg.mes.wm.domain.WmRtIssue;
-import com.ktg.mes.wm.domain.tx.RtIssueTxBean;
+import com.wyy.mes.wm.domain.WmRtIssue;
+import com.wyy.mes.wm.domain.tx.RtIssueTxBean;
 
 /**
  * 生产退料单头Mapper接口

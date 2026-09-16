@@ -1,7 +1,7 @@
-package com.ktg.mes.cal.mapper;
+package com.wyy.mes.cal.mapper;
 
 import java.util.List;
-import com.ktg.mes.cal.domain.CalTeamshift;
+import com.wyy.mes.cal.domain.CalTeamshift;
 
 /**
  * 班组排班Mapper接口

@@ -1,7 +1,7 @@
-package com.ktg.mes.cal.service;
+package com.wyy.mes.cal.service;
 
 import java.util.List;
-import com.ktg.mes.cal.domain.CalPlan;
+import com.wyy.mes.cal.domain.CalPlan;
 
 /**
  * 排班计划Service接口

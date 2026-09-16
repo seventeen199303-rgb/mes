@@ -1,16 +1,16 @@
-package com.ktg.framework.aspectj;
+package com.wyy.framework.aspectj;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.springframework.stereotype.Component;
-import com.ktg.common.annotation.DataScope;
-import com.ktg.common.core.domain.BaseEntity;
-import com.ktg.common.core.domain.entity.SysRole;
-import com.ktg.common.core.domain.entity.SysUser;
-import com.ktg.common.core.domain.model.LoginUser;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.SecurityUtils;
+import com.wyy.common.annotation.DataScope;
+import com.wyy.common.core.domain.BaseEntity;
+import com.wyy.common.core.domain.entity.SysRole;
+import com.wyy.common.core.domain.entity.SysUser;
+import com.wyy.common.core.domain.model.LoginUser;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.SecurityUtils;
 
 /**
  * 数据过滤处理

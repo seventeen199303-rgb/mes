@@ -1,4 +1,4 @@
-package com.ktg.common.utils;
+package com.wyy.common.utils;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -7,8 +7,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import org.springframework.util.AntPathMatcher;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.core.text.StrFormatter;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.core.text.StrFormatter;
 
 /**
  * 字符串工具类

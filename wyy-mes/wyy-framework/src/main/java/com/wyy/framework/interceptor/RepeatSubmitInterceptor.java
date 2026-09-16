@@ -1,4 +1,4 @@
-package com.ktg.framework.interceptor;
+package com.wyy.framework.interceptor;
 
 import java.lang.reflect.Method;
 import javax.servlet.http.HttpServletRequest;
@@ -7,14 +7,14 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 import com.alibaba.fastjson.JSONObject;
-import com.ktg.common.annotation.RepeatSubmit;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.utils.ServletUtils;
+import com.wyy.common.annotation.RepeatSubmit;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.utils.ServletUtils;
 
 /**
  * 防止重复提交拦截器
  *
- * @author ktg
+ * @author wyy
  */
 @Component
 public abstract class RepeatSubmitInterceptor implements HandlerInterceptor

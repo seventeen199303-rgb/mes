@@ -1,12 +1,12 @@
-package com.ktg.mes.md.service.impl;
+package com.wyy.mes.md.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.md.mapper.MdProductBomMapper;
-import com.ktg.mes.md.domain.MdProductBom;
-import com.ktg.mes.md.service.IMdProductBomService;
+import com.wyy.mes.md.mapper.MdProductBomMapper;
+import com.wyy.mes.md.domain.MdProductBom;
+import com.wyy.mes.md.service.IMdProductBomService;
 
 /**
  * 产品BOM关系Service业务层处理

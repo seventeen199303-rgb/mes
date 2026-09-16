@@ -1,4 +1,4 @@
-package com.ktg.common.constant;
+package com.wyy.common.constant;
 
 /**
  * 任务调度通用常量

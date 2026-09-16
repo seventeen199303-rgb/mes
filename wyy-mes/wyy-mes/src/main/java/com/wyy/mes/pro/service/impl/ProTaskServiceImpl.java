@@ -1,12 +1,12 @@
-package com.ktg.mes.pro.service.impl;
+package com.wyy.mes.pro.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.pro.mapper.ProTaskMapper;
-import com.ktg.mes.pro.domain.ProTask;
-import com.ktg.mes.pro.service.IProTaskService;
+import com.wyy.mes.pro.mapper.ProTaskMapper;
+import com.wyy.mes.pro.domain.ProTask;
+import com.wyy.mes.pro.service.IProTaskService;
 
 /**
  * 生产任务Service业务层处理

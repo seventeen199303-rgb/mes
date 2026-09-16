@@ -1,7 +1,7 @@
-package com.ktg.mes.qc.service;
+package com.wyy.mes.qc.service;
 
 import java.util.List;
-import com.ktg.mes.qc.domain.QcIpqcLine;
+import com.wyy.mes.qc.domain.QcIpqcLine;
 
 /**
  * 过程检验单行Service接口

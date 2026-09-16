@@ -1,9 +1,9 @@
-package com.ktg.common.exception.user;
+package com.wyy.common.exception.user;
 
 /**
  * 验证码错误异常类
  * 
- * @author ktg
+ * @author wyy
  */
 public class CaptchaException extends UserException
 {

@@ -1,7 +1,7 @@
-package com.ktg.mes.wm.mapper;
+package com.wyy.mes.wm.mapper;
 
 import java.util.List;
-import com.ktg.mes.wm.domain.WmTransaction;
+import com.wyy.mes.wm.domain.WmTransaction;
 
 /**
  * 库存事务Mapper接口

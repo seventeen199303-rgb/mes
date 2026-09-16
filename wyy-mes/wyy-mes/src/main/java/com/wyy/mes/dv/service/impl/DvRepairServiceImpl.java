@@ -1,15 +1,15 @@
-package com.ktg.mes.dv.service.impl;
+package com.wyy.mes.dv.service.impl;
 
 import java.util.List;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.dv.mapper.DvRepairMapper;
-import com.ktg.mes.dv.domain.DvRepair;
-import com.ktg.mes.dv.service.IDvRepairService;
+import com.wyy.mes.dv.mapper.DvRepairMapper;
+import com.wyy.mes.dv.domain.DvRepair;
+import com.wyy.mes.dv.service.IDvRepairService;
 
 /**
  * 设备维修单Service业务层处理

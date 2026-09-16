@@ -1,21 +1,21 @@
-package com.ktg.common.utils.file;
+package com.wyy.common.utils.file;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.Objects;
 
-import com.ktg.common.config.MinioConfig;
-import com.ktg.common.config.RuoYiConfig;
+import com.wyy.common.config.MinioConfig;
+import com.wyy.common.config.RuoYiConfig;
 import org.apache.commons.io.FilenameUtils;
 import org.springframework.web.multipart.MultipartFile;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.exception.file.FileNameLengthLimitExceededException;
-import com.ktg.common.exception.file.FileSizeLimitExceededException;
-import com.ktg.common.exception.file.InvalidExtensionException;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.uuid.Seq;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.exception.file.FileNameLengthLimitExceededException;
+import com.wyy.common.exception.file.FileSizeLimitExceededException;
+import com.wyy.common.exception.file.InvalidExtensionException;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.uuid.Seq;
 
 /**
  * 文件上传工具类

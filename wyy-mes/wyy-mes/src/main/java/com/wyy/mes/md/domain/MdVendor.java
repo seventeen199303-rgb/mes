@@ -1,9 +1,9 @@
-package com.ktg.mes.md.domain;
+package com.wyy.mes.md.domain;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import com.ktg.common.annotation.Excel;
-import com.ktg.common.core.domain.BaseEntity;
+import com.wyy.common.annotation.Excel;
+import com.wyy.common.core.domain.BaseEntity;
 
 /**
  * 供应商对象 md_vendor

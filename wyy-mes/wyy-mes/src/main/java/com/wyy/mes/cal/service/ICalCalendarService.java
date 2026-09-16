@@ -1,6 +1,6 @@
-package com.ktg.mes.cal.service;
+package com.wyy.mes.cal.service;
 
-import com.ktg.mes.cal.domain.CalCalendar;
+import com.wyy.mes.cal.domain.CalCalendar;
 
 import java.util.Date;
 import java.util.List;

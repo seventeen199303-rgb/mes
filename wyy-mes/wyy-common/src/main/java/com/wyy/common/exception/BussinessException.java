@@ -1,4 +1,4 @@
-package com.ktg.common.exception;
+package com.wyy.common.exception;
 
 public class BussinessException extends RuntimeException {
     private static final long serialVersionUID = -1L;

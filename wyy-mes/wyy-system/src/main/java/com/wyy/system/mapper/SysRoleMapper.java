@@ -1,7 +1,7 @@
-package com.ktg.system.mapper;
+package com.wyy.system.mapper;
 
 import java.util.List;
-import com.ktg.common.core.domain.entity.SysRole;
+import com.wyy.common.core.domain.entity.SysRole;
 
 /**
  * 角色表 数据层

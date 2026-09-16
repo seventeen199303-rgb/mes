@@ -1,4 +1,4 @@
-package com.ktg.mes.aspect;
+package com.wyy.mes.aspect;
 
 import java.lang.annotation.*;
 

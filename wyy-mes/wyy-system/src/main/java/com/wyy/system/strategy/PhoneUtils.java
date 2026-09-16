@@ -1,6 +1,6 @@
-package com.ktg.system.strategy;
+package com.wyy.system.strategy;
 
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.utils.StringUtils;
 
 import java.util.regex.Pattern;
 

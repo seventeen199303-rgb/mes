@@ -1,12 +1,12 @@
-package com.ktg.web.controller.system;
+package com.wyy.web.controller.system;
 
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.page.TableDataInfo;
-import com.ktg.mes.md.domain.MdVendor;
-import com.ktg.mes.pro.service.IProFeedbackService;
-import com.ktg.mes.wm.service.*;
-import com.ktg.system.domain.UserTask;
-import com.ktg.system.service.IUserTaskService;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.page.TableDataInfo;
+import com.wyy.mes.md.domain.MdVendor;
+import com.wyy.mes.pro.service.IProFeedbackService;
+import com.wyy.mes.wm.service.*;
+import com.wyy.system.domain.UserTask;
+import com.wyy.system.service.IUserTaskService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

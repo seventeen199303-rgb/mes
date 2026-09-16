@@ -1,7 +1,7 @@
-package com.ktg.system.service;
+package com.wyy.system.service;
 
 import java.util.List;
-import com.ktg.system.domain.SysNotice;
+import com.wyy.system.domain.SysNotice;
 
 /**
  * 公告 服务层

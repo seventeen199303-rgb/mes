@@ -1,7 +1,7 @@
-package com.ktg.system.service;
+package com.wyy.system.service;
 
 import java.util.List;
-import com.ktg.common.core.domain.entity.SysUser;
+import com.wyy.common.core.domain.entity.SysUser;
 
 /**
  * 用户 业务层

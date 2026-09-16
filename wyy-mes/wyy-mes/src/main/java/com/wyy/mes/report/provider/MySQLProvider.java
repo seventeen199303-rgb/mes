@@ -1,9 +1,9 @@
-package com.ktg.mes.report.provider;
+package com.wyy.mes.report.provider;
 
 import com.bstek.ureport.provider.report.ReportFile;
 import com.bstek.ureport.provider.report.ReportProvider;
-import com.ktg.mes.report.domain.UreportFileEntity;
-import com.ktg.mes.report.mapper.UreportFileMapper;
+import com.wyy.mes.report.domain.UreportFileEntity;
+import com.wyy.mes.report.mapper.UreportFileMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

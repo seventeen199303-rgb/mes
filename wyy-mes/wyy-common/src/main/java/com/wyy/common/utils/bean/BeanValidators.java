@@ -1,4 +1,4 @@
-package com.ktg.common.utils.bean;
+package com.wyy.common.utils.bean;
 
 import java.util.Set;
 import javax.validation.ConstraintViolation;

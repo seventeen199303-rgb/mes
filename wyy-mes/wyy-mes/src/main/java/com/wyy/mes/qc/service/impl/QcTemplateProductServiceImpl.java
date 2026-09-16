@@ -1,15 +1,15 @@
-package com.ktg.mes.qc.service.impl;
+package com.wyy.mes.qc.service.impl;
 
 import java.util.List;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.qc.mapper.QcTemplateProductMapper;
-import com.ktg.mes.qc.domain.QcTemplateProduct;
-import com.ktg.mes.qc.service.IQcTemplateProductService;
+import com.wyy.mes.qc.mapper.QcTemplateProductMapper;
+import com.wyy.mes.qc.domain.QcTemplateProduct;
+import com.wyy.mes.qc.service.IQcTemplateProductService;
 
 /**
  * 检测模板-产品Service业务层处理

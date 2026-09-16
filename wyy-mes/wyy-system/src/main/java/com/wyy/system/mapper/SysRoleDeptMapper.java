@@ -1,12 +1,12 @@
-package com.ktg.system.mapper;
+package com.wyy.system.mapper;
 
 import java.util.List;
-import com.ktg.system.domain.SysRoleDept;
+import com.wyy.system.domain.SysRoleDept;
 
 /**
  * 角色与部门关联表 数据层
  * 
- * @author ktg
+ * @author wyy
  */
 public interface SysRoleDeptMapper
 {

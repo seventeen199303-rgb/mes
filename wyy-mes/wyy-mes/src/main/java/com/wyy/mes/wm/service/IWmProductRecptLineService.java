@@ -1,7 +1,7 @@
-package com.ktg.mes.wm.service;
+package com.wyy.mes.wm.service;
 
 import java.util.List;
-import com.ktg.mes.wm.domain.WmProductRecptLine;
+import com.wyy.mes.wm.domain.WmProductRecptLine;
 
 /**
  * 产品入库记录行Service接口

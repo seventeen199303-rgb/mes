@@ -1,4 +1,4 @@
-package com.ktg.web.controller.system;
+package com.wyy.web.controller.system;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ktg.common.annotation.Log;
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.core.page.TableDataInfo;
-import com.ktg.common.enums.BusinessType;
-import com.ktg.system.domain.SysNotice;
-import com.ktg.system.service.ISysNoticeService;
+import com.wyy.common.annotation.Log;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.core.page.TableDataInfo;
+import com.wyy.common.enums.BusinessType;
+import com.wyy.system.domain.SysNotice;
+import com.wyy.system.service.ISysNoticeService;
 
 /**
  * 公告 信息操作处理

@@ -1,7 +1,7 @@
-package com.ktg.common.utils.file;
+package com.wyy.common.utils.file;
 
-import com.ktg.common.utils.ServletUtils;
-import com.ktg.common.utils.spring.SpringUtils;
+import com.wyy.common.utils.ServletUtils;
+import com.wyy.common.utils.spring.SpringUtils;
 import io.minio.GetPresignedObjectUrlArgs;
 import io.minio.MinioClient;
 import io.minio.PutObjectArgs;

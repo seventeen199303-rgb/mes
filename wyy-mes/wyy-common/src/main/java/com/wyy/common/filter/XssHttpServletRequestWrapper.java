@@ -1,4 +1,4 @@
-package com.ktg.common.filter;
+package com.wyy.common.filter;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServletRequestWrapper;
 import org.apache.commons.io.IOUtils;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.html.EscapeUtil;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.html.EscapeUtil;
 
 /**
  * XSS过滤处理

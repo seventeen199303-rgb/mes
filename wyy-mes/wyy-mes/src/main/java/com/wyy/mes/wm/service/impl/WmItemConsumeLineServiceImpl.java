@@ -1,12 +1,12 @@
-package com.ktg.mes.wm.service.impl;
+package com.wyy.mes.wm.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.wm.mapper.WmItemConsumeLineMapper;
-import com.ktg.mes.wm.domain.WmItemConsumeLine;
-import com.ktg.mes.wm.service.IWmItemConsumeLineService;
+import com.wyy.mes.wm.mapper.WmItemConsumeLineMapper;
+import com.wyy.mes.wm.domain.WmItemConsumeLine;
+import com.wyy.mes.wm.service.IWmItemConsumeLineService;
 
 /**
  * 物料消耗记录行Service业务层处理

@@ -1,8 +1,8 @@
-package com.ktg.system.mapper;
+package com.wyy.system.mapper;
 
 import java.util.List;
 import org.apache.ibatis.annotations.Mapper;
-import com.ktg.common.core.domain.entity.SysDictType;
+import com.wyy.common.core.domain.entity.SysDictType;
 
 /**
  * 字典表 数据层

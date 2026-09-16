@@ -1,11 +1,11 @@
-package com.ktg.web.controller.common;
+package com.wyy.web.controller.common;
 
 import java.util.ArrayList;
 import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.ktg.common.config.RuoYiConfig;
+import com.wyy.common.config.RuoYiConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,12 +15,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.file.FileUploadUtils;
-import com.ktg.common.utils.file.FileUtils;
-import com.ktg.framework.config.ServerConfig;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.file.FileUploadUtils;
+import com.wyy.common.utils.file.FileUtils;
+import com.wyy.framework.config.ServerConfig;
 
 /**
  * 通用请求处理

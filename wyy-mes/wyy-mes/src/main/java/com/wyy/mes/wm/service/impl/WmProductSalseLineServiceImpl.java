@@ -1,12 +1,12 @@
-package com.ktg.mes.wm.service.impl;
+package com.wyy.mes.wm.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.wm.mapper.WmProductSalseLineMapper;
-import com.ktg.mes.wm.domain.WmProductSalseLine;
-import com.ktg.mes.wm.service.IWmProductSalseLineService;
+import com.wyy.mes.wm.mapper.WmProductSalseLineMapper;
+import com.wyy.mes.wm.domain.WmProductSalseLine;
+import com.wyy.mes.wm.service.IWmProductSalseLineService;
 
 /**
  * 产品销售出库行Service业务层处理

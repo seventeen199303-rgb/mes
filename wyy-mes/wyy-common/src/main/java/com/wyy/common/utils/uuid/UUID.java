@@ -1,11 +1,11 @@
-package com.ktg.common.utils.uuid;
+package com.wyy.common.utils.uuid;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
-import com.ktg.common.exception.UtilException;
+import com.wyy.common.exception.UtilException;
 
 /**
  * 提供通用唯一识别码（universally unique identifier）（UUID）实现

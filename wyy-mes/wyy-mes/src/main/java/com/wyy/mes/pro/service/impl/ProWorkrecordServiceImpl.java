@@ -1,12 +1,12 @@
-package com.ktg.mes.pro.service.impl;
+package com.wyy.mes.pro.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.pro.mapper.ProWorkrecordMapper;
-import com.ktg.mes.pro.domain.ProWorkrecord;
-import com.ktg.mes.pro.service.IProWorkrecordService;
+import com.wyy.mes.pro.mapper.ProWorkrecordMapper;
+import com.wyy.mes.pro.domain.ProWorkrecord;
+import com.wyy.mes.pro.service.IProWorkrecordService;
 
 /**
  * 上下工记录Service业务层处理

@@ -1,4 +1,4 @@
-package com.ktg.framework.config;
+package com.wyy.framework.config;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,9 +8,9 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import com.ktg.common.filter.RepeatableFilter;
-import com.ktg.common.filter.XssFilter;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.filter.RepeatableFilter;
+import com.wyy.common.filter.XssFilter;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * Filter配置

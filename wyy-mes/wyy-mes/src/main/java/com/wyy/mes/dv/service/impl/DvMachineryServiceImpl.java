@@ -1,12 +1,12 @@
-package com.ktg.mes.dv.service.impl;
+package com.wyy.mes.dv.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.dv.mapper.DvMachineryMapper;
-import com.ktg.mes.dv.domain.DvMachinery;
-import com.ktg.mes.dv.service.IDvMachineryService;
+import com.wyy.mes.dv.mapper.DvMachineryMapper;
+import com.wyy.mes.dv.domain.DvMachinery;
+import com.wyy.mes.dv.service.IDvMachineryService;
 
 /**
  * 设备Service业务层处理

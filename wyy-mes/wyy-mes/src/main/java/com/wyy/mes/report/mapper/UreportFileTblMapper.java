@@ -1,6 +1,6 @@
-package com.ktg.mes.report.mapper;
+package com.wyy.mes.report.mapper;
 
-import com.ktg.mes.report.domain.UreportFileTbl;
+import com.wyy.mes.report.domain.UreportFileTbl;
 
 import java.util.List;
 

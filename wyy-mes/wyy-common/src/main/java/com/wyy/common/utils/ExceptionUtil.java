@@ -1,4 +1,4 @@
-package com.ktg.common.utils;
+package com.wyy.common.utils;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;

@@ -1,13 +1,13 @@
-package com.ktg.system.mapper;
+package com.wyy.system.mapper;
 
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
-import com.ktg.common.core.domain.entity.SysDictData;
+import com.wyy.common.core.domain.entity.SysDictData;
 
 /**
  * 字典表 数据层
  * 
- * @author ktg
+ * @author wyy
  */
 public interface SysDictDataMapper
 {

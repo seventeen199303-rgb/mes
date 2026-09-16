@@ -1,9 +1,9 @@
-package com.ktg.common.core.domain;
+package com.wyy.common.core.domain;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.ktg.common.core.domain.entity.ItemType;
-import com.ktg.common.core.domain.entity.SysDept;
-import com.ktg.common.core.domain.entity.SysMenu;
+import com.wyy.common.core.domain.entity.ItemType;
+import com.wyy.common.core.domain.entity.SysDept;
+import com.wyy.common.core.domain.entity.SysMenu;
 
 import java.io.Serializable;
 import java.util.List;

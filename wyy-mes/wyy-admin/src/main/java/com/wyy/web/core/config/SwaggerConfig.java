@@ -1,9 +1,9 @@
-package com.ktg.web.core.config;
+package com.wyy.web.core.config;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.ktg.common.config.RuoYiConfig;
+import com.wyy.common.config.RuoYiConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -56,7 +56,7 @@ public class SwaggerConfig
                 // 设置哪些接口暴露给Swagger展示
                 .select()
                 // 扫描平台全部控制器，保证业务模块接口也可在 Swagger 中查阅和调试
-                .apis(RequestHandlerSelectors.basePackage("com.ktg"))
+                .apis(RequestHandlerSelectors.basePackage("com.wyy"))
                 .paths(PathSelectors.any())
                 .build()
                 /* 设置安全模式，swagger可以设置访问token */

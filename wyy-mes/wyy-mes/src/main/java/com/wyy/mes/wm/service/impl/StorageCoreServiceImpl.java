@@ -1,15 +1,15 @@
-package com.ktg.mes.wm.service.impl;
+package com.wyy.mes.wm.service.impl;
 
 import cn.hutool.core.collection.CollUtil;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.exception.BussinessException;
-import com.ktg.common.utils.bean.BeanUtils;
-import com.ktg.mes.wm.domain.WmStorageArea;
-import com.ktg.mes.wm.domain.WmStorageLocation;
-import com.ktg.mes.wm.domain.WmTransaction;
-import com.ktg.mes.wm.domain.WmWarehouse;
-import com.ktg.mes.wm.domain.tx.*;
-import com.ktg.mes.wm.service.*;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.exception.BussinessException;
+import com.wyy.common.utils.bean.BeanUtils;
+import com.wyy.mes.wm.domain.WmStorageArea;
+import com.wyy.mes.wm.domain.WmStorageLocation;
+import com.wyy.mes.wm.domain.WmTransaction;
+import com.wyy.mes.wm.domain.WmWarehouse;
+import com.wyy.mes.wm.domain.tx.*;
+import com.wyy.mes.wm.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

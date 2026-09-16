@@ -1,4 +1,4 @@
-package com.ktg.generator.service;
+package com.wyy.generator.service;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -23,19 +23,19 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.constant.GenConstants;
-import com.ktg.common.core.text.CharsetKit;
-import com.ktg.common.exception.ServiceException;
-import com.ktg.common.utils.SecurityUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.generator.domain.GenTable;
-import com.ktg.generator.domain.GenTableColumn;
-import com.ktg.generator.mapper.GenTableColumnMapper;
-import com.ktg.generator.mapper.GenTableMapper;
-import com.ktg.generator.util.GenUtils;
-import com.ktg.generator.util.VelocityInitializer;
-import com.ktg.generator.util.VelocityUtils;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.constant.GenConstants;
+import com.wyy.common.core.text.CharsetKit;
+import com.wyy.common.exception.ServiceException;
+import com.wyy.common.utils.SecurityUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.generator.domain.GenTable;
+import com.wyy.generator.domain.GenTableColumn;
+import com.wyy.generator.mapper.GenTableColumnMapper;
+import com.wyy.generator.mapper.GenTableMapper;
+import com.wyy.generator.util.GenUtils;
+import com.wyy.generator.util.VelocityInitializer;
+import com.wyy.generator.util.VelocityUtils;
 
 /**
  * 业务 服务层实现

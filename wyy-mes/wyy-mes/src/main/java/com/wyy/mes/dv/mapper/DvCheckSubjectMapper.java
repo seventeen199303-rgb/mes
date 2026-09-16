@@ -1,7 +1,7 @@
-package com.ktg.mes.dv.mapper;
+package com.wyy.mes.dv.mapper;
 
 import java.util.List;
-import com.ktg.mes.dv.domain.DvCheckSubject;
+import com.wyy.mes.dv.domain.DvCheckSubject;
 
 /**
  * 点检项目Mapper接口

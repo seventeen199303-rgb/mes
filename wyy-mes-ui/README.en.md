@@ -1,4 +1,4 @@
-# ktg-mes-ui
+# wyy-mes-ui
 
 #### Description
 开源、免费MES系统的前端

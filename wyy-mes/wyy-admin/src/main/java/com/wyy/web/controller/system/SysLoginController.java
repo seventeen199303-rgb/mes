@@ -1,4 +1,4 @@
-package com.ktg.web.controller.system;
+package com.wyy.web.controller.system;
 
 import java.util.List;
 import java.util.Set;
@@ -7,15 +7,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.core.domain.entity.SysMenu;
-import com.ktg.common.core.domain.entity.SysUser;
-import com.ktg.common.core.domain.model.LoginBody;
-import com.ktg.common.utils.SecurityUtils;
-import com.ktg.framework.web.service.SysLoginService;
-import com.ktg.framework.web.service.SysPermissionService;
-import com.ktg.system.service.ISysMenuService;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.core.domain.entity.SysMenu;
+import com.wyy.common.core.domain.entity.SysUser;
+import com.wyy.common.core.domain.model.LoginBody;
+import com.wyy.common.utils.SecurityUtils;
+import com.wyy.framework.web.service.SysLoginService;
+import com.wyy.framework.web.service.SysPermissionService;
+import com.wyy.system.service.ISysMenuService;
 
 /**
  * 登录验证

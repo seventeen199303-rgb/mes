@@ -1,4 +1,4 @@
-package com.ktg.common.exception;
+package com.wyy.common.exception;
 
 /**
  * 演示模式异常

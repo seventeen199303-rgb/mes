@@ -1,4 +1,4 @@
-package com.ktg.common.filter;
+package com.wyy.common.filter;
 
 import java.io.IOException;
 import javax.servlet.Filter;
@@ -9,7 +9,7 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.http.MediaType;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * Repeatable 过滤器

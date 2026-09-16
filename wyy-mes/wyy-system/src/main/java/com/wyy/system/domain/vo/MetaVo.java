@@ -1,6 +1,6 @@
-package com.ktg.system.domain.vo;
+package com.wyy.system.domain.vo;
 
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * 路由显示信息

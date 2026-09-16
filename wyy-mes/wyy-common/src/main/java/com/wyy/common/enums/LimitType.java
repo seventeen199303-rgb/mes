@@ -1,4 +1,4 @@
-package com.ktg.common.enums;
+package com.wyy.common.enums;
 
 /**
  * 限流类型

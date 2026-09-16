@@ -1,9 +1,9 @@
-package com.ktg.common.utils.ip;
+package com.wyy.common.utils.ip;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import javax.servlet.http.HttpServletRequest;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * 获取IP方法

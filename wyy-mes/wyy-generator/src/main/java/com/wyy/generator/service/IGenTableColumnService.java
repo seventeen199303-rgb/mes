@@ -1,12 +1,12 @@
-package com.ktg.generator.service;
+package com.wyy.generator.service;
 
 import java.util.List;
-import com.ktg.generator.domain.GenTableColumn;
+import com.wyy.generator.domain.GenTableColumn;
 
 /**
  * 业务字段 服务层
  * 
- * @author ktg
+ * @author wyy
  */
 public interface IGenTableColumnService
 {

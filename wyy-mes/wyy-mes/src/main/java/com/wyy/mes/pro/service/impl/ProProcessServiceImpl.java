@@ -1,15 +1,15 @@
-package com.ktg.mes.pro.service.impl;
+package com.wyy.mes.pro.service.impl;
 
 import java.util.List;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.pro.mapper.ProProcessMapper;
-import com.ktg.mes.pro.domain.ProProcess;
-import com.ktg.mes.pro.service.IProProcessService;
+import com.wyy.mes.pro.mapper.ProProcessMapper;
+import com.wyy.mes.pro.domain.ProProcess;
+import com.wyy.mes.pro.service.IProProcessService;
 
 /**
  * 生产工序Service业务层处理

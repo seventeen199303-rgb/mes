@@ -1,9 +1,9 @@
-package com.ktg.common.utils;
+package com.wyy.common.utils;
 
 import com.github.pagehelper.PageHelper;
-import com.ktg.common.core.page.PageDomain;
-import com.ktg.common.core.page.TableSupport;
-import com.ktg.common.utils.sql.SqlUtil;
+import com.wyy.common.core.page.PageDomain;
+import com.wyy.common.core.page.TableSupport;
+import com.wyy.common.utils.sql.SqlUtil;
 
 /**
  * 分页工具类

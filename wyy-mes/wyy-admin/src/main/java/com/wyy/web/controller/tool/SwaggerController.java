@@ -1,6 +1,6 @@
-package com.ktg.web.controller.tool;
+package com.wyy.web.controller.tool;
 
-import com.ktg.common.core.controller.BaseController;
+import com.wyy.common.core.controller.BaseController;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

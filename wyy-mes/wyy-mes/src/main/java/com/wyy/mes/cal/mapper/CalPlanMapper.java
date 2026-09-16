@@ -1,7 +1,7 @@
-package com.ktg.mes.cal.mapper;
+package com.wyy.mes.cal.mapper;
 
 import java.util.List;
-import com.ktg.mes.cal.domain.CalPlan;
+import com.wyy.mes.cal.domain.CalPlan;
 
 /**
  * 排班计划Mapper接口

@@ -1,8 +1,8 @@
-package com.ktg.mes.wm.service;
+package com.wyy.mes.wm.service;
 
 import java.util.List;
-import com.ktg.mes.wm.domain.WmTransfer;
-import com.ktg.mes.wm.domain.tx.TransferTxBean;
+import com.wyy.mes.wm.domain.WmTransfer;
+import com.wyy.mes.wm.domain.tx.TransferTxBean;
 
 /**
  * 转移单Service接口

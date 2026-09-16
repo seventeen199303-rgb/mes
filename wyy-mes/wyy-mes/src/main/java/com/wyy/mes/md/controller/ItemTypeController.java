@@ -1,13 +1,13 @@
-package com.ktg.mes.md.controller;
+package com.wyy.mes.md.controller;
 
-import com.ktg.common.annotation.Log;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.core.domain.entity.ItemType;
-import com.ktg.common.enums.BusinessType;
-import com.ktg.mes.md.service.IItemTypeService;
-import com.ktg.system.strategy.AutoCodeUtil;
+import com.wyy.common.annotation.Log;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.core.domain.entity.ItemType;
+import com.wyy.common.enums.BusinessType;
+import com.wyy.mes.md.service.IItemTypeService;
+import com.wyy.system.strategy.AutoCodeUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;

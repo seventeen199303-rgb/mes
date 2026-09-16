@@ -1,6 +1,6 @@
-package com.ktg.common.core.page;
+package com.wyy.common.core.page;
 
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * 分页数据

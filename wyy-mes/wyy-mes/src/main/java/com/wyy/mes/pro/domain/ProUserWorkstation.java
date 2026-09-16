@@ -1,11 +1,11 @@
-package com.ktg.mes.pro.domain;
+package com.wyy.mes.pro.domain;
 
 import java.util.Date;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import com.ktg.common.annotation.Excel;
-import com.ktg.common.core.domain.BaseEntity;
+import com.wyy.common.annotation.Excel;
+import com.wyy.common.core.domain.BaseEntity;
 
 /**
  * 用户工作站绑定关系对象 pro_user_workstation

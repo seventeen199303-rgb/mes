@@ -1,4 +1,4 @@
-package com.ktg.system.service.impl;
+package com.wyy.system.service.impl;
 
 import java.util.Comparator;
 import java.util.List;
@@ -8,15 +8,15 @@ import javax.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.domain.entity.SysDictData;
-import com.ktg.common.core.domain.entity.SysDictType;
-import com.ktg.common.exception.ServiceException;
-import com.ktg.common.utils.DictUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.system.mapper.SysDictDataMapper;
-import com.ktg.system.mapper.SysDictTypeMapper;
-import com.ktg.system.service.ISysDictTypeService;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.domain.entity.SysDictData;
+import com.wyy.common.core.domain.entity.SysDictType;
+import com.wyy.common.exception.ServiceException;
+import com.wyy.common.utils.DictUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.system.mapper.SysDictDataMapper;
+import com.wyy.system.mapper.SysDictTypeMapper;
+import com.wyy.system.service.ISysDictTypeService;
 
 /**
  * 字典 业务层处理

@@ -1,7 +1,7 @@
-package com.ktg.mes.wm.mapper;
+package com.wyy.mes.wm.mapper;
 
 import java.util.List;
-import com.ktg.mes.wm.domain.WmRtIssueLine;
+import com.wyy.mes.wm.domain.WmRtIssueLine;
 
 /**
  * 生产退料单行Mapper接口

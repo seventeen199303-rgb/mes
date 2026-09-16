@@ -1,10 +1,10 @@
-package com.ktg.mes.md.service.impl;
+package com.wyy.mes.md.service.impl;
 
-import com.ktg.mes.md.service.IMdItemService;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.mes.md.domain.MdItem;
-import com.ktg.mes.md.mapper.MdItemMapper;
+import com.wyy.mes.md.service.IMdItemService;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.mes.md.domain.MdItem;
+import com.wyy.mes.md.mapper.MdItemMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

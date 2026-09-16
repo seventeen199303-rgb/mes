@@ -1,12 +1,12 @@
-package com.ktg.mes.wm.domain;
+package com.wyy.mes.wm.domain;
 
 import java.math.BigDecimal;
 import java.util.Date;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import com.ktg.common.annotation.Excel;
-import com.ktg.common.core.domain.BaseEntity;
+import com.wyy.common.annotation.Excel;
+import com.wyy.common.core.domain.BaseEntity;
 
 /**
  * 库存事务对象 wm_transaction

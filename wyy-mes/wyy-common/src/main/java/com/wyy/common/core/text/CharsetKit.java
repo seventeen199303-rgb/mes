@@ -1,8 +1,8 @@
-package com.ktg.common.core.text;
+package com.wyy.common.core.text;
 
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * 字符集工具类

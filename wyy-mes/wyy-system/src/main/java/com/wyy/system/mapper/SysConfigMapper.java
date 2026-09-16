@@ -1,7 +1,7 @@
-package com.ktg.system.mapper;
+package com.wyy.system.mapper;
 
 import java.util.List;
-import com.ktg.system.domain.SysConfig;
+import com.wyy.system.domain.SysConfig;
 
 /**
  * 参数配置 数据层

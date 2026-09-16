@@ -1,4 +1,4 @@
-package com.ktg.framework.config;
+package com.wyy.framework.config;
 
 import java.util.Random;
 import com.google.code.kaptcha.text.impl.DefaultTextCreator;

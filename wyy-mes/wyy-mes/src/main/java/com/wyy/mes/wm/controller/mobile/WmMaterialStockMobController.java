@@ -1,10 +1,10 @@
-package com.ktg.mes.wm.controller.mobile;
+package com.wyy.mes.wm.controller.mobile;
 
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.core.page.TableDataInfo;
-import com.ktg.mes.wm.domain.WmMaterialStock;
-import com.ktg.mes.wm.service.IWmMaterialStockService;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.core.page.TableDataInfo;
+import com.wyy.mes.wm.domain.WmMaterialStock;
+import com.wyy.mes.wm.service.IWmMaterialStockService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

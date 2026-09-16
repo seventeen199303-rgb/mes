@@ -1,7 +1,7 @@
-package com.ktg.mes.pro.mapper;
+package com.wyy.mes.pro.mapper;
 
 import java.util.List;
-import com.ktg.mes.pro.domain.ProWorkorderBom;
+import com.wyy.mes.pro.domain.ProWorkorderBom;
 
 /**
  * 生产工单BOM组成Mapper接口

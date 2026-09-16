@@ -1,8 +1,8 @@
-package com.ktg.mes.wm.mapper;
+package com.wyy.mes.wm.mapper;
 
 import java.util.List;
-import com.ktg.mes.wm.domain.WmTransfer;
-import com.ktg.mes.wm.domain.tx.TransferTxBean;
+import com.wyy.mes.wm.domain.WmTransfer;
+import com.wyy.mes.wm.domain.tx.TransferTxBean;
 
 /**
  * 转移单Mapper接口

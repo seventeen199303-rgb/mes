@@ -1,6 +1,6 @@
-package com.ktg.mes.qc.domain;
+package com.wyy.mes.qc.domain;
 
-import com.ktg.common.core.domain.BaseEntity;
+import com.wyy.common.core.domain.BaseEntity;
 
 /**
  * 专门用于移动端质量管理各种数据查询的参数传递

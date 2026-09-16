@@ -1,17 +1,17 @@
 <p align="center">
-	<img alt="logo" width="96px" src="https://gitee.com/kutangguo/ktg-mes-ui/raw/master/src/assets/logo/logo.png">
+	<img alt="logo" width="96px" src="../wyy-mes-ui/src/assets/logo/logo.png">
 </p>
-<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">苦糖果MES</h1>
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">王有用MES</h1>
 <h4 align="center">专业、通用、开源、免费的MES系统</h4>
 <p align="center">
-<a href='https://gitee.com/kutangguo/ktg-mes/stargazers'><img src='https://gitee.com/kutangguo/ktg-mes/badge/star.svg?theme=dark' alt='star'></img></a>
-	<a href="https://gitee.com/kutangguo/ktg-mes/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg"></a>
+<a href='https://github.com/seventeen199303-rgb/wyy-di-mes/stargazers'><img src='https://img.shields.io/github/stars/seventeen199303-rgb/wyy-di-mes?style=flat' alt='star'></img></a>
+	<a href="https://github.com/seventeen199303-rgb/wyy-di-mes/blob/main/LICENSE"><img src="https://img.shields.io/github/license/seventeen199303-rgb/wyy-di-mes"></a>
 </p>
 
-# ktg-mes
+# wyy-mes
 
 ### 系统简介
-苦糖果MES系统是一款B/S结构、开源、免费的生产执行管理系统。
+王有用MES系统是一款B/S结构、开源、免费的生产执行管理系统。
 
 此系统基于本人多年离散智造行业的业务经验及J2EE项目经验开发。
 
@@ -19,17 +19,17 @@
 
 系统将提供“售前”、“实施”、“用户培训”、“运维”等多个阶段的指导文档和教学视频，以帮助非IT专业人士顺利完成MES项目的实施应用。
 
-- 前端代码地址：https://gitee.com/kutangguo/ktg-mes-ui
+- 前端代码地址：https://github.com/seventeen199303-rgb/wyy-di-mes/tree/main/wyy-mes-ui
 
-- 触控屏端地址：https://gitee.com/kutangguo/ktg-mes-pad
+- 触控屏端地址：仓库内 `wyy-mes-app` 目录
 
 - PC端在线体验地址： [http://www.029tec.com](http://www.029tec.com/)  <font color='red'>【请不要修改账户密码，以免影响其他人体验】</font>
 
 - 当前开发进度请参考doc->开发进度->进度甘特图.xlsx
 
-- 第一版售前PPT请查看doc->售前资料->《苦糖果MES系统产品介绍（A4横板）.pptx》
+- 第一版售前PPT请查看doc->售前资料->《王有用MES系统产品介绍（A4横板）.pptx》
 
-- 操作手册/软件说明书请参考doc->售前资料->《苦糖果生产执行管理系统-【软件说明书】.docx》
+- 操作手册/软件说明书请参考doc->售前资料->《王有用生产执行管理系统-【软件说明书】.docx》
 
 欢迎交流沟通：QQ：411641505
 
@@ -43,6 +43,8 @@
 
 ### 功能简介
 
+> 为避免展示历史版本界面，本文档不再内嵌原型截图；请以当前系统界面和仓库根目录 README 中的截图为准。
+
 PC端：
 
 - 系统管理
@@ -51,17 +53,14 @@ PC端：
 
   - 物料产品管理
 
-    ![](https://gitee.com/kutangguo/ktg-mes/raw/master/doc/%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3/%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1/%E6%88%AA%E5%9B%BE/%E7%89%A9%E6%96%99%E4%BA%A7%E5%93%81%E8%AE%BE%E7%BD%AE.png)
 
   - 工作站设置
 
-    ![](https://gitee.com/kutangguo/ktg-mes/raw/master/doc/%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3/%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1/%E6%88%AA%E5%9B%BE/%E5%B7%A5%E4%BD%9C%E7%AB%99%E8%AE%BE%E7%BD%AE.png)
 
 - 生产管理
 
   - 生产排产
 
-    ![](https://gitee.com/kutangguo/ktg-mes/raw/master/doc/%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3/%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1/%E6%88%AA%E5%9B%BE/%E7%94%9F%E4%BA%A7%E6%8E%92%E4%BA%A7.png)
 
 - 质量管理
 
@@ -69,11 +68,9 @@ PC端：
 
   - 节假日/工作日设置
 
-    ![](https://gitee.com/kutangguo/ktg-mes/raw/master/doc/%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3/%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1/%E6%88%AA%E5%9B%BE/%E8%8A%82%E5%81%87%E6%97%A5%E8%AE%BE%E7%BD%AE.png)
     
   - 排班日历
 
-    ![](https://gitee.com/kutangguo/ktg-mes/raw/master/doc/%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3/%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1/%E6%88%AA%E5%9B%BE/%E6%8E%92%E7%8F%AD%E6%97%A5%E5%8E%86.png)
     
     
 
@@ -81,17 +78,14 @@ PC端：
   
   - 库存现有量
   
-    ![](https://gitee.com/kutangguo/ktg-mes/raw/master/doc/%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3/%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1/%E6%88%AA%E5%9B%BE/%E5%BA%93%E5%AD%98%E7%8E%B0%E6%9C%89%E9%87%8F.png)
     
   - 条码管理
   
-    ![](https://gitee.com/kutangguo/ktg-mes/raw/master/doc/%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3/%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1/%E6%88%AA%E5%9B%BE/%E6%9D%A1%E7%A0%81%E7%AE%A1%E7%90%86.png)
   
 - 设备管理
 
 - 统计报表
 
-  ![](https://gitee.com/kutangguo/ktg-mes/raw/master/doc/%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3/%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1/%E6%88%AA%E5%9B%BE/%E6%8A%A5%E8%A1%A8%E8%AE%BE%E8%AE%A1.png)
 
 - 大屏展示
 
@@ -106,13 +100,11 @@ Android端：
 
 - 登录
 
-  ![](https://gitee.com/kutangguo/ktg-mes/raw/master/doc/%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3/%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1/%E6%88%AA%E5%9B%BE/%E8%A7%A6%E6%8E%A7%E5%B1%8F-%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2.png)
 
 - 生产
 
 - 质量
 
-  ![](https://gitee.com/kutangguo/ktg-mes/raw/master/doc/%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3/%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1/%E6%88%AA%E5%9B%BE/%E8%A7%A6%E6%8E%A7%E5%B1%8F-%E8%B4%A8%E9%87%8F%E7%AE%A1%E7%90%86.png)
 
 - 工序
 

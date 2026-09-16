@@ -1,4 +1,4 @@
-package com.ktg.common.exception;
+package com.wyy.common.exception;
 
 /**
  * 工具类异常

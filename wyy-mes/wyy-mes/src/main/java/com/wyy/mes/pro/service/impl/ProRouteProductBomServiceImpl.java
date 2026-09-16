@@ -1,17 +1,17 @@
-package com.ktg.mes.pro.service.impl;
+package com.wyy.mes.pro.service.impl;
 
 import java.util.List;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.mes.pro.domain.ProFeedback;
-import com.ktg.mes.wm.domain.WmItemConsume;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.mes.pro.domain.ProFeedback;
+import com.wyy.mes.wm.domain.WmItemConsume;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.pro.mapper.ProRouteProductBomMapper;
-import com.ktg.mes.pro.domain.ProRouteProductBom;
-import com.ktg.mes.pro.service.IProRouteProductBomService;
+import com.wyy.mes.pro.mapper.ProRouteProductBomMapper;
+import com.wyy.mes.pro.domain.ProRouteProductBom;
+import com.wyy.mes.pro.service.IProRouteProductBomService;
 
 /**
  * 产品制程物料BOMService业务层处理

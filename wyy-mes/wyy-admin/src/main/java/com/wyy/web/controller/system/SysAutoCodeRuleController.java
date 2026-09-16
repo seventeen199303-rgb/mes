@@ -1,13 +1,13 @@
-package com.ktg.web.controller.system;
+package com.wyy.web.controller.system;
 
-import com.ktg.common.annotation.Log;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.core.domain.entity.SysAutoCodeRule;
-import com.ktg.common.core.page.TableDataInfo;
-import com.ktg.common.enums.BusinessType;
-import com.ktg.system.service.IAutoCodeRuleService;
+import com.wyy.common.annotation.Log;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.core.domain.entity.SysAutoCodeRule;
+import com.wyy.common.core.page.TableDataInfo;
+import com.wyy.common.enums.BusinessType;
+import com.wyy.system.service.IAutoCodeRuleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;

@@ -1,4 +1,4 @@
-package com.ktg.framework.security.handle;
+package com.wyy.framework.security.handle;
 
 import java.io.IOException;
 import java.io.Serializable;
@@ -8,10 +8,10 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.stereotype.Component;
 import com.alibaba.fastjson.JSON;
-import com.ktg.common.constant.HttpStatus;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.utils.ServletUtils;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.constant.HttpStatus;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.utils.ServletUtils;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * 认证失败处理类 返回未授权

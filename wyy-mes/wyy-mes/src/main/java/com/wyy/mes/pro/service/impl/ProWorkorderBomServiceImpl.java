@@ -1,12 +1,12 @@
-package com.ktg.mes.pro.service.impl;
+package com.wyy.mes.pro.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.pro.mapper.ProWorkorderBomMapper;
-import com.ktg.mes.pro.domain.ProWorkorderBom;
-import com.ktg.mes.pro.service.IProWorkorderBomService;
+import com.wyy.mes.pro.mapper.ProWorkorderBomMapper;
+import com.wyy.mes.pro.domain.ProWorkorderBom;
+import com.wyy.mes.pro.service.IProWorkorderBomService;
 
 /**
  * 生产工单BOM组成Service业务层处理

@@ -1,6 +1,6 @@
-package com.ktg.web.domain;
+package com.wyy.web.domain;
 
-import com.ktg.common.annotation.Excel;
+import com.wyy.common.annotation.Excel;
 
 import java.math.BigDecimal;
 import java.util.Date;

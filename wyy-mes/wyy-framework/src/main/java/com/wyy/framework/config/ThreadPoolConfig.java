@@ -1,6 +1,6 @@
-package com.ktg.framework.config;
+package com.wyy.framework.config;
 
-import com.ktg.common.utils.Threads;
+import com.wyy.common.utils.Threads;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

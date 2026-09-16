@@ -1,9 +1,9 @@
-package com.ktg.mes.qc.domain;
+package com.wyy.mes.qc.domain;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import com.ktg.common.annotation.Excel;
-import com.ktg.common.core.domain.BaseEntity;
+import com.wyy.common.annotation.Excel;
+import com.wyy.common.core.domain.BaseEntity;
 
 /**
  * 检验单缺陷记录对象 qc_defect_record

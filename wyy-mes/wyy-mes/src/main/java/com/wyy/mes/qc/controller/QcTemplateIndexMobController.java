@@ -1,12 +1,12 @@
-package com.ktg.mes.qc.controller;
+package com.wyy.mes.qc.controller;
 
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.mes.qc.domain.QcMobParam;
-import com.ktg.mes.qc.domain.QcTemplate;
-import com.ktg.mes.qc.domain.QcTemplateIndex;
-import com.ktg.mes.qc.service.IQcTemplateIndexService;
-import com.ktg.mes.qc.service.IQcTemplateService;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.mes.qc.domain.QcMobParam;
+import com.wyy.mes.qc.domain.QcTemplate;
+import com.wyy.mes.qc.domain.QcTemplateIndex;
+import com.wyy.mes.qc.service.IQcTemplateIndexService;
+import com.wyy.mes.qc.service.IQcTemplateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

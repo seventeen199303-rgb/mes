@@ -1,7 +1,7 @@
-package com.ktg.mes.dv.service;
+package com.wyy.mes.dv.service;
 
 import java.util.List;
-import com.ktg.mes.dv.domain.DvRepair;
+import com.wyy.mes.dv.domain.DvRepair;
 
 /**
  * 设备维修单Service接口

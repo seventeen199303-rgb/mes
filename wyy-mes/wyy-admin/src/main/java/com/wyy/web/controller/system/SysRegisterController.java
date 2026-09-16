@@ -1,15 +1,15 @@
-package com.ktg.web.controller.system;
+package com.wyy.web.controller.system;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.core.domain.model.RegisterBody;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.framework.web.service.SysRegisterService;
-import com.ktg.system.service.ISysConfigService;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.core.domain.model.RegisterBody;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.framework.web.service.SysRegisterService;
+import com.wyy.system.service.ISysConfigService;
 
 /**
  * 注册验证

@@ -1,7 +1,7 @@
-package com.ktg.mes.md.service;
+package com.wyy.mes.md.service;
 
 import java.util.List;
-import com.ktg.mes.md.domain.MdWorkstationTool;
+import com.wyy.mes.md.domain.MdWorkstationTool;
 
 /**
  * 工装夹具资源Service接口

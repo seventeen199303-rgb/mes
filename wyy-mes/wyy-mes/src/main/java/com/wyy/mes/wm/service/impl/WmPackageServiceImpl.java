@@ -1,15 +1,15 @@
-package com.ktg.mes.wm.service.impl;
+package com.wyy.mes.wm.service.impl;
 
 import java.util.List;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.utils.DateUtils;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.common.utils.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.wm.mapper.WmPackageMapper;
-import com.ktg.mes.wm.domain.WmPackage;
-import com.ktg.mes.wm.service.IWmPackageService;
+import com.wyy.mes.wm.mapper.WmPackageMapper;
+import com.wyy.mes.wm.domain.WmPackage;
+import com.wyy.mes.wm.service.IWmPackageService;
 
 /**
  * 装箱单Service业务层处理

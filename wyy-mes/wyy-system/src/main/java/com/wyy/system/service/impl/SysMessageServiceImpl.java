@@ -1,12 +1,12 @@
-package com.ktg.system.service.impl;
+package com.wyy.system.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.system.mapper.SysMessageMapper;
-import com.ktg.system.domain.SysMessage;
-import com.ktg.system.service.ISysMessageService;
+import com.wyy.system.mapper.SysMessageMapper;
+import com.wyy.system.domain.SysMessage;
+import com.wyy.system.service.ISysMessageService;
 
 /**
  * 消息Service业务层处理

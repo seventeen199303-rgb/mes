@@ -1,7 +1,7 @@
-package com.ktg.mes.tm.mapper;
+package com.wyy.mes.tm.mapper;
 
 import java.util.List;
-import com.ktg.mes.tm.domain.TmTool;
+import com.wyy.mes.tm.domain.TmTool;
 
 /**
  * 工装夹具清单Mapper接口

@@ -1,9 +1,9 @@
-package com.ktg.mes.aspect;
+package com.wyy.mes.aspect;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.mes.wm.domain.WmBarcodeConfig;
-import com.ktg.mes.wm.service.IWmBarcodeConfigService;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.mes.wm.domain.WmBarcodeConfig;
+import com.wyy.mes.wm.service.IWmBarcodeConfigService;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;

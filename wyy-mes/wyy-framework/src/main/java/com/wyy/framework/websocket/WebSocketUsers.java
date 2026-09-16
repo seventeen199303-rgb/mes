@@ -1,4 +1,4 @@
-package com.ktg.framework.websocket;
+package com.wyy.framework.websocket;
 
 import java.io.IOException;
 import java.util.Collection;
@@ -7,7 +7,7 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import javax.websocket.Session;
 
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.utils.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

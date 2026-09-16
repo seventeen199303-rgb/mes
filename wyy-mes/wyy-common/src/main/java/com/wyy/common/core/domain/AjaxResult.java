@@ -1,8 +1,8 @@
-package com.ktg.common.core.domain;
+package com.wyy.common.core.domain;
 
 import java.util.HashMap;
-import com.ktg.common.constant.HttpStatus;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.constant.HttpStatus;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * 操作消息提醒

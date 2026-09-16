@@ -4,16 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-    <groupId>com.ktg</groupId>
-    <artifactId>ktg</artifactId>
+    <groupId>com.wyy</groupId>
+    <artifactId>wyy</artifactId>
     <version>3.8.2</version>
 
-    <name>ktg</name>
+    <name>wyy</name>
     <url>http://www.029tec.com</url>
     <description>MES生产执行管理系统</description>
     
     <properties>
-        <ktg.version>3.8.2</ktg.version>
+        <wyy.version>3.8.2</wyy.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -179,44 +179,44 @@
 
             <!-- 定时任务-->
             <dependency>
-                <groupId>com.ktg</groupId>
-                <artifactId>ktg-quartz</artifactId>
-                <version>${ktg.version}</version>
+                <groupId>com.wyy</groupId>
+                <artifactId>wyy-quartz</artifactId>
+                <version>${wyy.version}</version>
             </dependency>
 
             <!-- 代码生成-->
             <dependency>
-                <groupId>com.ktg</groupId>
-                <artifactId>ktg-generator</artifactId>
-                <version>${ktg.version}</version>
+                <groupId>com.wyy</groupId>
+                <artifactId>wyy-generator</artifactId>
+                <version>${wyy.version}</version>
             </dependency>
 
             <!-- 核心模块-->
             <dependency>
-                <groupId>com.ktg</groupId>
-                <artifactId>ktg-framework</artifactId>
-                <version>${ktg.version}</version>
+                <groupId>com.wyy</groupId>
+                <artifactId>wyy-framework</artifactId>
+                <version>${wyy.version}</version>
             </dependency>
 
             <!-- 系统模块-->
             <dependency>
-                <groupId>com.ktg</groupId>
-                <artifactId>ktg-system</artifactId>
-                <version>${ktg.version}</version>
+                <groupId>com.wyy</groupId>
+                <artifactId>wyy-system</artifactId>
+                <version>${wyy.version}</version>
             </dependency>
 
             <!-- 通用工具-->
             <dependency>
-                <groupId>com.ktg</groupId>
-                <artifactId>ktg-common</artifactId>
-                <version>${ktg.version}</version>
+                <groupId>com.wyy</groupId>
+                <artifactId>wyy-common</artifactId>
+                <version>${wyy.version}</version>
             </dependency>
 
             <!-- MES业务模块 -->
             <dependency>
-                <groupId>com.ktg</groupId>
-                <artifactId>ktg-mes</artifactId>
-                <version>${ktg.version}</version>
+                <groupId>com.wyy</groupId>
+                <artifactId>wyy-mes</artifactId>
+                <version>${wyy.version}</version>
             </dependency>
 
         </dependencies>

@@ -1,12 +1,12 @@
-package com.ktg.generator.mapper;
+package com.wyy.generator.mapper;
 
 import java.util.List;
-import com.ktg.generator.domain.GenTableColumn;
+import com.wyy.generator.domain.GenTableColumn;
 
 /**
  * 业务字段 数据层
  * 
- * @author ktg
+ * @author wyy
  */
 public interface GenTableColumnMapper
 {

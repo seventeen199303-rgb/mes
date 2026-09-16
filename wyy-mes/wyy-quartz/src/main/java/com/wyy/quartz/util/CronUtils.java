@@ -1,4 +1,4 @@
-package com.ktg.quartz.util;
+package com.wyy.quartz.util;
 
 import java.text.ParseException;
 import java.util.Date;

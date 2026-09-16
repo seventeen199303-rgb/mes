@@ -1,4 +1,4 @@
-package com.ktg.framework.config.properties;
+package com.wyy.framework.config.properties;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

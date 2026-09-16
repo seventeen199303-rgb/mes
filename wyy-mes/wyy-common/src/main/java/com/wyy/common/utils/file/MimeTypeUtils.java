@@ -1,4 +1,4 @@
-package com.ktg.common.utils.file;
+package com.wyy.common.utils.file;
 
 /**
  * 媒体类型工具类

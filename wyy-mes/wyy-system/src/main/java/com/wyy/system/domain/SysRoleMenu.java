@@ -1,4 +1,4 @@
-package com.ktg.system.domain;
+package com.wyy.system.domain;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;

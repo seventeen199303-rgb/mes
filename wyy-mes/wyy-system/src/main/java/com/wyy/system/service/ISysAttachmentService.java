@@ -1,7 +1,7 @@
-package com.ktg.system.service;
+package com.wyy.system.service;
 
 import java.util.List;
-import com.ktg.system.domain.SysAttachment;
+import com.wyy.system.domain.SysAttachment;
 
 /**
  * 附件Service接口

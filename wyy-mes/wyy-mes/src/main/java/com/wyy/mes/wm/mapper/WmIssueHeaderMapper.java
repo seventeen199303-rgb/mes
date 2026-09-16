@@ -1,8 +1,8 @@
-package com.ktg.mes.wm.mapper;
+package com.wyy.mes.wm.mapper;
 
 import java.util.List;
-import com.ktg.mes.wm.domain.WmIssueHeader;
-import com.ktg.mes.wm.domain.tx.IssueTxBean;
+import com.wyy.mes.wm.domain.WmIssueHeader;
+import com.wyy.mes.wm.domain.tx.IssueTxBean;
 
 /**
  * 生产领料单头Mapper接口

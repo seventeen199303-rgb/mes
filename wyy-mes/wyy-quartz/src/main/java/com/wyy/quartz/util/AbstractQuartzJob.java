@@ -1,4 +1,4 @@
-package com.ktg.quartz.util;
+package com.wyy.quartz.util;
 
 import java.util.Date;
 import org.quartz.Job;
@@ -6,15 +6,15 @@ import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.ktg.common.constant.Constants;
-import com.ktg.common.constant.ScheduleConstants;
-import com.ktg.common.utils.ExceptionUtil;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.bean.BeanUtils;
-import com.ktg.common.utils.spring.SpringUtils;
-import com.ktg.quartz.domain.SysJob;
-import com.ktg.quartz.domain.SysJobLog;
-import com.ktg.quartz.service.ISysJobLogService;
+import com.wyy.common.constant.Constants;
+import com.wyy.common.constant.ScheduleConstants;
+import com.wyy.common.utils.ExceptionUtil;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.bean.BeanUtils;
+import com.wyy.common.utils.spring.SpringUtils;
+import com.wyy.quartz.domain.SysJob;
+import com.wyy.quartz.domain.SysJobLog;
+import com.wyy.quartz.service.ISysJobLogService;
 
 /**
  * 抽象quartz调用

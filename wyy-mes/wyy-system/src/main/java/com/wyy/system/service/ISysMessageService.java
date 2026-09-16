@@ -1,7 +1,7 @@
-package com.ktg.system.service;
+package com.wyy.system.service;
 
 import java.util.List;
-import com.ktg.system.domain.SysMessage;
+import com.wyy.system.domain.SysMessage;
 
 /**
  * 消息Service接口

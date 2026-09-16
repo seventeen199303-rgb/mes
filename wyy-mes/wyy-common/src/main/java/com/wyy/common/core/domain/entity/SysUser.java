@@ -1,26 +1,26 @@
-package com.ktg.common.core.domain.entity;
+package com.wyy.common.core.domain.entity;
 
 import java.util.Date;
 import java.util.List;
 import javax.validation.constraints.*;
 
-import com.ktg.common.core.domain.entity.SysDept;
-import com.ktg.common.core.domain.entity.SysRole;
+import com.wyy.common.core.domain.entity.SysDept;
+import com.wyy.common.core.domain.entity.SysRole;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.ktg.common.annotation.Excel;
-import com.ktg.common.annotation.Excel.ColumnType;
-import com.ktg.common.annotation.Excel.Type;
-import com.ktg.common.annotation.Excels;
-import com.ktg.common.core.domain.BaseEntity;
-import com.ktg.common.xss.Xss;
+import com.wyy.common.annotation.Excel;
+import com.wyy.common.annotation.Excel.ColumnType;
+import com.wyy.common.annotation.Excel.Type;
+import com.wyy.common.annotation.Excels;
+import com.wyy.common.core.domain.BaseEntity;
+import com.wyy.common.xss.Xss;
 
 /**
  * 用户对象 sys_user
  * 
- * @author ktg
+ * @author wyy
  */
 public class SysUser extends BaseEntity
 {

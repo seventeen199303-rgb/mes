@@ -1,4 +1,4 @@
-package com.ktg.common.enums;
+package com.wyy.common.enums;
 
 import java.util.HashMap;
 import java.util.Map;

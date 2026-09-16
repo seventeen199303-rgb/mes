@@ -1,7 +1,7 @@
-package com.ktg.system.service;
+package com.wyy.system.service;
 
 import java.util.List;
-import com.ktg.system.domain.SysOperLog;
+import com.wyy.system.domain.SysOperLog;
 
 /**
  * 操作日志 服务层

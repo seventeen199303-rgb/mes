@@ -1,12 +1,12 @@
-package com.ktg.mes.wm.service.impl;
+package com.wyy.mes.wm.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.wm.mapper.WmStorageAreaMapper;
-import com.ktg.mes.wm.domain.WmStorageArea;
-import com.ktg.mes.wm.service.IWmStorageAreaService;
+import com.wyy.mes.wm.mapper.WmStorageAreaMapper;
+import com.wyy.mes.wm.domain.WmStorageArea;
+import com.wyy.mes.wm.service.IWmStorageAreaService;
 
 /**
  * 库位设置Service业务层处理

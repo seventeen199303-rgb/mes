@@ -1,11 +1,11 @@
-package com.ktg.web.controller.system;
+package com.wyy.web.controller.system;
 
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.entity.SysUser;
-import com.ktg.common.core.page.TableDataInfo;
-import com.ktg.common.utils.SecurityUtils;
-import com.ktg.system.domain.SysMessage;
-import com.ktg.system.service.ISysMessageService;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.entity.SysUser;
+import com.wyy.common.core.page.TableDataInfo;
+import com.wyy.common.utils.SecurityUtils;
+import com.wyy.system.domain.SysMessage;
+import com.wyy.system.service.ISysMessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;

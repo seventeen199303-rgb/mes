@@ -1,21 +1,21 @@
-package com.ktg.mes.md.controller;
+package com.wyy.mes.md.controller;
 
 import java.util.List;
 import javax.servlet.http.HttpServletResponse;
 
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.mes.md.domain.MdWorkshop;
-import com.ktg.mes.md.service.*;
-import com.ktg.mes.pro.domain.ProProcess;
-import com.ktg.mes.pro.service.IProProcessService;
-import com.ktg.mes.wm.domain.WmStorageArea;
-import com.ktg.mes.wm.domain.WmStorageLocation;
-import com.ktg.mes.wm.domain.WmWarehouse;
-import com.ktg.mes.wm.service.IWmStorageAreaService;
-import com.ktg.mes.wm.service.IWmStorageLocationService;
-import com.ktg.mes.wm.service.IWmWarehouseService;
-import com.ktg.mes.wm.utils.WmBarCodeUtil;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.mes.md.domain.MdWorkshop;
+import com.wyy.mes.md.service.*;
+import com.wyy.mes.pro.domain.ProProcess;
+import com.wyy.mes.pro.service.IProProcessService;
+import com.wyy.mes.wm.domain.WmStorageArea;
+import com.wyy.mes.wm.domain.WmStorageLocation;
+import com.wyy.mes.wm.domain.WmWarehouse;
+import com.wyy.mes.wm.service.IWmStorageAreaService;
+import com.wyy.mes.wm.service.IWmStorageLocationService;
+import com.wyy.mes.wm.service.IWmWarehouseService;
+import com.wyy.mes.wm.utils.WmBarCodeUtil;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
@@ -27,13 +27,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ktg.common.annotation.Log;
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.enums.BusinessType;
-import com.ktg.mes.md.domain.MdWorkstation;
-import com.ktg.common.utils.poi.ExcelUtil;
-import com.ktg.common.core.page.TableDataInfo;
+import com.wyy.common.annotation.Log;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.enums.BusinessType;
+import com.wyy.mes.md.domain.MdWorkstation;
+import com.wyy.common.utils.poi.ExcelUtil;
+import com.wyy.common.core.page.TableDataInfo;
 
 /**
  * 工作站Controller

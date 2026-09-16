@@ -1,4 +1,4 @@
-package com.ktg.framework.manager;
+package com.wyy.framework.manager;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

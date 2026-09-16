@@ -1,13 +1,13 @@
-package com.ktg.mes.md.controller;
+package com.wyy.mes.md.controller;
 
-import com.ktg.mes.md.service.IMdUnitMeasureService;
-import com.ktg.common.annotation.Log;
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.core.page.TableDataInfo;
-import com.ktg.common.enums.BusinessType;
-import com.ktg.common.utils.poi.ExcelUtil;
-import com.ktg.mes.md.domain.MdUnitMeasure;
+import com.wyy.mes.md.service.IMdUnitMeasureService;
+import com.wyy.common.annotation.Log;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.core.page.TableDataInfo;
+import com.wyy.common.enums.BusinessType;
+import com.wyy.common.utils.poi.ExcelUtil;
+import com.wyy.mes.md.domain.MdUnitMeasure;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

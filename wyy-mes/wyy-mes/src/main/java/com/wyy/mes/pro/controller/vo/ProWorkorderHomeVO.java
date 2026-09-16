@@ -1,8 +1,8 @@
-package com.ktg.mes.pro.controller.vo;
+package com.wyy.mes.pro.controller.vo;
 
 import java.util.List;
 
-import com.ktg.mes.pro.domain.ProWorkorder;
+import com.wyy.mes.pro.domain.ProWorkorder;
 
 /**
  * 首页展示的工单数据。

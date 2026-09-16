@@ -1,12 +1,12 @@
-package com.ktg.mes.qc.service.impl;
+package com.wyy.mes.qc.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.qc.mapper.QcOqcLineMapper;
-import com.ktg.mes.qc.domain.QcOqcLine;
-import com.ktg.mes.qc.service.IQcOqcLineService;
+import com.wyy.mes.qc.mapper.QcOqcLineMapper;
+import com.wyy.mes.qc.domain.QcOqcLine;
+import com.wyy.mes.qc.service.IQcOqcLineService;
 
 /**
  * 出货检验单行Service业务层处理

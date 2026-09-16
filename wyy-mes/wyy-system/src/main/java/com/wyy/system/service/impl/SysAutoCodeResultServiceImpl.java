@@ -1,8 +1,8 @@
-package com.ktg.system.service.impl;
+package com.wyy.system.service.impl;
 
-import com.ktg.common.core.domain.entity.SysAutoCodeResult;
-import com.ktg.system.mapper.SysAutoCodeResultMapper;
-import com.ktg.system.service.IAutoCodeResultService;
+import com.wyy.common.core.domain.entity.SysAutoCodeResult;
+import com.wyy.system.mapper.SysAutoCodeResultMapper;
+import com.wyy.system.service.IAutoCodeResultService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

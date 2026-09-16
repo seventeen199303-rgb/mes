@@ -6,10 +6,10 @@
 
 <script>
 export default {
-  name: 'KTG-MES-Git',
+  name: 'WYY-MES-Git',
   data() {
     return {
-      url: 'https://gitee.com/fisherit/ktg-mes'
+      url: 'https://gitee.com/fisherit/wyy-mes'
     }
   },
   methods: {

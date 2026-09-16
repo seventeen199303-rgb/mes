@@ -1,6 +1,6 @@
-package com.ktg.system.service;
+package com.wyy.system.service;
 
-import com.ktg.common.core.domain.entity.SysAutoCodePart;
+import com.wyy.common.core.domain.entity.SysAutoCodePart;
 
 import java.util.List;
 

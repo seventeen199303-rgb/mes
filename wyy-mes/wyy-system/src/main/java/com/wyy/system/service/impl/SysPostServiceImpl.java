@@ -1,15 +1,15 @@
-package com.ktg.system.service.impl;
+package com.wyy.system.service.impl;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.exception.ServiceException;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.system.domain.SysPost;
-import com.ktg.system.mapper.SysPostMapper;
-import com.ktg.system.mapper.SysUserPostMapper;
-import com.ktg.system.service.ISysPostService;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.exception.ServiceException;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.system.domain.SysPost;
+import com.wyy.system.mapper.SysPostMapper;
+import com.wyy.system.mapper.SysUserPostMapper;
+import com.wyy.system.service.ISysPostService;
 
 /**
  * 岗位信息 服务层处理

@@ -1,7 +1,7 @@
-package com.ktg.system.service;
+package com.wyy.system.service;
 
-import com.ktg.common.core.domain.model.LoginUser;
-import com.ktg.system.domain.SysUserOnline;
+import com.wyy.common.core.domain.model.LoginUser;
+import com.wyy.system.domain.SysUserOnline;
 
 /**
  * 在线用户 服务层

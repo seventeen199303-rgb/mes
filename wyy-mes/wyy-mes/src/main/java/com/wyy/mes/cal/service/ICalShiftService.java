@@ -1,7 +1,7 @@
-package com.ktg.mes.cal.service;
+package com.wyy.mes.cal.service;
 
 import java.util.List;
-import com.ktg.mes.cal.domain.CalShift;
+import com.wyy.mes.cal.domain.CalShift;
 
 /**
  * 计划班次Service接口

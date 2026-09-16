@@ -1,6 +1,6 @@
-package com.ktg.common.core.text;
+package com.wyy.common.core.text;
 
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * 字符串格式化

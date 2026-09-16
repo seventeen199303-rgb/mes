@@ -1,16 +1,16 @@
-package com.ktg.web.controller.monitor;
+package com.wyy.web.controller.monitor;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.framework.web.domain.Server;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.framework.web.domain.Server;
 
 /**
  * 服务器监控
  * 
- * @author ktg
+ * @author wyy
  */
 @RestController
 @RequestMapping("/monitor/server")

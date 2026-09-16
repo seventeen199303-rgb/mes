@@ -1,9 +1,9 @@
-package com.ktg.quartz.service;
+package com.wyy.quartz.service;
 
 import java.util.List;
 import org.quartz.SchedulerException;
-import com.ktg.common.exception.job.TaskException;
-import com.ktg.quartz.domain.SysJob;
+import com.wyy.common.exception.job.TaskException;
+import com.wyy.quartz.domain.SysJob;
 
 /**
  * 定时任务调度信息信息 服务层

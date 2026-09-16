@@ -1,7 +1,7 @@
-package com.ktg.mes.cal.service;
+package com.wyy.mes.cal.service;
 
 import java.util.List;
-import com.ktg.mes.cal.domain.CalTeam;
+import com.wyy.mes.cal.domain.CalTeam;
 
 /**
  * 班组Service接口

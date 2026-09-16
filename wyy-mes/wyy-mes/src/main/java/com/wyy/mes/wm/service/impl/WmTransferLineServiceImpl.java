@@ -1,12 +1,12 @@
-package com.ktg.mes.wm.service.impl;
+package com.wyy.mes.wm.service.impl;
 
 import java.util.List;
-import com.ktg.common.utils.DateUtils;
+import com.wyy.common.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.mes.wm.mapper.WmTransferLineMapper;
-import com.ktg.mes.wm.domain.WmTransferLine;
-import com.ktg.mes.wm.service.IWmTransferLineService;
+import com.wyy.mes.wm.mapper.WmTransferLineMapper;
+import com.wyy.mes.wm.domain.WmTransferLine;
+import com.wyy.mes.wm.service.IWmTransferLineService;
 
 /**
  * 转移单行Service业务层处理

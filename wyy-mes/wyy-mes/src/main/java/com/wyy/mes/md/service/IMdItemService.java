@@ -1,6 +1,6 @@
-package com.ktg.mes.md.service;
+package com.wyy.mes.md.service;
 
-import com.ktg.mes.md.domain.MdItem;
+import com.wyy.mes.md.domain.MdItem;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.ktg.framework.datasource;
+package com.wyy.framework.datasource;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,7 +1,7 @@
-package com.ktg.mes.pro.domain;
+package com.wyy.mes.pro.domain;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.ktg.common.annotation.Excel;
+import com.wyy.common.annotation.Excel;
 
 import java.math.BigDecimal;
 import java.util.Date;

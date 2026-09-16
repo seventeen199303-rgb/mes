@@ -1,9 +1,9 @@
-package com.ktg.mes.report.service.impl;
+package com.wyy.mes.report.service.impl;
 
-import com.ktg.common.utils.DateUtils;
-import com.ktg.mes.report.domain.UreportFileTbl;
-import com.ktg.mes.report.mapper.UreportFileTblMapper;
-import com.ktg.mes.report.service.IUreportFileTblService;
+import com.wyy.common.utils.DateUtils;
+import com.wyy.mes.report.domain.UreportFileTbl;
+import com.wyy.mes.report.mapper.UreportFileTblMapper;
+import com.wyy.mes.report.service.IUreportFileTblService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package com.ktg.common.core.page;
+package com.wyy.common.core.page;
 
-import com.ktg.common.utils.ServletUtils;
+import com.wyy.common.utils.ServletUtils;
 
 /**
  * 表格数据处理

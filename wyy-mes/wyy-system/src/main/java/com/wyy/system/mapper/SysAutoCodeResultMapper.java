@@ -1,6 +1,6 @@
-package com.ktg.system.mapper;
+package com.wyy.system.mapper;
 
-import com.ktg.common.core.domain.entity.SysAutoCodeResult;
+import com.wyy.common.core.domain.entity.SysAutoCodeResult;
 
 import java.util.List;
 

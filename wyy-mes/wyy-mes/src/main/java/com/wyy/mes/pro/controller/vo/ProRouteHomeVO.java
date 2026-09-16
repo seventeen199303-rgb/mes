@@ -1,8 +1,8 @@
-package com.ktg.mes.pro.controller.vo;
+package com.wyy.mes.pro.controller.vo;
 
 import java.math.BigDecimal;
 
-import com.ktg.mes.pro.domain.ProRouteProcess;
+import com.wyy.mes.pro.domain.ProRouteProcess;
 
 /**
  * 首页展示的工序进度数据。

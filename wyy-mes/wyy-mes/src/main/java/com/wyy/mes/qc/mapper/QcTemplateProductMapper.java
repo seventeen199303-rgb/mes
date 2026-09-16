@@ -1,7 +1,7 @@
-package com.ktg.mes.qc.mapper;
+package com.wyy.mes.qc.mapper;
 
 import java.util.List;
-import com.ktg.mes.qc.domain.QcTemplateProduct;
+import com.wyy.mes.qc.domain.QcTemplateProduct;
 
 /**
  * 检测模板-产品Mapper接口

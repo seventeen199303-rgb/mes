@@ -1,4 +1,4 @@
-package com.ktg.system.service.impl;
+package com.wyy.system.service.impl;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -6,20 +6,20 @@ import java.util.List;
 import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ktg.common.annotation.DataScope;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.domain.TreeSelect;
-import com.ktg.common.core.domain.entity.SysDept;
-import com.ktg.common.core.domain.entity.SysRole;
-import com.ktg.common.core.domain.entity.SysUser;
-import com.ktg.common.core.text.Convert;
-import com.ktg.common.exception.ServiceException;
-import com.ktg.common.utils.SecurityUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.spring.SpringUtils;
-import com.ktg.system.mapper.SysDeptMapper;
-import com.ktg.system.mapper.SysRoleMapper;
-import com.ktg.system.service.ISysDeptService;
+import com.wyy.common.annotation.DataScope;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.domain.TreeSelect;
+import com.wyy.common.core.domain.entity.SysDept;
+import com.wyy.common.core.domain.entity.SysRole;
+import com.wyy.common.core.domain.entity.SysUser;
+import com.wyy.common.core.text.Convert;
+import com.wyy.common.exception.ServiceException;
+import com.wyy.common.utils.SecurityUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.spring.SpringUtils;
+import com.wyy.system.mapper.SysDeptMapper;
+import com.wyy.system.mapper.SysRoleMapper;
+import com.wyy.system.service.ISysDeptService;
 
 /**
  * 部门管理 服务实现

@@ -1,8 +1,8 @@
-package com.ktg.generator.domain;
+package com.wyy.generator.domain;
 
 import javax.validation.constraints.NotBlank;
-import com.ktg.common.core.domain.BaseEntity;
-import com.ktg.common.utils.StringUtils;
+import com.wyy.common.core.domain.BaseEntity;
+import com.wyy.common.utils.StringUtils;
 
 /**
  * 代码生成业务字段表 gen_table_column

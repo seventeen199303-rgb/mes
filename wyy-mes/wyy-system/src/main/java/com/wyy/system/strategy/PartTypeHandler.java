@@ -1,7 +1,7 @@
-package com.ktg.system.strategy;
+package com.wyy.system.strategy;
 
-import com.ktg.common.core.domain.entity.SysAutoCodePart;
-import com.ktg.common.enums.PartTypeEnum;
+import com.wyy.common.core.domain.entity.SysAutoCodePart;
+import com.wyy.common.enums.PartTypeEnum;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

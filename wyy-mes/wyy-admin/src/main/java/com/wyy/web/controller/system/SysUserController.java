@@ -1,4 +1,4 @@
-package com.ktg.web.controller.system;
+package com.wyy.web.controller.system;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -16,20 +16,20 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import com.ktg.common.annotation.Log;
-import com.ktg.common.constant.UserConstants;
-import com.ktg.common.core.controller.BaseController;
-import com.ktg.common.core.domain.AjaxResult;
-import com.ktg.common.core.domain.entity.SysRole;
-import com.ktg.common.core.domain.entity.SysUser;
-import com.ktg.common.core.page.TableDataInfo;
-import com.ktg.common.enums.BusinessType;
-import com.ktg.common.utils.SecurityUtils;
-import com.ktg.common.utils.StringUtils;
-import com.ktg.common.utils.poi.ExcelUtil;
-import com.ktg.system.service.ISysPostService;
-import com.ktg.system.service.ISysRoleService;
-import com.ktg.system.service.ISysUserService;
+import com.wyy.common.annotation.Log;
+import com.wyy.common.constant.UserConstants;
+import com.wyy.common.core.controller.BaseController;
+import com.wyy.common.core.domain.AjaxResult;
+import com.wyy.common.core.domain.entity.SysRole;
+import com.wyy.common.core.domain.entity.SysUser;
+import com.wyy.common.core.page.TableDataInfo;
+import com.wyy.common.enums.BusinessType;
+import com.wyy.common.utils.SecurityUtils;
+import com.wyy.common.utils.StringUtils;
+import com.wyy.common.utils.poi.ExcelUtil;
+import com.wyy.system.service.ISysPostService;
+import com.wyy.system.service.ISysRoleService;
+import com.wyy.system.service.ISysUserService;
 
 /**
  * 用户信息

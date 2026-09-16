@@ -1,7 +1,7 @@
-package com.ktg.system.mapper;
+package com.wyy.system.mapper;
 
 import java.util.List;
-import com.ktg.system.domain.SysLogininfor;
+import com.wyy.system.domain.SysLogininfor;
 
 /**
  * 系统访问日志情况信息 数据层

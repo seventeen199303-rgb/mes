@@ -1,7 +1,7 @@
-package com.ktg.system.mapper;
+package com.wyy.system.mapper;
 
 import java.util.List;
-import com.ktg.system.domain.SysRoleMenu;
+import com.wyy.system.domain.SysRoleMenu;
 
 /**
  * 角色与菜单关联表 数据层
