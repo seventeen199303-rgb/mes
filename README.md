@@ -35,17 +35,17 @@ flowchart TB
 
 ```text
 .
-├── ktg-mes/                 # Java 后端（多模块 Maven 工程）
+├── wyy-mes/                 # Java 后端（多模块 Maven 工程）
 │   ├── ktg-admin/           # Spring Boot 启动模块、接口与配置
 │   ├── ktg-common/          # 通用工具、常量与基础能力
 │   ├── ktg-framework/       # 安全、权限、Web 与框架配置
 │   ├── ktg-system/          # 系统管理模块
-│   ├── ktg-mes/             # MES 领域模块
+│   ├── wyy-mes/             # MES 领域模块
 │   ├── ktg-quartz/          # 定时任务模块
 │   ├── ktg-generator/       # 代码生成模块
 │   └── sql/                 # 数据库初始化脚本
-├── ktg-mes-ui/              # Web 管理端（Vue 2 + Vue CLI）
-└── ktg-mes-app/             # 现场 App（Vue 3 + Vite + Capacitor）
+├── wyy-mes-ui/              # Web 管理端（Vue 2 + Vue CLI）
+└── wyy-mes-app/             # 现场 App（Vue 3 + Vite + Capacitor）
 ```
 
 Web 管理端的 MES 页面按业务划分为：`md`（主数据）、`pro`（生产）、`qc`（质量）、`wm`（仓储）、`dv`（设备）、`cal`（日历/排班）、`tm`（工装）和 `report`（报表）。
@@ -80,8 +80,8 @@ Web 管理端的 MES 页面按业务划分为：`md`（主数据）、`pro`（�
 创建 MySQL 数据库 `jian_mes`，并按需要导入以下脚本：
 
 ```text
-ktg-mes/sql/ry_20210908.sql  # 系统与业务基础数据
-ktg-mes/sql/quartz.sql       # Quartz 定时任务表
+wyy-mes/sql/ry_20210908.sql  # 系统与业务基础数据
+wyy-mes/sql/quartz.sql       # Quartz 定时任务表
 ```
 
 > 生产环境请使用独立数据库账户，并在导入前审阅脚本内容及字符集配置。
@@ -91,8 +91,8 @@ ktg-mes/sql/quartz.sql       # Quartz 定时任务表
 后端默认配置位于：
 
 ```text
-ktg-mes/ktg-admin/src/main/resources/application.yml
-ktg-mes/ktg-admin/src/main/resources/application-druid.yml
+wyy-mes/ktg-admin/src/main/resources/application.yml
+wyy-mes/ktg-admin/src/main/resources/application-druid.yml
 ```
 
 数据库、Redis 和 MinIO 均支持使用环境变量覆盖。示例：
@@ -116,7 +116,7 @@ export MINIO_BUCKETNAME=mes
 构建并运行：
 
 ```bash
-cd ktg-mes
+cd wyy-mes
 mvn clean package -DskipTests
 java -jar ktg-admin/target/ktg-admin.jar
 ```
@@ -126,12 +126,12 @@ java -jar ktg-admin/target/ktg-admin.jar
 ### 3. 启动 Web 管理端
 
 ```bash
-cd ktg-mes-ui
+cd wyy-mes-ui
 npm install
 npm run dev
 ```
 
-开发环境默认将 `/dev-api` 和 `/ureport` 代理至 `http://localhost:8080`。端口及代理规则见 `ktg-mes-ui/vue.config.js`，环境变量位于 `ktg-mes-ui/.env.*`。
+开发环境默认将 `/dev-api` 和 `/ureport` 代理至 `http://localhost:8080`。端口及代理规则见 `wyy-mes-ui/vue.config.js`，环境变量位于 `wyy-mes-ui/.env.*`。
 
 生产构建：
 
@@ -139,12 +139,12 @@ npm run dev
 npm run build:prod
 ```
 
-构建产物输出到 `ktg-mes-ui/dist/`。部署到 Nginx 等 Web 服务器时，需要将 `/prod-api` 反向代理到后端服务。
+构建产物输出到 `wyy-mes-ui/dist/`。部署到 Nginx 等 Web 服务器时，需要将 `/prod-api` 反向代理到后端服务。
 
 ### 4. 启动现场 App
 
 ```bash
-cd ktg-mes-app
+cd wyy-mes-app
 pnpm install
 pnpm dev
 ```
@@ -163,13 +163,13 @@ cd android
 调试 APK 位于：
 
 ```text
-ktg-mes-app/android/app/build/outputs/apk/debug/app-debug.apk
+wyy-mes-app/android/app/build/outputs/apk/debug/app-debug.apk
 ```
 
 ## 部署建议
 
 1. 将后端与 MySQL、Redis、MinIO 部署在受控网络中，使用环境变量或密钥管理服务提供凭据。
-2. 使用 Nginx 托管 `ktg-mes-ui/dist`，将 `/prod-api` 代理到后端 `8080` 端口。
+2. 使用 Nginx 托管 `wyy-mes-ui/dist`，将 `/prod-api` 代理到后端 `8080` 端口。
 3. 开启 HTTPS，并在反向代理层限制管理端、Druid 与 Swagger 的访问来源。
 4. 将上传文件目录、日志与数据库备份放在持久化磁盘，建立定期备份与恢复演练流程。
 5. 在生产环境关闭不必要的调试能力，替换所有示例口令、JWT 密钥及默认账户配置。
