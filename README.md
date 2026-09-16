@@ -2,7 +2,7 @@
 
 面向离散制造企业的生产执行管理系统（Manufacturing Execution System，MES）。项目提供 Web 管理端、Spring Boot 后端及面向现场人员的 Android App，覆盖主数据、生产、质量、仓储、设备与报表等业务场景。
 
-[在线体验](https://kywgmes.cn/login?redirect=%2Findex) · [问题反馈](https://github.com/seventeen199303-rgb/mes/issues)
+[在线体验](https://kywgmes.cn/login?redirect=%2Findex) · [问题反馈](https://github.com/seventeen199303-rgb/wyy-di-mes/issues)
 
 > 演示环境仅用于体验，请勿修改公共账号、数据或系统配置。
 
@@ -36,13 +36,13 @@ flowchart TB
 ```text
 .
 ├── wyy-mes/                 # Java 后端（多模块 Maven 工程）
-│   ├── ktg-admin/           # Spring Boot 启动模块、接口与配置
-│   ├── ktg-common/          # 通用工具、常量与基础能力
-│   ├── ktg-framework/       # 安全、权限、Web 与框架配置
-│   ├── ktg-system/          # 系统管理模块
+│   ├── wyy-admin/           # Spring Boot 启动模块、接口与配置
+│   ├── wyy-common/          # 通用工具、常量与基础能力
+│   ├── wyy-framework/       # 安全、权限、Web 与框架配置
+│   ├── wyy-system/          # 系统管理模块
 │   ├── wyy-mes/             # MES 领域模块
-│   ├── ktg-quartz/          # 定时任务模块
-│   ├── ktg-generator/       # 代码生成模块
+│   ├── wyy-quartz/          # 定时任务模块
+│   ├── wyy-generator/       # 代码生成模块
 │   └── sql/                 # 数据库初始化脚本
 ├── wyy-mes-ui/              # Web 管理端（Vue 2 + Vue CLI）
 └── wyy-mes-app/             # 现场 App（Vue 3 + Vite + Capacitor）
@@ -91,8 +91,8 @@ wyy-mes/sql/quartz.sql       # Quartz 定时任务表
 后端默认配置位于：
 
 ```text
-wyy-mes/ktg-admin/src/main/resources/application.yml
-wyy-mes/ktg-admin/src/main/resources/application-druid.yml
+wyy-mes/wyy-admin/src/main/resources/application.yml
+wyy-mes/wyy-admin/src/main/resources/application-druid.yml
 ```
 
 数据库、Redis 和 MinIO 均支持使用环境变量覆盖。示例：
@@ -118,7 +118,7 @@ export MINIO_BUCKETNAME=mes
 ```bash
 cd wyy-mes
 mvn clean package -DskipTests
-java -jar ktg-admin/target/ktg-admin.jar
+java -jar wyy-admin/target/wyy-admin.jar
 ```
 
 服务默认监听 `http://localhost:8080`。启用 Swagger 时，可通过 `http://localhost:8080/swagger-ui/index.html` 查看接口文档。
